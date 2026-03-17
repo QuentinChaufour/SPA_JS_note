@@ -1,0 +1,61 @@
+{
+    "astartes": [
+        {
+            "name" : "Azraël",
+            "legion" : 0,
+            "weapon" : 0,
+            ...
+        },
+        {
+
+        },
+        ...
+    ],
+
+    "weapons" : {
+        "0" : "Plasma Gun",
+        ...
+    },
+
+    "special_weapons" : [
+        "Gauntlets of Ultramar",
+        ...
+    ]
+    "armors" : {
+        "1" : "Mark X",
+        ...
+        "10" : "Dreadnaught",
+        "11" : "Saturnine Dreadnaught",
+        ...
+    },
+
+    "legion" : {
+        "1" : "Dark Angels",
+        ...
+    },
+
+    "chapter" : {
+        "0" : "Lamenters",
+        "1" : "Carcharodon",
+        ..
+    },
+
+    "ranks" : {
+        "1" : "Chapter Master",
+        ... 
+        "5" : "Chaplin",
+        ...
+    },
+
+    "allegiance" : {
+        "1" : "Imperium",
+        "2" : "Chaos - Khorn",
+        "3" : "Chaos - Slanesh",
+        "4" : "Chaos - Tzeentch",
+        "5" : "Chaos - Nurgle",
+        "6" : "Necron",
+        "7" : "Aeldari",
+        "8" : "Tau",
+        "9" : "Tyranides" 
+    }
+}
