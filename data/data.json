@@ -1,61 +1,100 @@
 {
-    "astartes": [
-        {
-            "name" : "Azraël",
-            "legion" : 0,
-            "weapon" : 0,
-            ...
-        },
-        {
+  "units": [
+    { "id": 1, "name": "Azraël", "factionId": 1, "chapterId": 1, "rankId": 1, "armorId": 5, "weaponIds": [101, 2], "stats": { "M": 6, "WS": 2, "BS": 2, "S": 4, "T": 4, "W": 6, "A": 5, "Ld": 9, "Sv": 2 } },
+    { "id": 2, "name": "Marneus Calgar", "factionId": 1, "chapterId": 2, "rankId": 1, "armorId": 10, "weaponIds": [102], "stats": { "M": 5, "WS": 2, "BS": 2, "S": 5, "T": 5, "W": 8, "A": 6, "Ld": 9, "Sv": 2 } },
+    { "id": 3, "name": "Dante", "factionId": 1, "chapterId": 3, "rankId": 1, "armorId": 5, "weaponIds": [104, 2], "stats": { "M": 12, "WS": 2, "BS": 2, "S": 4, "T": 4, "W": 6, "A": 6, "Ld": 9, "Sv": 2 } },
+    { "id": 4, "name": "Logan Grimnar", "factionId": 1, "chapterId": 6, "rankId": 1, "armorId": 11, "weaponIds": [105], "stats": { "M": 5, "WS": 2, "BS": 2, "S": 5, "T": 5, "W": 7, "A": 5, "Ld": 9, "Sv": 2 } },
+    { "id": 5, "name": "Vulkan He'stan", "factionId": 1, "chapterId": 18, "rankId": 2, "armorId": 1, "weaponIds": [106], "stats": { "M": 6, "WS": 2, "BS": 2, "S": 4, "T": 4, "W": 5, "A": 4, "Ld": 9, "Sv": 2 } },
+    { "id": 6, "name": "Helbrecht", "factionId": 1, "chapterId": 7, "rankId": 1, "armorId": 5, "weaponIds": [107], "stats": { "M": 6, "WS": 2, "BS": 2, "S": 4, "T": 4, "W": 6, "A": 6, "Ld": 9, "Sv": 2 } },
+    { "id": 7, "name": "Abaddon le Fléau", "factionId": 2, "legionId": 16, "rankId": 50, "armorId": 11, "weaponIds": [108, 109], "stats": { "M": 6, "WS": 2, "BS": 2, "S": 5, "T": 5, "W": 9, "A": 8, "Ld": 10, "Sv": 2 } },
+    { "id": 8, "name": "Khârn le Félon", "factionId": 2, "legionId": 12, "rankId": 51, "armorId": 2, "weaponIds": [103], "stats": { "M": 6, "WS": 2, "BS": 3, "S": 5, "T": 4, "W": 6, "A": 7, "Ld": 9, "Sv": 3 } },
+    { "id": 9, "name": "Ahriman", "factionId": 2, "legionId": 15, "rankId": 52, "armorId": 2, "weaponIds": [110], "stats": { "M": 6, "WS": 3, "BS": 2, "S": 4, "T": 4, "W": 5, "A": 3, "Ld": 9, "Sv": 3 } },
+    { "id": 10, "name": "Typhus", "factionId": 2, "legionId": 14, "rankId": 51, "armorId": 11, "weaponIds": [111], "stats": { "M": 4, "WS": 2, "BS": 2, "S": 5, "T": 5, "W": 6, "A": 5, "Ld": 9, "Sv": 2 } },
+    { "id": 11, "name": "Ghazghkull Thraka", "factionId": 5, "rankId": 101, "armorId": 8, "weaponIds": [301, 302], "stats": { "M": 7, "WS": 2, "BS": 5, "S": 8, "T": 8, "W": 10, "A": 6, "Ld": 10, "Sv": 2 } },
+    { "id": 12, "name": "Imotekh", "factionId": 3, "rankId": 200, "armorId": 6, "weaponIds": [201], "stats": { "M": 5, "WS": 2, "BS": 2, "S": 5, "T": 5, "W": 6, "A": 4, "Ld": 10, "Sv": 2 } },
+    { "id": 13, "name": "Eldrad Ulthran", "factionId": 4, "rankId": 300, "armorId": 7, "weaponIds": [202], "stats": { "M": 7, "WS": 3, "BS": 2, "S": 3, "T": 3, "W": 6, "A": 3, "Ld": 10, "Sv": 6 } },
+    { "id": 14, "name": "Swarmlord", "factionId": 6, "rankId": 400, "armorId": 9, "weaponIds": [401], "stats": { "M": 9, "WS": 2, "BS": 2, "S": 9, "T": 8, "W": 10, "A": 6, "Ld": 10, "Sv": 2 } },
+    { "id": 15, "name": "Commander Shadowsun", "factionId": 7, "rankId": 500, "armorId": 12, "weaponIds": [501], "stats": { "M": 10, "WS": 5, "BS": 2, "S": 4, "T": 5, "W": 6, "A": 4, "Ld": 9, "Sv": 2 } },
+    { "id": 16, "name": "Roboute Guilliman", "factionId": 1, "chapterId": 2, "rankId": 1, "armorId": 13, "weaponIds": [112], "stats": { "M": 8, "WS": 2, "BS": 2, "S": 6, "T": 6, "W": 9, "A": 7, "Ld": 10, "Sv": 2 } },
+    { "id": 17, "name": "Belisarius Cawl", "factionId": 1, "rankId": 600, "armorId": 14, "weaponIds": [601], "stats": { "M": 6, "WS": 3, "BS": 2, "S": 5, "T": 6, "W": 8, "A": 4, "Ld": 10, "Sv": 2 } },
+    { "id": 18, "name": "Lucius l'Éternel", "factionId": 2, "legionId": 3, "rankId": 51, "armorId": 2, "weaponIds": [113], "stats": { "M": 6, "WS": 2, "BS": 3, "S": 4, "T": 4, "W": 5, "A": 6, "Ld": 9, "Sv": 3 } },
+    { "id": 19, "name": "Mephiston", "factionId": 1, "chapterId": 3, "rankId": 3, "armorId": 1, "weaponIds": [114], "stats": { "M": 7, "WS": 2, "BS": 2, "S": 5, "T": 5, "W": 6, "A": 5, "Ld": 9, "Sv": 2 } },
+    { "id": 20, "name": "Trazyn l'Infini", "factionId": 3, "rankId": 200, "armorId": 6, "weaponIds": [203], "stats": { "M": 5, "WS": 2, "BS": 2, "S": 5, "T": 5, "W": 6, "A": 3, "Ld": 10, "Sv": 2 } }
+  ],
 
-        },
-        ...
-    ],
+  "factions": [
+    { "id": 1, "name": "Imperium" },
+    { "id": 2, "name": "Chaos" },
+    { "id": 3, "name": "Necrons" },
+    { "id": 4, "name": "Aeldari" },
+    { "id": 5, "name": "Orks" },
+    { "id": 6, "name": "Tyranids" },
+    { "id": 7, "name": "T'au Empire" }
+  ],
 
-    "weapons" : {
-        "0" : "Plasma Gun",
-        ...
-    },
+  "legions": [
+    { "id": 1, "name": "Dark Angels", "number": "I", "status": "Loyalist" },
+    { "id": 3, "name": "Emperor's Children", "number": "III", "status": "Traitor" },
+    { "id": 4, "name": "Iron Warriors", "number": "IV", "status": "Traitor" },
+    { "id": 5, "name": "White Scars", "number": "V", "status": "Loyalist" },
+    { "id": 6, "name": "Space Wolves", "number": "VI", "status": "Loyalist" },
+    { "id": 7, "name": "Imperial Fists", "number": "VII", "status": "Loyalist" },
+    { "id": 8, "name": "Night Lords", "number": "VIII", "status": "Traitor" },
+    { "id": 9, "name": "Blood Angels", "number": "IX", "status": "Loyalist" },
+    { "id": 10, "name": "Iron Hands", "number": "X", "status": "Loyalist" },
+    { "id": 12, "name": "World Eaters", "number": "XII", "status": "Traitor" },
+    { "id": 13, "name": "Ultramarines", "number": "XIII", "status": "Loyalist" },
+    { "id": 14, "name": "Death Guard", "number": "XIV", "status": "Traitor" },
+    { "id": 15, "name": "Thousand Sons", "number": "XV", "status": "Traitor" },
+    { "id": 16, "name": "Black Legion", "number": "XVI", "status": "Traitor" },
+    { "id": 17, "name": "Word Bearers", "number": "XVII", "status": "Traitor" },
+    { "id": 18, "name": "Salamanders", "number": "XVIII", "status": "Loyalist" },
+    { "id": 19, "name": "Raven Guard", "number": "XIX", "status": "Loyalist" },
+    { "id": 20, "name": "Alpha Legion", "number": "XX", "status": "Traitor" }
+  ],
 
-    "special_weapons" : [
-        "Gauntlets of Ultramar",
-        ...
-    ]
-    "armors" : {
-        "1" : "Mark X",
-        ...
-        "10" : "Dreadnaught",
-        "11" : "Saturnine Dreadnaught",
-        ...
-    },
+  "chapters": [
+    { "id": 1, "name": "Dark Angels" },
+    { "id": 2, "name": "Ultramarines" },
+    { "id": 3, "name": "Blood Angels" },
+    { "id": 6, "name": "Space Wolves" },
+    { "id": 7, "name": "Black Templars" },
+    { "id": 18, "name": "Salamanders" }
+  ],
 
-    "legion" : {
-        "1" : "Dark Angels",
-        ...
-    },
+  "ranks": [
+    { "id": 1, "name": "Chapter Master", "factionId": 1 },
+    { "id": 2, "name": "Captain", "factionId": 1 },
+    { "id": 3, "name": "Chief Librarian", "factionId": 1 },
+    { "id": 50, "name": "Warmaster of Chaos", "factionId": 2 },
+    { "id": 51, "name": "Chaos Champion", "factionId": 2 },
+    { "id": 52, "name": "Sorcerer Lord", "factionId": 2 },
+    { "id": 101, "name": "Prophet of the Gork", "factionId": 5 },
+    { "id": 200, "name": "Overlord", "factionId": 3 },
+    { "id": 300, "name": "Farseer", "factionId": 4 },
+    { "id": 400, "name": "Hive Tyrant", "factionId": 6 },
+    { "id": 500, "name": "Supreme Commander", "factionId": 7 },
+    { "id": 600, "name": "Archmagos Dominus", "factionId": 1 }
+  ],
 
-    "chapter" : {
-        "0" : "Lamenters",
-        "1" : "Carcharodon",
-        ..
-    },
+  "weapons": [
+    { "id": 2, "name": "Plasma Pistol", "stats": { "S": 7, "AP": -3, "D": 1 } },
+    { "id": 101, "name": "Sword of Secrets", "stats": { "S": "+2", "AP": -4, "D": 3 } },
+    { "id": 102, "name": "Gauntlets of Ultramar", "stats": { "S": "x2", "AP": -3, "D": 2 } },
+    { "id": 103, "name": "Gorechild", "stats": { "S": "+2", "AP": -4, "D": 2 } },
+    { "id": 108, "name": "Drach'nyen", "stats": { "S": "+2", "AP": -4, "D": 3 } },
+    { "id": 112, "name": "Hand of Dominion", "stats": { "S": 10, "AP": -4, "D": 4 } },
+    { "id": 301, "name": "Mork's Roar", "stats": { "S": 5, "AP": -1, "D": 2 } },
+    { "id": 401, "name": "Monstrous Bone Swords", "stats": { "S": 10, "AP": -2, "D": 3 } }
+  ],
 
-    "ranks" : {
-        "1" : "Chapter Master",
-        ... 
-        "5" : "Chaplin",
-        ...
-    },
-
-    "allegiance" : {
-        "1" : "Imperium",
-        "2" : "Chaos - Khorn",
-        "3" : "Chaos - Slanesh",
-        "4" : "Chaos - Tzeentch",
-        "5" : "Chaos - Nurgle",
-        "6" : "Necron",
-        "7" : "Aeldari",
-        "8" : "Tau",
-        "9" : "Tyranides" 
-    }
+  "armors": [
+    { "id": 1, "name": "Power Armor Mk VII" },
+    { "id": 2, "name": "Corrupted Power Armor" },
+    { "id": 5, "name": "Artificer Armor" },
+    { "id": 6, "name": "Necrodermis Body" },
+    { "id": 10, "name": "Armor of Heraclus" },
+    { "id": 11, "name": "Terminator Armor" },
+    { "id": 13, "name": "Armor of Fate" }
+  ]
 }
