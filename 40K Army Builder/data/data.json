@@ -1224,7 +1224,8 @@
       },
       "meleeWeaponId": 101,
       "rangedWeaponId": 2,
-      "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101379_Azrael1.jpg?fm=webp&w=892&h=920"
+      "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101379_Azrael1.jpg?fm=webp&w=892&h=920",
+      "points": 115
     },
     {
       "id": 2,
@@ -1248,7 +1249,8 @@
       },
       "meleeWeaponId": 102,
       "rangedWeaponId": null,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e9/CalgarTerminator2025.jpg/300px-CalgarTerminator2025.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e9/CalgarTerminator2025.jpg/300px-CalgarTerminator2025.jpg",
+      "points": 160
     },
     {
       "id": 3,
@@ -1272,7 +1274,8 @@
       },
       "meleeWeaponId": 104,
       "rangedWeaponId": 2,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/9/99/Dante_Primaris.jpg/473px-Dante_Primaris.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/9/99/Dante_Primaris.jpg/473px-Dante_Primaris.jpg",
+      "points": 130
     },
     {
       "id": 4,
@@ -1296,7 +1299,8 @@
       },
       "meleeWeaponId": 105,
       "rangedWeaponId": null,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/f/f8/Logan-Grimnar2025.jpg/450px-Logan-Grimnar2025.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/f/f8/Logan-Grimnar2025.jpg/450px-Logan-Grimnar2025.jpg",
+      "points": 130
     },
     {
       "id": 5,
@@ -1320,7 +1324,8 @@
       },
       "meleeWeaponId": 106,
       "rangedWeaponId": null,
-      "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101444_SpaceMarinesSalamandersVulkanHestan1.jpg?fm=webp&w=892&h=920"
+      "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101444_SpaceMarinesSalamandersVulkanHestan1.jpg?fm=webp&w=892&h=920",
+      "points": 100
     },
     {
       "id": 6,
@@ -1344,7 +1349,8 @@
       },
       "meleeWeaponId": 107,
       "rangedWeaponId": null,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/f/f9/Halbrecht9th.jpg/563px-Halbrecht9th.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/f/f9/Halbrecht9th.jpg/563px-Halbrecht9th.jpg",
+      "points": 120
     },
     {
       "id": 7,
@@ -1368,7 +1374,8 @@
       },
       "meleeWeaponId": 108,
       "rangedWeaponId": null,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/4/41/Abaddon8th.jpg/405px-Abaddon8th.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/4/41/Abaddon8th.jpg/405px-Abaddon8th.jpg",
+      "points": 280
     },
     {
       "id": 8,
@@ -1392,7 +1399,8 @@
       },
       "meleeWeaponId": 103,
       "rangedWeaponId": null,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/8/88/Kharn7th.jpg/450px-Kharn7th.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/8/88/Kharn7th.jpg/450px-Kharn7th.jpg",
+      "points": 100
     },
     {
       "id": 9,
@@ -1416,7 +1424,8 @@
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 110,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/c/ce/AhrimanMini7th.jpg/495px-AhrimanMini7th.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/c/ce/AhrimanMini7th.jpg/495px-AhrimanMini7th.jpg",
+      "points": 140
     },
     {
       "id": 10,
@@ -1440,7 +1449,8 @@
       },
       "meleeWeaponId": 111,
       "rangedWeaponId": null,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/b/b4/TyphusMini8th.jpg/317px-TyphusMini8th.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/b/b4/TyphusMini8th.jpg/317px-TyphusMini8th.jpg",
+      "points": 175
     },
     {
       "id": 11,
@@ -1463,7 +1473,8 @@
       },
       "meleeWeaponId": 302,
       "rangedWeaponId": 301,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/2/2d/Ghaz8th.jpg/180px-Ghaz8th.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/2/2d/Ghaz8th.jpg/180px-Ghaz8th.jpg",
+      "points": 300
     },
     {
       "id": 12,
@@ -1486,7 +1497,8 @@
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 201,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/9/9f/Imotekh2023.jpg/495px-Imotekh2023.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/9/9f/Imotekh2023.jpg/495px-Imotekh2023.jpg",
+      "points": 130
     },
     {
       "id": 13,
@@ -1509,7 +1521,8 @@
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 202,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/a/a1/EldradDM.jpg/563px-EldradDM.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/a/a1/EldradDM.jpg/563px-EldradDM.jpg",
+      "points": 130
     },
     {
       "id": 14,
@@ -1532,7 +1545,8 @@
       },
       "meleeWeaponId": 401,
       "rangedWeaponId": null,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/2/2c/TyranidSwarmlord.jpg/300px-TyranidSwarmlord.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/2/2c/TyranidSwarmlord.jpg/300px-TyranidSwarmlord.jpg",
+      "points": 230
     },
     {
       "id": 15,
@@ -1555,7 +1569,8 @@
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 501,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/7/77/Shadowsun8th.jpg/450px-Shadowsun8th.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/7/77/Shadowsun8th.jpg/450px-Shadowsun8th.jpg",
+      "points": 115
     },
     {
       "id": 16,
@@ -1579,7 +1594,8 @@
       },
       "meleeWeaponId": 112,
       "rangedWeaponId": null,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/9/99/GuillimanMiniNew1.jpg/441px-GuillimanMiniNew1.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/9/99/GuillimanMiniNew1.jpg/441px-GuillimanMiniNew1.jpg",
+      "points": 380
     },
     {
       "id": 17,
@@ -1602,7 +1618,8 @@
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 601,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/4/41/Cawl.jpg/450px-Cawl.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/4/41/Cawl.jpg/450px-Cawl.jpg",
+      "points": 200
     },
     {
       "id": 18,
@@ -1626,7 +1643,8 @@
       },
       "meleeWeaponId": 113,
       "rangedWeaponId": null,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/5/5a/Lucius2025.jpg/360px-Lucius2025.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/5/5a/Lucius2025.jpg/360px-Lucius2025.jpg",
+      "points": 90
     },
     {
       "id": 19,
@@ -1650,7 +1668,8 @@
       },
       "meleeWeaponId": 114,
       "rangedWeaponId": null,
-      "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101266_BAMephistonLordofDeath01.jpg?fm=webp&w=892&h=920"
+      "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101266_BAMephistonLordofDeath01.jpg?fm=webp&w=892&h=920",
+      "points": 135
     },
     {
       "id": 20,
@@ -1673,7 +1692,8 @@
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 203,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/0/07/Trazyn.jpg/436px-Trazyn.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/0/07/Trazyn.jpg/436px-Trazyn.jpg",
+      "points": 100
     },
     {
       "id": 21,
@@ -1697,7 +1717,8 @@
       },
       "meleeWeaponId": 701,
       "rangedWeaponId": 700,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/8/88/Yarrick10th.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/8/88/Yarrick10th.jpg",
+      "points": 60
     },
     {
       "id": 22,
@@ -1720,7 +1741,8 @@
       },
       "meleeWeaponId": 702,
       "rangedWeaponId": 703,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/b/b5/GauntMini9th.jpg/524px-GauntMini9th.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/b/b5/GauntMini9th.jpg/524px-GauntMini9th.jpg",
+      "points": 55
     },
     {
       "id": 23,
@@ -1744,7 +1766,8 @@
       },
       "meleeWeaponId": null,
       "rangedWeaponId": null,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e5/Ursarkar_Creed_and_Jarran_Kell.jpg/300px-Ursarkar_Creed_and_Jarran_Kell.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e5/Ursarkar_Creed_and_Jarran_Kell.jpg/300px-Ursarkar_Creed_and_Jarran_Kell.jpg",
+      "points": 50
     },
     {
       "id": 24,
@@ -1767,7 +1790,8 @@
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 705,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/1/1f/Greyfax.jpg/450px-Greyfax.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/1/1f/Greyfax.jpg/450px-Greyfax.jpg",
+      "points": 65
     },
     {
       "id": 25,
@@ -1790,7 +1814,8 @@
       },
       "meleeWeaponId": 706,
       "rangedWeaponId": 2,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/4/4b/Veridyan.jpg/300px-Veridyan.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/4/4b/Veridyan.jpg/300px-Veridyan.jpg",
+      "points": 65
     },
     {
       "id": 26,
@@ -1814,7 +1839,8 @@
       },
       "meleeWeaponId": 707,
       "rangedWeaponId": 2,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/d/d8/Ragnar8th.jpg/343px-Ragnar8th.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/d/d8/Ragnar8th.jpg/343px-Ragnar8th.jpg",
+      "points": 110
     },
     {
       "id": 27,
@@ -1838,7 +1864,8 @@
       },
       "meleeWeaponId": 708,
       "rangedWeaponId": null,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/1/11/Ezekiel.jpg/375px-Ezekiel.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/1/11/Ezekiel.jpg/375px-Ezekiel.jpg",
+      "points": 80
     },
     {
       "id": 28,
@@ -1862,7 +1889,8 @@
       "meleeWeaponId": 709,
       "rangedWeaponId": null,
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/8/84/KaldorDraigo01.jpg/291px-KaldorDraigo01.jpg",
-      "subFactionId": 30
+      "subFactionId": 30,
+      "points": 200
     },
     {
       "id": 29,
@@ -1886,7 +1914,8 @@
       "meleeWeaponId": 710,
       "rangedWeaponId": null,
       "subFactionId": 29,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/1/12/ValorisMini.jpg/485px-ValorisMini.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/1/12/ValorisMini.jpg/485px-ValorisMini.jpg",
+      "points": 200
     },
     {
       "id": 30,
@@ -1910,7 +1939,8 @@
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 711,
-      "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101440_SpaceWolvesNjalStormcaller1.jpg?fm=webp&w=892&h=920"
+      "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101440_SpaceWolvesNjalStormcaller1.jpg?fm=webp&w=892&h=920",
+      "points": 100
     },
     {
       "id": 31,
@@ -1933,7 +1963,8 @@
       },
       "meleeWeaponId": 712,
       "rangedWeaponId": null,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/a/a2/Asurmen10th.jpg/450px-Asurmen10th.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/a/a2/Asurmen10th.jpg/450px-Asurmen10th.jpg",
+      "points": 160
     },
     {
       "id": 32,
@@ -1956,7 +1987,8 @@
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 713,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e6/JainZar8th.jpg/483px-JainZar8th.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e6/JainZar8th.jpg/483px-JainZar8th.jpg",
+      "points": 140
     },
     {
       "id": 33,
@@ -1980,7 +2012,8 @@
       },
       "meleeWeaponId": 714,
       "rangedWeaponId": null,
-      "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070102004_Rotbone01.jpg?fm=webp&w=892&h=920"
+      "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070102004_Rotbone01.jpg?fm=webp&w=892&h=920",
+      "points": 55
     },
     {
       "id": 34,
@@ -2004,7 +2037,8 @@
       "meleeWeaponId": 715,
       "rangedWeaponId": 716,
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/c/c2/DraxusMini.jpg/270px-DraxusMini.jpg",
-      "subFactionId": 31
+      "subFactionId": 31,
+      "points": 70
     },
     {
       "id": 35,
@@ -2027,7 +2061,8 @@
       },
       "meleeWeaponId": 800,
       "rangedWeaponId": null,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/7/78/Farsight9th.jpg/300px-Farsight9th.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/7/78/Farsight9th.jpg/300px-Farsight9th.jpg",
+      "points": 150
     },
     {
       "id": 36,
@@ -2051,7 +2086,8 @@
       },
       "meleeWeaponId": 802,
       "rangedWeaponId": 801,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/a/ae/Bjorn7th.jpg/340px-Bjorn7th.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/a/ae/Bjorn7th.jpg/340px-Bjorn7th.jpg",
+      "points": 165
     }
   ],
   "weapons": [
