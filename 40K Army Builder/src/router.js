@@ -1,3 +1,4 @@
+import './assets/global.css';
 
 import Home from "./_views/home.js";
 import Characters from "./_views/characters.js";
@@ -23,6 +24,8 @@ const router = async () => {
 
     let url = location.hash.slice(1).toLowerCase() || '/';
     let r = url.split("/")
+    // TODO use loop to build the parsedURL instead of hardcoding it
+
     let request = {
         resource    : null,
         id          : null,
@@ -32,13 +35,19 @@ const router = async () => {
     request.id          = r[2]
     request.verb        = r[3]
 
-    // Parse the URL and if it has an id part, change it with the string ":id"
     let parsedURL = (request.resource ? '/' + request.resource : '/') + (request.id && request.id.match(/^[0-9]+$/) ? '/:id' : request.id ? '/' + request.id : '') + (request.verb ? '/' + request.verb : '')
 
     console.log("Parsed URL:", parsedURL);
     let page = routes[parsedURL] ? new routes[parsedURL]() : NotFound404;
     
+    // render the page
     content.innerHTML = await page.render();
+
+    // If the page has an after_render method, call it
+    // to init listeners etc ...
+    if (page.post_render) {
+        await page.post_render();
+    }
 }
 
 window.addEventListener('hashchange', router);
@@ -49,3 +58,5 @@ window.addEventListener('load', () => {
     init_app(app);
     router();
 });
+
+export default router;

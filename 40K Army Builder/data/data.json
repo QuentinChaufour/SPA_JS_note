@@ -91,7 +91,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/1/16/Titan_Icon.png"
     }
   ],
-  "subFactions": [
+  "sub_factions": [
     {
       "id": 1,
       "factionId": 1,
@@ -1163,50 +1163,12 @@
       "description": "A Titan crew member, assistant to the Princeps."
     }
   ],
-  "characterTypes": [
-    {
-      "id": 1,
-      "name": "Fighter",
-      "description": "Physical combat specialist — melee or ranged.",
-      "icon": "⚔️"
-    },
-    {
-      "id": 2,
-      "name": "Psyker",
-      "description": "User of Warp energies, capable of casting psychic powers.",
-      "icon": "🔮"
-    },
-    {
-      "id": 3,
-      "name": "Technician",
-      "description": "Master of technology and war machines.",
-      "icon": "⚙️"
-    },
-    {
-      "id": 4,
-      "name": "Commander",
-      "description": "Tactical leader, inspiring troops in battle.",
-      "icon": "🎖️"
-    },
-    {
-      "id": 5,
-      "name": "Priest",
-      "description": "Servant of the Omnissiah, the Aquila, or the Chaos Gods.",
-      "icon": "☩"
-    },
-    {
-      "id": 6,
-      "name": "Spy/Assassin",
-      "description": "Master of infiltration, shadows, and elimination.",
-      "icon": "🗡️"
-    }
-  ],
   "characters": [
     {
       "id": 1,
       "name": "Azrael",
       "factionId": 1,
-      "subFactionId": 1,
+      "sub_factionId": 1,
       "rankId": 2,
       "typeId": 4,
       "armorId": 5,
@@ -1231,7 +1193,7 @@
       "id": 2,
       "name": "Marneus Calgar",
       "factionId": 1,
-      "subFactionId": 2,
+      "sub_factionId": 2,
       "rankId": 2,
       "typeId": 4,
       "armorId": 10,
@@ -1256,7 +1218,7 @@
       "id": 3,
       "name": "Dante",
       "factionId": 1,
-      "subFactionId": 3,
+      "sub_factionId": 3,
       "rankId": 2,
       "typeId": 4,
       "armorId": 5,
@@ -1281,7 +1243,7 @@
       "id": 4,
       "name": "Logan Grimnar",
       "factionId": 1,
-      "subFactionId": 4,
+      "sub_factionId": 4,
       "rankId": 2,
       "typeId": 4,
       "armorId": 11,
@@ -1306,7 +1268,7 @@
       "id": 5,
       "name": "Vulkan He'stan",
       "factionId": 1,
-      "subFactionId": 6,
+      "sub_factionId": 6,
       "rankId": 3,
       "typeId": 1,
       "armorId": 1,
@@ -1331,7 +1293,7 @@
       "id": 6,
       "name": "Helbrecht",
       "factionId": 1,
-      "subFactionId": 5,
+      "sub_factionId": 5,
       "rankId": 2,
       "typeId": 4,
       "armorId": 5,
@@ -1356,7 +1318,7 @@
       "id": 7,
       "name": "Abaddon the Despoiler",
       "factionId": 2,
-      "subFactionId": 19,
+      "sub_factionId": 19,
       "rankId": 20,
       "typeId": 4,
       "armorId": 11,
@@ -1381,7 +1343,7 @@
       "id": 8,
       "name": "Khârn the Betrayer",
       "factionId": 2,
-      "subFactionId": 15,
+      "sub_factionId": 15,
       "rankId": 22,
       "typeId": 1,
       "armorId": 2,
@@ -1406,7 +1368,7 @@
       "id": 9,
       "name": "Ahriman",
       "factionId": 2,
-      "subFactionId": 18,
+      "sub_factionId": 18,
       "rankId": 23,
       "typeId": 2,
       "armorId": 2,
@@ -1431,7 +1393,7 @@
       "id": 10,
       "name": "Typhus",
       "factionId": 2,
-      "subFactionId": 17,
+      "sub_factionId": 17,
       "rankId": 22,
       "typeId": 2,
       "armorId": 11,
@@ -1576,7 +1538,7 @@
       "id": 16,
       "name": "Roboute Guilliman",
       "factionId": 1,
-      "subFactionId": 2,
+      "sub_factionId": 2,
       "rankId": 2,
       "typeId": 4,
       "armorId": 13,
@@ -1625,7 +1587,7 @@
       "id": 18,
       "name": "Lucius the Eternal",
       "factionId": 2,
-      "subFactionId": 16,
+      "sub_factionId": 16,
       "rankId": 22,
       "typeId": 1,
       "armorId": 2,
@@ -1650,7 +1612,7 @@
       "id": 19,
       "name": "Mephiston",
       "factionId": 1,
-      "subFactionId": 3,
+      "sub_factionId": 3,
       "rankId": 5,
       "typeId": 2,
       "armorId": 1,
@@ -1699,7 +1661,7 @@
       "id": 21,
       "name": "Sebastian Yarrick",
       "factionId": 8,
-      "subFactionId": 20,
+      "sub_factionId": 20,
       "rankId": 80,
       "typeId": 4,
       "armorId": 15,
@@ -1748,7 +1710,7 @@
       "id": 23,
       "name": "Ursarkar E. Creed",
       "factionId": 8,
-      "subFactionId": 20,
+      "sub_factionId": 20,
       "rankId": 82,
       "typeId": 4,
       "armorId": 15,
@@ -1821,7 +1783,7 @@
       "id": 26,
       "name": "Ragnar Blackmane",
       "factionId": 1,
-      "subFactionId": 4,
+      "sub_factionId": 4,
       "rankId": 3,
       "typeId": 1,
       "armorId": 1,
@@ -1846,7 +1808,7 @@
       "id": 27,
       "name": "Ezekiel",
       "factionId": 1,
-      "subFactionId": 1,
+      "sub_factionId": 1,
       "rankId": 5,
       "typeId": 2,
       "armorId": 1,
@@ -1889,7 +1851,7 @@
       "meleeWeaponId": 709,
       "rangedWeaponId": null,
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/8/84/KaldorDraigo01.jpg/291px-KaldorDraigo01.jpg",
-      "subFactionId": 30,
+      "sub_factionId": 30,
       "points": 200
     },
     {
@@ -1913,7 +1875,7 @@
       },
       "meleeWeaponId": 710,
       "rangedWeaponId": null,
-      "subFactionId": 29,
+      "sub_factionId": 29,
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/1/12/ValorisMini.jpg/485px-ValorisMini.jpg",
       "points": 200
     },
@@ -1921,7 +1883,7 @@
       "id": 30,
       "name": "Njal Stormcaller",
       "factionId": 1,
-      "subFactionId": 4,
+      "sub_factionId": 4,
       "rankId": 5,
       "typeId": 2,
       "armorId": 11,
@@ -1994,7 +1956,7 @@
       "id": 33,
       "name": "Nauseous Rotbone",
       "factionId": 2,
-      "subFactionId": 17,
+      "sub_factionId": 17,
       "rankId": 23,
       "typeId": 2,
       "armorId": 2,
@@ -2037,7 +1999,7 @@
       "meleeWeaponId": 715,
       "rangedWeaponId": 716,
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/c/c2/DraxusMini.jpg/270px-DraxusMini.jpg",
-      "subFactionId": 31,
+      "sub_factionId": 31,
       "points": 70
     },
     {
@@ -2068,7 +2030,7 @@
       "id": 36,
       "name": "Bjorn the Fell-Handed",
       "factionId": 1,
-      "subFactionId": 4,
+      "sub_factionId": 4,
       "rankId": 14,
       "typeId": 1,
       "armorId": 23,

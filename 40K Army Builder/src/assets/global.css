@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+h1, h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #c5b482;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* --- Pagination --- */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.pagination button {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #c5b482;
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.2s;
+}
+
+.pagination button:hover:not(:disabled) {
+    background-color: #e0d1a0;
+}
+
+.pagination button:disabled {
+    background-color: #444;
+    color: #777;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    color: #444;
+    font-size: 1.25rem;
+}
