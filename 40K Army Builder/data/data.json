@@ -789,7 +789,7 @@
       "name": "Veteran Space Marine",
       "factionId": 1,
       "tier": 5,
-      "description": "A seasoned warrior of the 1st Company, bearer of Terminator armour."
+      "description": "A seasoned warrior of the 1st Company, bearer of Terminator armor."
     },
     {
       "id": 15,
@@ -859,7 +859,7 @@
       "name": "Rubric Marine",
       "factionId": 2,
       "tier": 4,
-      "description": "A Thousand Son transformed into a hollow suit of armour animated by sorcery."
+      "description": "A Thousand Son transformed into a hollow suit of armor animated by sorcery."
     },
     {
       "id": 30,
@@ -1104,7 +1104,7 @@
       "name": "Paladins",
       "factionId": 1,
       "tier": 3,
-      "description": "Elite veterans of the Grey Knights, bearers of Terminator armour."
+      "description": "Elite veterans of the Grey Knights, bearers of Terminator armor."
     },
     {
       "id": 113,
@@ -1172,17 +1172,14 @@
       "rankId": 2,
       "typeId": 4,
       "armorId": 5,
-      "lore": "Azrael is the Supreme Grand Master of the Dark Angels — the most senior Space Marine commander in the Imperium outside of the resurrected Primarchs. He has held his position for over a century, longer than almost any of his predecessors, guiding the Chapter through the darkness of the Cicatrix Maledictum with cold, calculating precision. As the bearer of the Lion Helm, a sacred relic passed from Grand Master to Grand Master, Azrael carries with him the entirety of the Dark Angels' most terrible secret: that during the Horus Heresy, half the Legion turned traitor and followed Luther in a rebellion on Caliban. These Fallen were scattered across time and space when Caliban was destroyed, and their recovery and redemption — or destruction — remains the Chapter's true, hidden purpose above all else. Azrael alone knows the full truth, and the weight of that knowledge has carved his face into a mask of perpetual tension. He is accompanied at all times by the Watcher in the Dark who bears his Lion Helm, a diminutive hooded creature whose nature is never spoken of. In battle, Azrael is a master tactician and a formidable warrior, his Artificer Armour granting him protection rivalling Terminator plate. His Sword of Secrets can cleave through daemon and traitor alike, and his plasma pistol has ended the careers of more heretics than most warriors could count. He views Roboute Guilliman's reforms with deep suspicion, reluctant to allow anyone — even a Primarch — to look too closely at the inner workings of the First Legion.",
+      "lore": "Azrael is the Supreme Grand Master of the Dark Angels — the most senior Space Marine commander in the Imperium outside of the resurrected Primarchs. He has held his position for over a century, longer than almost any of his predecessors, guiding the Chapter through the darkness of the Cicatrix Maledictum with cold, calculating precision. As the bearer of the Lion Helm, a sacred relic passed from Grand Master to Grand Master, Azrael carries with him the entirety of the Dark Angels' most terrible secret: that during the Horus Heresy, half the Legion turned traitor and followed Luther in a rebellion on Caliban. These Fallen were scattered across time and space when Caliban was destroyed, and their recovery and redemption — or destruction — remains the Chapter's true, hidden purpose above all else. Azrael alone knows the full truth, and the weight of that knowledge has carved his face into a mask of perpetual tension. He is accompanied at all times by the Watcher in the Dark who bears his Lion Helm, a diminutive hooded creature whose nature is never spoken of. In battle, Azrael is a master tactician and a formidable warrior, his Artificer armor granting him protection rivalling Terminator plate. His Sword of Secrets can cleave through daemon and traitor alike, and his plasma pistol has ended the careers of more heretics than most warriors could count. He views Roboute Guilliman's reforms with deep suspicion, reluctant to allow anyone — even a Primarch — to look too closely at the inner workings of the First Legion.",
       "stats": {
-        "M": 6,
-        "WS": 2,
-        "BS": 2,
-        "S": 4,
+        "M": "6\"",
         "T": 4,
+        "SV": "2+",
         "W": 6,
-        "A": 5,
-        "Ld": 9,
-        "Sv": 2
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 101,
       "rangedWeaponId": 2,
@@ -1199,15 +1196,12 @@
       "armorId": 10,
       "lore": "Marneus Augustus Calgar is the Chapter Master of the Ultramarines and one of the most decorated warriors in the history of the Imperium. Known throughout the galaxy as the 'God of War', he earned that title not through divine right but through decades of impossible victories against impossible odds. He defeated a Bloodthirster of Khorne in single combat, held the Ultramarines Fortress-Monastery against a Tyranid splinter fleet with a handful of veterans, and commanded the defence of Macragge during Hive Fleet Behemoth's invasion — surviving wounds that should have killed him ten times over. Calgar was one of the first Chapter Masters to undergo the Rubicon Primaris, the dangerous procedure that transforms a standard Space Marine into a Primaris warrior. He emerged not only alive but renewed, his body rebuilt, his strength redoubled. The Gauntlets of Ultramar, twin master-crafted power fists of extraordinary pedigree, remain his signature weapons — each strike from them capable of annihilating a vehicle. He serves not only as the military commander of Ultramar's 500 worlds but as its feudal lord, a role he takes as seriously as any battlefield command. Calgar works in close counsel with the resurrected Guilliman, but he is no mere subordinate — he is the steward who kept Ultramar alive for ten millennia in his Primarch's absence, and Guilliman knows it.",
       "stats": {
-        "M": 5,
-        "WS": 2,
-        "BS": 2,
-        "S": 5,
+        "M": "5\"",
         "T": 5,
+        "SV": "2+",
         "W": 8,
-        "A": 6,
-        "Ld": 9,
-        "Sv": 2
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 102,
       "rangedWeaponId": null,
@@ -1224,15 +1218,12 @@
       "armorId": 5,
       "lore": "Commander Dante is the oldest living Space Marine in the Imperium outside of those interred in Dreadnoughts, having served the Blood Angels for over 1,500 years. He rose from the death world of Baal, survived the brutal trials of the Blood Angels aspirants, and climbed through every rank until he stood alone at the Chapter's pinnacle. His face, hidden behind the golden Sanguinius-faced death mask he has worn for centuries, has become a symbol of the Emperor's wrath throughout the galaxy. Orks flee at his name. Chaos warbands whisper it in dread. Dante survived the First Devastation of Baal — the assault by Hive Fleet Leviathan — through a combination of tactical brilliance and sheer refusal to die, holding out until Guilliman's Indomitus Crusade arrived. His reward was to be appointed Regent of Imperium Nihilus, the half of the galaxy cut off by the Cicatrix Maledictum — a command of almost incomprehensible scale. He carries the Axe Mortalis, a weapon over a thousand years old, and flies with the jet pack of Sanguinius's own guard. The Black Rage haunts every Blood Angel, but Dante has come closer to falling to it than almost any other — and each time, his iron will has dragged him back from the abyss. He has outlived everything he has ever loved and continues to serve because he simply does not know how to stop.",
       "stats": {
-        "M": 12,
-        "WS": 2,
-        "BS": 2,
-        "S": 4,
+        "M": "12\"",
         "T": 4,
+        "SV": "2+",
         "W": 6,
-        "A": 6,
-        "Ld": 9,
-        "Sv": 2
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 104,
       "rangedWeaponId": 2,
@@ -1249,15 +1240,12 @@
       "armorId": 11,
       "lore": "Logan Grimnar has been the Great Wolf — supreme leader — of the Space Wolves for over 700 years, and in all that time he has never once betrayed a promise or abandoned a man under his command. He is beloved by his warriors in a way that would seem alien to the commanders of most other Chapters — to the Wolves, Grimnar is not merely a lord but a Jarl, a warrior first among warriors. His most defining moment came during the Months of Shame, when an Inquisitor ordered a massive orbital bombardment of a human world to contain a suspected Chaos infection. Grimnar refused, placed himself between the Inquisitor's forces and the population, and fought the Grey Knights themselves to protect innocent civilians. It nearly triggered a full civil war within the Imperium, but Grimnar would not yield. In battle he wields the Axe of Morkai, a great double-headed weapon of extraordinary power, and rides the Stormrider — a massive war-sleigh dragged by two enormous Thunderwolves, crashing through enemy lines like a meteor. He distrust psykers and Chaos in equal measure, and his hatred of the Thousand Sons — who destroyed the Space Wolves' allies on Prospero — burns as hot today as it did ten thousand years ago.",
       "stats": {
-        "M": 5,
-        "WS": 2,
-        "BS": 2,
-        "S": 5,
+        "M": "5\"",
         "T": 5,
+        "SV": "2+",
         "W": 7,
-        "A": 5,
-        "Ld": 9,
-        "Sv": 2
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 105,
       "rangedWeaponId": null,
@@ -1274,15 +1262,12 @@
       "armorId": 1,
       "lore": "Vulkan He'stan, the Forgefather of the Salamanders, walks a lonely road that no other Space Marine has ever walked. He has given up the rank and comfort of a company commander to pursue a singular, sacred quest: the recovery of the nine Artefacts of Vulkan, relics left behind by the immortal Primarch as tests and gifts for his sons. He'stan carries the Spear of Vulkan — a weapon channelling the volcanic energies of Nocturne — and wears the Gauntlet of the Forge, granting him mastery over fire itself. He has already recovered several of the artefacts from the farthest corners of the galaxy, each recovery a saga unto itself. The Salamanders are unique among Space Marine Chapters in their genuine compassion for humanity — they die to protect civilians, not merely to achieve objectives — and He'stan embodies this principle absolutely. He was present on Nocturne when the Primarch Vulkan himself returned during the War of the Beast, and he carries that encounter deep within him as the greatest experience of his existence. His skin is dark as obsidian and his eyes glow red, Nocturne's radiation having long since burned away everything ordinary about him. He is considered the living embodiment of Vulkan's will.",
       "stats": {
-        "M": 6,
-        "WS": 2,
-        "BS": 2,
-        "S": 4,
+        "M": "6\"",
         "T": 4,
+        "SV": "2+",
         "W": 5,
-        "A": 4,
-        "Ld": 9,
-        "Sv": 2
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 106,
       "rangedWeaponId": null,
@@ -1299,15 +1284,12 @@
       "armorId": 5,
       "lore": "Helbrecht is the High Marshal of the Black Templars — the supreme warrior-leader of a Chapter that has been on crusade for ten thousand years without pause. Where other Chapters maintain fortress-monasteries on homeworlds, the Black Templars live entirely aboard their crusade fleets, eternally moving, eternally fighting. Helbrecht has led the largest Black Templars crusade in centuries, throwing thousands of warriors into the battles of the Indomitus Crusade after the fall of Cadia. He is a warrior of terrifying personal conviction — the Black Templars despise psykers with a fervour bordering on madness, and Helbrecht himself regards any use of psychic power as weakness and corruption. He maintains no Librarians in his Chapter, a direct violation of the Codex Astartes, and dares Guilliman to argue the point. Helbrecht's combat style is ferocity itself — he charges into the thickest fighting, sword raised, utterly confident that the Emperor's will protects him. His personal hatred is reserved for Abaddon the Despoiler, whose Black Crusades have slaughtered untold billions of the Emperor's subjects. He has sworn a personal oath to one day plant his sword in Abaddon's skull, and no one who has witnessed his fury in battle doubts he might actually manage it.",
       "stats": {
-        "M": 6,
-        "WS": 2,
-        "BS": 2,
-        "S": 4,
+        "M": "6\"",
         "T": 4,
+        "SV": "2+",
         "W": 6,
-        "A": 6,
-        "Ld": 9,
-        "Sv": 2
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 107,
       "rangedWeaponId": null,
@@ -1324,15 +1306,12 @@
       "armorId": 11,
       "lore": "Ezekyle Abaddon, called the Despoiler, was once the First Captain of the Luna Wolves — Horus's most trusted warrior and his right hand. He was present for every triumph of the Great Crusade, a warrior of such excellence that even the other Primarchs acknowledged him. When Horus fell to Chaos and then died at the Emperor's hand at the Siege of Terra, Abaddon refused to accept defeat. He gathered the survivors of the Traitor Legions, renamed his own force the Black Legion, and spent ten thousand years in the Eye of Terror, preparing. He launched thirteen Black Crusades over the millennia, each one a rehearsal for the last. The 13th, finally, achieved what he had prepared for: the fall of Cadia, the shattering of the Pylons that held the Warp at bay, and the tearing open of the Cicatrix Maledictum — the Great Rift — that now splits the Imperium in two. He is marked by all four Chaos Gods simultaneously, a feat that should be impossible, and wields Drach'nyen, a blade that is itself a bound daemon. The Talon of Horus, recovered from his master's corpse, fires bolts of corrupted energy. He is not insane — he is methodical, patient, and utterly certain of eventual victory. That certainty, more than his power, is what makes him truly dangerous.",
       "stats": {
-        "M": 6,
-        "WS": 2,
-        "BS": 2,
-        "S": 5,
+        "M": "6\"",
         "T": 5,
+        "SV": "2+",
         "W": 9,
-        "A": 8,
-        "Ld": 10,
-        "Sv": 2
+        "LD": "10+",
+        "OC": 1
       },
       "meleeWeaponId": 108,
       "rangedWeaponId": null,
@@ -1349,15 +1328,12 @@
       "armorId": 2,
       "lore": "Khârn the Betrayer was not always a monster. During the Great Crusade, he was one of the most respected warriors among the World Eaters — Angron's equerry, his keeper, the one man capable of reasoning with the blood-maddened Primarch. He tried desperately to prevent the Legion's descent into Khorne worship, watching in horror as the Butcher's Nails — the cranial implants that amplified aggression and blocked the pain receptors — consumed his brothers one by one. When Angron forcibly implanted the Nails into his own Legion against Khârn's protests, Khârn submitted. And the Nails did to him what they had done to everyone else — stripped away everything but the hunger for blood and combat. His defining act of damnation came at the Skalathrax Massacre, where during a Night Lords campaign on an ice world, both sides pulled back from the cold. Khârn, unwilling to stop fighting, used a flamer to torch the World Eaters' own camps, killing hundreds of his own brothers to force them back into battle. The Legion splintered that night and never reformed. Khârn fights for Khorne now, not for any human purpose — he is a weapon given flesh, and Khorne is well pleased. He always returns from death. Always.",
       "stats": {
-        "M": 6,
-        "WS": 2,
-        "BS": 3,
-        "S": 5,
+        "M": "6\"",
         "T": 4,
+        "SV": "3+",
         "W": 6,
-        "A": 7,
-        "Ld": 9,
-        "Sv": 3
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 103,
       "rangedWeaponId": null,
@@ -1372,17 +1348,14 @@
       "rankId": 23,
       "typeId": 2,
       "armorId": 2,
-      "lore": "Ahzek Ahriman was once the greatest warrior-scholar in the Thousand Sons Legion, beloved by Magnus the Red and respected by every brother for his extraordinary psychic gifts and his encyclopaedic knowledge. He watched the Thousand Sons' mutation problem worsen over centuries — warriors dissolving into formless Chaos spawn, losing their minds and bodies to the very gift of sorcery that made them special. Acting without Magnus's knowledge or blessing, Ahriman gathered a cabal of the most powerful Thousand Sons sorcerers and together they enacted the Rubric of Ahriman — a vast working of sorcery meant to cure the Legion's mutations permanently. It worked, in the cruelest possible way: those without sufficient psychic ability had their souls stripped away and were sealed forever inside their armour, animated only by residual Warp energy. Nine out of ten Thousand Sons became empty shells — the Rubric Marines. Magnus, enraged, cast Ahriman out of the Legion. Exiled and haunted, Ahriman wanders the galaxy pursuing an obsessive quest to find the nine Books of Tzeentch, believing their secrets will allow him to reverse the Rubric. Many believe Tzeentch himself arranged for the Rubric to happen exactly as it did, so that Ahriman would spend eternity serving the Chaos God's unknowable plans. Ahriman knows this. He continues regardless.",
+      "lore": "Ahzek Ahriman was once the greatest warrior-scholar in the Thousand Sons Legion, beloved by Magnus the Red and respected by every brother for his extraordinary psychic gifts and his encyclopaedic knowledge. He watched the Thousand Sons' mutation problem worsen over centuries — warriors dissolving into formless Chaos spawn, losing their minds and bodies to the very gift of sorcery that made them special. Acting without Magnus's knowledge or blessing, Ahriman gathered a cabal of the most powerful Thousand Sons sorcerers and together they enacted the Rubric of Ahriman — a vast working of sorcery meant to cure the Legion's mutations permanently. It worked, in the cruelest possible way: those without sufficient psychic ability had their souls stripped away and were sealed forever inside their armor, animated only by residual Warp energy. Nine out of ten Thousand Sons became empty shells — the Rubric Marines. Magnus, enraged, cast Ahriman out of the Legion. Exiled and haunted, Ahriman wanders the galaxy pursuing an obsessive quest to find the nine Books of Tzeentch, believing their secrets will allow him to reverse the Rubric. Many believe Tzeentch himself arranged for the Rubric to happen exactly as it did, so that Ahriman would spend eternity serving the Chaos God's unknowable plans. Ahriman knows this. He continues regardless.",
       "stats": {
-        "M": 6,
-        "WS": 3,
-        "BS": 2,
-        "S": 4,
+        "M": "6\"",
         "T": 4,
+        "SV": "3+",
         "W": 5,
-        "A": 3,
-        "Ld": 9,
-        "Sv": 3
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 110,
@@ -1397,17 +1370,14 @@
       "rankId": 22,
       "typeId": 2,
       "armorId": 11,
-      "lore": "Calas Typhon was the First Captain of the Death Guard, Mortarion's most trusted lieutenant and, unknown to his Primarch, a secret devotee of Nurgle long before the Horus Heresy began. Where Mortarion prided himself on conquering suffering through sheer willpower, Typhon had already taken a different path — surrendering to Nurgle's blessings and welcoming corruption. During the warp transit to Terra for the final assault of the Heresy, Typhon sabotaged the Death Guard's Navigators, trapping the entire Legion in a becalmed pocket of Warp space. For seven terrible weeks the Legion suffered under a plague of Nurgle's devising, watched their brothers rot and die, and their bodies resist death in ways that should have been impossible. Typhon was the first to fully embrace Nurgle's gift and transform. His armour became the Destroyer Hive — a living nest of Nurglings that burst from vents in his plate. Mortarion, watching his Legion die and unable to stop it, finally surrendered his own soul to Nurgle to end their suffering, becoming a Daemon Primarch. Typhon, now called Typhus, Herald of Nurgle, continues to spread his master's gifts across the galaxy, the Manreaper scythe harvesting souls for the Plague Father with every swing.",
+      "lore": "Calas Typhon was the First Captain of the Death Guard, Mortarion's most trusted lieutenant and, unknown to his Primarch, a secret devotee of Nurgle long before the Horus Heresy began. Where Mortarion prided himself on conquering suffering through sheer willpower, Typhon had already taken a different path — surrendering to Nurgle's blessings and welcoming corruption. During the warp transit to Terra for the final assault of the Heresy, Typhon sabotaged the Death Guard's Navigators, trapping the entire Legion in a becalmed pocket of Warp space. For seven terrible weeks the Legion suffered under a plague of Nurgle's devising, watched their brothers rot and die, and their bodies resist death in ways that should have been impossible. Typhon was the first to fully embrace Nurgle's gift and transform. His armor became the Destroyer Hive — a living nest of Nurglings that burst from vents in his plate. Mortarion, watching his Legion die and unable to stop it, finally surrendered his own soul to Nurgle to end their suffering, becoming a Daemon Primarch. Typhon, now called Typhus, Herald of Nurgle, continues to spread his master's gifts across the galaxy, the Manreaper scythe harvesting souls for the Plague Father with every swing.",
       "stats": {
-        "M": 4,
-        "WS": 2,
-        "BS": 2,
-        "S": 5,
+        "M": "4\"",
         "T": 5,
+        "SV": "2+",
         "W": 6,
-        "A": 5,
-        "Ld": 9,
-        "Sv": 2
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 111,
       "rangedWeaponId": null,
@@ -1421,17 +1391,14 @@
       "rankId": 50,
       "typeId": 4,
       "armorId": 8,
-      "lore": "Ghazghkull Mag Uruk Thraka is the most powerful Warboss in the galaxy's current age, and the Orks know it — they follow him by the millions, drawn to his Waaagh! the way moths are drawn to flame. He first came to galactic attention during the First War for Armageddon, where he led the largest Ork invasion in centuries against the hive world and nearly succeeded. He was eventually driven off, but only after inflicting catastrophic casualties. He returned for the Third War for Armageddon, even larger, even more brutal. The legendary Commissar Yarrick managed to sever Ghazghkull's head in combat during the second war — only for a Ork Dok to sew it back onto a new body. Ghazghkull claims to be the chosen prophet of Gork and Mork, the twin Ork gods of brutality and cunning, and his victories have been so impossible that many Orks genuinely believe it. His mega-armour is reinforced with stolen Imperial technology and Ork-crafted enhancements that make him virtually unstoppable in direct combat. His Waaagh! grows with every world burned, every fortress taken, and every challenger crushed beneath his boot. Yarrick devoted the rest of his life to hunting him. The personal vendetta between these two is one of the great rivalries of the 41st Millennium.",
+      "lore": "Ghazghkull Mag Uruk Thraka is the most powerful Warboss in the galaxy's current age, and the Orks know it — they follow him by the millions, drawn to his Waaagh! the way moths are drawn to flame. He first came to galactic attention during the First War for Armageddon, where he led the largest Ork invasion in centuries against the hive world and nearly succeeded. He was eventually driven off, but only after inflicting catastrophic casualties. He returned for the Third War for Armageddon, even larger, even more brutal. The legendary Commissar Yarrick managed to sever Ghazghkull's head in combat during the second war — only for a Ork Dok to sew it back onto a new body. Ghazghkull claims to be the chosen prophet of Gork and Mork, the twin Ork gods of brutality and cunning, and his victories have been so impossible that many Orks genuinely believe it. His mega-armor is reinforced with stolen Imperial technology and Ork-crafted enhancements that make him virtually unstoppable in direct combat. His Waaagh! grows with every world burned, every fortress taken, and every challenger crushed beneath his boot. Yarrick devoted the rest of his life to hunting him. The personal vendetta between these two is one of the great rivalries of the 41st Millennium.",
       "stats": {
-        "M": 7,
-        "WS": 2,
-        "BS": 5,
-        "S": 8,
+        "M": "7\"",
         "T": 8,
+        "SV": "2+",
         "W": 10,
-        "A": 6,
-        "Ld": 10,
-        "Sv": 2
+        "LD": "10+",
+        "OC": 1
       },
       "meleeWeaponId": 302,
       "rangedWeaponId": 301,
@@ -1447,15 +1414,12 @@
       "armorId": 6,
       "lore": "Imotekh the Stormlord is the Phaeron of the Sautekh Dynastia, the largest and most powerful of the Necron ruling houses to have fully awakened in this age. Before the biotransference sixty million years ago — the process by which the Necrontyr became Necrons — Imotekh was already regarded as one of the most brilliant military strategists his species had ever produced. Ten million years of slumber have done nothing to dim that intellect. He coordinates his campaigns like a grandmaster chess player, identifying the critical weak point in an enemy's disposition before the battle even begins, then striking with surgical precision. His signature weapon is the Staff of the Destroyer, which channels and directs the devastating lightning storms Imotekh can call down upon the battlefield — enemies are struck before they can react, before they even know they are at war. He takes particular delight in defeating Space Marine commanders, whom he regards as worthy but primitive opponents. He has a noted practice of severing the sword-hand of every enemy officer he defeats personally, keeping the preserved appendages in his trophy collection. He views humanity's current dominance of the galaxy as a temporary and irritating interruption to what is rightfully the Necrons' age.",
       "stats": {
-        "M": 5,
-        "WS": 2,
-        "BS": 2,
-        "S": 5,
+        "M": "5\"",
         "T": 5,
+        "SV": "2+",
         "W": 6,
-        "A": 4,
-        "Ld": 10,
-        "Sv": 2
+        "LD": "10+",
+        "OC": 1
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 201,
@@ -1471,15 +1435,12 @@
       "armorId": 7,
       "lore": "Eldrad Ulthran is the oldest Farseer alive in the galaxy, having practiced the arts of psychic prophecy and divination for more than ten thousand years. He was already ancient before the Horus Heresy, having walked the Path of the Seer since before the Emperor began his Great Crusade. He foresaw the birth of Slaanesh from the Fall of the Aeldari empire and could do nothing to stop it. He has spent millennia since then working in the shadows of galactic history, manipulating events across centuries to try to improve the odds of his people's survival. He was instrumental in guiding Roboute Guilliman back to life, working with Yvraine of the Ynnari to ensure the Primarch's resurrection — knowing that a living Guilliman was the most likely factor in preventing the galaxy from consuming itself entirely. He also attempted a ritual to awaken the long-sleeping Aeldari god Ynnead, believing that only this god of the dead could kill Slaanesh and free the Aeldari soul from eternal torment. The ritual failed partially, resulting in Yvraine and the Ynnari instead, but Eldrad accepts this — Tzeentch is rarely thwarted entirely, but Eldrad has played this game for longer than most civilisations have existed. He is cold, calculating, and utterly without sentiment about spending lives — any lives — in service of the larger calculation.",
       "stats": {
-        "M": 7,
-        "WS": 3,
-        "BS": 2,
-        "S": 3,
+        "M": "7\"",
         "T": 3,
+        "SV": "6+",
         "W": 6,
-        "A": 3,
-        "Ld": 10,
-        "Sv": 6
+        "LD": "10+",
+        "OC": 1
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 202,
@@ -1495,15 +1456,12 @@
       "armorId": 9,
       "lore": "The Swarmlord is not a creature — it is the Hive Mind given form, a singular consciousness that the Tyranid gestalt spawns specifically to engage the Imperium's most powerful champions in direct combat. Unlike other Tyranid creatures, which are expendable biological tools, the Swarmlord cannot truly die. When its body is destroyed, the Hive Mind simply reclaims the patterns of its synaptic architecture and rebuilds it in a new body, incorporating everything it learned from its previous defeat. It has fought and slain multiple Space Marine Chapter Masters and, across its many incarnations, has arguably killed more named Imperial heroes than any other single creature in the galaxy's history. Most notably, it destroyed the living Saint Celestine during the First Devastation of Baal — and was destroyed in turn by the reviving Guilliman. It remembered. Its Boneswords are among the most lethal melee weapons a warrior will ever face, capable of slicing through Terminator plate as if it were parchment. More terrifying still is its ability to command the surrounding Tyranid swarm with perfect tactical intelligence, turning what might appear to be mindless biological masses into precisely coordinated killing machines. It exists only to consume, learn, and improve. The next time it faces Guilliman, it will remember what happened last time.",
       "stats": {
-        "M": 9,
-        "WS": 2,
-        "BS": 2,
-        "S": 9,
+        "M": "9\"",
         "T": 8,
+        "SV": "2+",
         "W": 10,
-        "A": 6,
-        "Ld": 10,
-        "Sv": 2
+        "LD": "10+",
+        "OC": 1
       },
       "meleeWeaponId": 401,
       "rangedWeaponId": null,
@@ -1519,15 +1477,12 @@
       "armorId": 12,
       "lore": "O'Shaserra, known to the wider galaxy as Commander Shadowsun, is the greatest living military commander of the T'au Empire — a warrior of extraordinary tactical genius who has taken the philosophies of her legendary mentor, the deceased Puretide, and applied them to campaigns across a dozen sectors. She is the T'au's greatest champion of Mont'ka — the killing blow, the decisive strike at exactly the right moment — and equally masterful in Kauyon, the art of the patient trap, drawing enemies forward into a killing ground of her own design. She spent decades in a stasis pod, deliberately preserved by the Water Caste as a military asset too valuable to age, emerging each time the Empire faced a threat that required her unique abilities. Her advanced Crisis battlesuit is among the most sophisticated in existence, incorporating drone systems, stealth fields, and the twin fusion blasters that have ended the careers of countless enemy commanders. She was instrumental in leading the T'au's Fifth Sphere Expansion — the most ambitious military campaign in T'au history — and personally confronted the cosmic horror that tainted the sphere. That encounter changed her. She does not speak of what she experienced in the Warp's intrusion into realspace, but those close to her note she is no longer entirely comfortable in her own skin.",
       "stats": {
-        "M": 10,
-        "WS": 5,
-        "BS": 2,
-        "S": 4,
+        "M": "10\"",
         "T": 5,
+        "SV": "2+",
         "W": 6,
-        "A": 4,
-        "Ld": 9,
-        "Sv": 2
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 501,
@@ -1544,15 +1499,12 @@
       "armorId": 13,
       "lore": "Roboute Guilliman is perhaps the most important figure in the Imperium of the 42nd Millennium — a Primarch returned to life in a galaxy he helped build but can barely recognise. He was the architect of the modern Imperium: it was his Codex Astartes that structured the Space Marines into Chapters, his administrative genius that built the Adeptus structure, his legal frameworks that govern Imperial law. He was then stabbed through the neck by Fulgrim and kept in a stasis field for ten thousand years, slowly dying but unable to die. He was resurrected through the combined efforts of Belisarius Cawl, who had spent all those millennia preparing for this moment, and Yvraine, an Aeldari priestess of the death god Ynnead, whose touch reversed his mortal wound. Guilliman emerged into a galaxy he found horrifying — the Imperium he'd designed as a rational, humanist empire had become a fanatical theocracy worshipping his own father as a god, sustained by torture, ignorance, and fear. He declared himself Lord Commander of the Imperium and has since attempted to reform it — knowing he will likely fail, knowing the institutions are too entrenched, but unable to stop trying. He leads the Indomitus Crusade, distributing Primaris Space Marines across the galaxy, and carries the weight of ten thousand years of failure and ten million dead worlds on his shoulders. He has wept. He has raged. He continues.",
       "stats": {
-        "M": 8,
-        "WS": 2,
-        "BS": 2,
-        "S": 6,
+        "M": "8\"",
         "T": 6,
+        "SV": "2+",
         "W": 9,
-        "A": 7,
-        "Ld": 10,
-        "Sv": 2
+        "LD": "10+",
+        "OC": 1
       },
       "meleeWeaponId": 112,
       "rangedWeaponId": null,
@@ -1568,15 +1520,12 @@
       "armorId": 14,
       "lore": "Belisarius Cawl is the Archmagos Dominus of the Adeptus Mechanicus, and may be the single most important figure in the Imperium's survival in the modern era — though he would almost certainly frame it in terms of data optimisation rather than heroism. He is over ten thousand years old, though his body is barely recognisable as human: a swarm of mechadendrites, augmetic limbs, logic engines, and memory storage units that collectively contain the accumulated knowledge of centuries. He stores multiple copies of his consciousness in separate systems as insurance against death, a practice the Adeptus Mechanicus considers borderline heretical and Cawl considers sensible. Guilliman commissioned him secretly before the Heresy to work on improving the Space Marine template. Cawl spent ten thousand years doing exactly that, producing the Primaris Space Marines — a new generation of transhuman warriors whose enhancements go significantly beyond the original Space Marine design. He also developed the Rubicon Primaris procedure to upgrade existing Space Marines, and the technology for the new Primaris vehicles and weapons. He views Chaos as a data corruption problem and the Emperor as a colleague whose work he is completing. He is also, by the standards of any sane person, completely insufferable — brilliant, condescending, and utterly incapable of understanding why his endless self-satisfied commentary might be grating.",
       "stats": {
-        "M": 6,
-        "WS": 3,
-        "BS": 2,
-        "S": 5,
+        "M": "6\"",
         "T": 6,
+        "SV": "2+",
         "W": 8,
-        "A": 4,
-        "Ld": 10,
-        "Sv": 2
+        "LD": "10+",
+        "OC": 1
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 601,
@@ -1593,15 +1542,12 @@
       "armorId": 2,
       "lore": "Lucius the Eternal is Slaanesh's most perfect instrument of cruelty, a warrior whose existence is itself a philosophical horror. During the Great Crusade, Lucius was considered the finest swordsman in the Emperor's Children — perhaps in the entire Legiones Astartes — a duelist of such extraordinary skill that even other Primarchs watched him fight with undisguised admiration. The fall to Slaanesh came gradually, through the pursuit of perfection in all sensations — not merely combat but art, music, cruelty, pleasure and pain as indistinguishable experiences. His skin is now a gallery of his victims: the faces of every warrior who ever killed him are slowly absorbed into his flesh, screaming eternally. His curse — and his immortality — comes from this: any warrior who kills Lucius in combat and feels even a moment's pride in the achievement will gradually transform into a new Lucius. The host body is consumed. The original Lucius reforms, wearing a new face on his skin. He has been killed hundreds of times. He is still here. His Lash of Torment delivers pain that is indistinguishable from ecstasy to the hypersensitive nerve endings of a champion of Slaanesh, and he wields it with the same flamboyant artistry he applies to everything else. He considers suffering to be the highest form of art.",
       "stats": {
-        "M": 6,
-        "WS": 2,
-        "BS": 3,
-        "S": 4,
+        "M": "6\"",
         "T": 4,
+        "SV": "3+",
         "W": 5,
-        "A": 6,
-        "Ld": 9,
-        "Sv": 3
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 113,
       "rangedWeaponId": null,
@@ -1618,15 +1564,12 @@
       "armorId": 1,
       "lore": "Mephiston, Lord of Death, began his existence as a Blood Angels Librarian named Calistarius. During the siege of Hades Hive on Armageddon, he was buried alive under rubble with his squad, cut off, supplies gone. The Black Rage came for him — that genetic curse that causes Blood Angels to relive the death of Sanguinius in a frenzied hallucination. His squad died, consumed by the Rage. Calistarius refused. For seven days, buried under tons of rubble, starving and alone, he fought the Black Rage inside his own mind and beat it. He emerged transformed — the first Blood Angel in history to have conquered the curse through will alone. What he emerged as is not entirely clear. His psychic power had multiplied to terrifying levels. His physical capabilities now exceed those of any standard Space Marine. Something about the process fundamentally changed him — he is cold, almost alien in demeanour, as if some part of his humanity was burned away in the crucible of that underground war. Some Blood Angels revere him as proof that the curse can be overcome. Others fear that he overcame it by becoming something else entirely — something that merely wears the face of a Space Marine. His sword Vitarus channels psykic energy that can tear at souls as readily as bodies. He does not speak of what he found in himself beneath that rubble.",
       "stats": {
-        "M": 7,
-        "WS": 2,
-        "BS": 2,
-        "S": 5,
+        "M": "7\"",
         "T": 5,
+        "SV": "2+",
         "W": 6,
-        "A": 5,
-        "Ld": 9,
-        "Sv": 2
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 114,
       "rangedWeaponId": null,
@@ -1642,15 +1585,12 @@
       "armorId": 6,
       "lore": "Trazyn the Infinite is the Phaeron of the Solemnace Overlords and the galaxy's most obsessive and dangerous collector. His Prismatic Galleries on the world of Solemnace contain specimens of extraordinary variety: living warriors frozen in temporal stasis, historical artefacts recovered from across sixty million years of galactic history, genetic samples of species long extinct, and duplicate copies of figures he considers particularly interesting. He is known to possess a preserved specimen of Ghazghkull Thraka — a spare, kept alongside the original, for unknown reasons. During the fall of Cadia, Trazyn made an unprecedented decision: he released several of his most valuable specimens — including the Inquisitor Greyfax and other Imperial heroes — to fight the forces of Chaos, apparently deciding that a galaxy consumed by Chaos would make collecting quite impossible. This act of apparent altruism was noted by Guilliman, who regards Trazyn with deep wariness ever since. Trazyn works with Belisarius Cawl on certain shared projects, their mutual interest in ancient technology and historical knowledge creating an extraordinarily strange friendship. He collects people the way other beings collect art, and he considers the galaxy's ongoing catastrophes primarily as collecting opportunities.",
       "stats": {
-        "M": 5,
-        "WS": 2,
-        "BS": 2,
-        "S": 5,
+        "M": "5\"",
         "T": 5,
+        "SV": "2+",
         "W": 6,
-        "A": 3,
-        "Ld": 10,
-        "Sv": 2
+        "LD": "10+",
+        "OC": 1
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 203,
@@ -1667,15 +1607,12 @@
       "armorId": 15,
       "lore": "Sebastian Yarrick is the Old Man, the Hero of Armageddon, and one of the most famous Commissars in Imperial history — though fame was never something he sought. During the Second War for Armageddon, he commanded the defence of Hades Hive against Ghazghkull's invasion with a few thousand soldiers, no air support, and no expectation of relief. He held it for weeks through sheer refusal to accept defeat. In close combat with Ghazghkull himself, the Warboss tore off Yarrick's right arm. Yarrick picked up his severed arm, beat Ghazghkull with it, and continued fighting. The Ork Mekboyz were so impressed that they crafted him a replacement — a power klaw worthy of a Warboss, which Yarrick turned against Ghazghkull at every subsequent opportunity. Ork culture responded to Yarrick's reputation in the most Orky way possible: they began to believe that his gaze could literally kill Orks, which created a superstitious terror around him that he cynically exploited. When Ghazghkull escaped after the Third War, Yarrick commandeered a ship and spent years pursuing him across the galaxy personally, alone, refusing to let it end until one of them was dead. The personal hatred between these two transcends warfare and becomes something almost like mutual respect. Almost.",
       "stats": {
-        "M": 6,
-        "WS": 3,
-        "BS": 3,
-        "S": 3,
+        "M": "6\"",
         "T": 4,
+        "SV": "4+",
         "W": 5,
-        "A": 3,
-        "Ld": 10,
-        "Sv": 4
+        "LD": "10+",
+        "OC": 1
       },
       "meleeWeaponId": 701,
       "rangedWeaponId": 700,
@@ -1691,15 +1628,12 @@
       "armorId": 15,
       "lore": "Ibram Gaunt holds the unique rank of Colonel-Commissar — a battlefield commander and political officer combined, an unprecedented fusion created when he led the Tanith First and Only regiment after their homeworld of Tanith was destroyed before they could evacuate. The Ghosts, as they are called, are the only Tanith soldiers left alive — ten thousand men carrying the memory of a world that no longer exists. Gaunt has led them across the hell of the Sabbat Worlds Crusade for over a decade, winning battles that Departmento Munitorum strategists still argue shouldn't have been possible, and burying more of his men than he can count. He is a man of principle in an institution that regards principle as a weakness — he refuses to sacrifice his soldiers unnecessarily, risks his career repeatedly to protect civilians, and has made enemies of generals far above his rank through sheer refusal to acquiesce to atrocity. The Ghosts are phenomenal scouts and guerrilla fighters due to Tanith's jungle world heritage, and Gaunt has turned these skills into a tactical style that has won wars no one expected them to win. He is the central figure of Dan Abnett's Gaunt's Ghosts novel series, one of the most acclaimed narratives in all of Warhammer fiction.",
       "stats": {
-        "M": 6,
-        "WS": 3,
-        "BS": 3,
-        "S": 3,
+        "M": "6\"",
         "T": 3,
+        "SV": "5+",
         "W": 4,
-        "A": 3,
-        "Ld": 9,
-        "Sv": 5
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 702,
       "rangedWeaponId": 703,
@@ -1716,15 +1650,12 @@
       "armorId": 15,
       "lore": "Ursarkar E. Creed was the Lord Castellan of Cadia — the supreme military commander of the fortress world that for ten thousand years stood as the primary barrier between the Eye of Terror and the rest of the Imperium. He was a tactical genius of the first order, credited with an almost supernatural ability to position forces in ways that should have been logistically impossible — the memes surrounding his 'TACTICAL GENIUS' ability to conceal entire Baneblades have become iconic. He had served Cadia for decades, repelling smaller incursions and preparing its defences for the war everyone knew was eventually coming. When the 13th Black Crusade finally arrived with the full force of Abaddon's accumulated ten thousand years of preparation, Creed commanded the most desperate and hopeless defence in Imperial history. He held longer than anyone had any right to expect. When the Necron Pylon network — Cadia's last defence — was destroyed, the planet literally broke apart, its crust fracturing under the force of Chaos. Creed was last seen on the planet's surface, surrounded, as it fell. Trazyn the Infinite has subsequently hinted — with characteristic Necron obliqueness — that he might know something about Creed's fate. He has not elaborated. Creed's fate remains one of the Imperium's great unresolved questions.",
       "stats": {
-        "M": 6,
-        "WS": 4,
-        "BS": 3,
-        "S": 3,
+        "M": "6\"",
         "T": 3,
+        "SV": "5+",
         "W": 4,
-        "A": 2,
-        "Ld": 10,
-        "Sv": 5
+        "LD": "10+",
+        "OC": 1
       },
       "meleeWeaponId": null,
       "rangedWeaponId": null,
@@ -1740,15 +1671,12 @@
       "armorId": 16,
       "lore": "Katarinya Greyfax is an Inquisitor of the Ordo Hereticus who spent several centuries imprisoned in one of Trazyn the Infinite's temporal stasis fields on Solemnace, preserved as part of his collection while the galaxy continued without her. She was released during the fall of Cadia and immediately took up arms against Abaddon's forces, her centuries of stasis having left her no less formidable. Her return to the Imperium revealed a world radically different from the one she left, including a resurrected Primarch and alliances with xenos that she regards with deep suspicion. Greyfax is a Psychic Null — a Blank, in the parlance of those who know such things — whose mere presence suppresses psychic phenomena in her vicinity. Daemons find it difficult to manifest near her. Psykers find their powers weakened. This makes her extraordinarily valuable in operations against Chaos and any Warp-related threat. She wields a Condemnor Boltgun — a specialised weapon designed specifically for use against psykers and witches — and views even sanctioned psykers with cold suspicion. Her relationship with Guilliman is frosty at best: she considers him dangerously naïve about the threats around him and disapproves of several of his alliances. Guilliman has noted that she is usually right and he finds it exhausting.",
       "stats": {
-        "M": 6,
-        "WS": 3,
-        "BS": 2,
-        "S": 3,
+        "M": "6\"",
         "T": 3,
+        "SV": "3+",
         "W": 4,
-        "A": 3,
-        "Ld": 9,
-        "Sv": 3
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 705,
@@ -1762,17 +1690,14 @@
       "rankId": 2,
       "typeId": 1,
       "armorId": 5,
-      "lore": "Canoness Veridyan of the Order of Our Martyred Lady is an iconic figure of the Adepta Sororitas — the Sisters of Battle — whose armoured visage has been used on Imperial propaganda posters across thousands of worlds for centuries, to the extent that many people across the Imperium know her face without knowing her name. The Order of Our Martyred Lady was founded following the Age of Apostasy, when the reformer Sebastian Thor ended the corrupt reign of Goge Vandire with the help of the Daughters of the Emperor — warrior women whose faith Vandire had weaponised. The Order's black armour commemorates the martyred founder Saint Alicia Dominica and reflects a theology of suffering and sacrifice as the highest virtues. Veridyan embodies these virtues absolutely. Her faith is total, her courage unshakeable, and her blade blessed by the Ecclesiarchy with rites that make it anathema to daemons and heretics alike. She commands her Sisters not from the rear but from the front line, where faith in the Emperor is most tested and most vindicated. The Adepta Sororitas are among the Imperium's most effective fighting forces precisely because they combine military training with absolute religious conviction — they do not ask whether they will succeed. They ask only to serve.",
+      "lore": "Canoness Veridyan of the Order of Our Martyred Lady is an iconic figure of the Adepta Sororitas — the Sisters of Battle — whose armored visage has been used on Imperial propaganda posters across thousands of worlds for centuries, to the extent that many people across the Imperium know her face without knowing her name. The Order of Our Martyred Lady was founded following the Age of Apostasy, when the reformer Sebastian Thor ended the corrupt reign of Goge Vandire with the help of the Daughters of the Emperor — warrior women whose faith Vandire had weaponised. The Order's black armor commemorates the martyred founder Saint Alicia Dominica and reflects a theology of suffering and sacrifice as the highest virtues. Veridyan embodies these virtues absolutely. Her faith is total, her courage unshakeable, and her blade blessed by the Ecclesiarchy with rites that make it anathema to daemons and heretics alike. She commands her Sisters not from the rear but from the front line, where faith in the Emperor is most tested and most vindicated. The Adepta Sororitas are among the Imperium's most effective fighting forces precisely because they combine military training with absolute religious conviction — they do not ask whether they will succeed. They ask only to serve.",
       "stats": {
-        "M": 6,
-        "WS": 2,
-        "BS": 2,
-        "S": 3,
+        "M": "6\"",
         "T": 3,
+        "SV": "3+",
         "W": 5,
-        "A": 4,
-        "Ld": 9,
-        "Sv": 3
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 706,
       "rangedWeaponId": 2,
@@ -1789,15 +1714,12 @@
       "armorId": 1,
       "lore": "Ragnar Blackmane is the youngest Space Wolf ever to achieve the rank of Wolf Lord, earning his command through a series of legendary acts that have already secured his place in the sagas sung around Fenris's hearths. As a Blood Claw — a Space Wolves neophyte — he demonstrated not only exceptional combat ability but the kind of instinctive bravery that the Space Wolves elevate to the level of religious virtue. He recovered the Spear of Russ — a sacred relic of the Chapter — from the Forces of Chaos, facing down Thousand Sons Sorcerers and emerging victorious. He later retrieved the Wulfen Stone, a profoundly dangerous artefact, and destroyed it rather than allow its corrupting influence to spread — a decision that required overcoming not only external enemies but the temptation of power the Stone offered. His rivalry with Mephiston of the Blood Angels is one of the more extraordinary relationships in the Space Marine world — two warriors who are in many ways opposites yet who recognise something in each other that commands respect. Ragnar's blade Frostfang was carved from the fangs of an ice wolf of Fenris, and in combat he is a fury of speed and ferocity that belies the tactical intelligence working constantly beneath the surface. He will one day be Great Wolf. Everyone knows it. He does not think about it.",
       "stats": {
-        "M": 6,
-        "WS": 2,
-        "BS": 3,
-        "S": 4,
+        "M": "6\"",
         "T": 4,
+        "SV": "3+",
         "W": 5,
-        "A": 5,
-        "Ld": 9,
-        "Sv": 3
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 707,
       "rangedWeaponId": 2,
@@ -1814,15 +1736,12 @@
       "armorId": 1,
       "lore": "Ezekiel is the Grand Master Librarian of the Dark Angels — their most powerful psyker and one of the most capable psychic warriors in the entire Space Marine fraternity. He was born on a feudal world, inducted into the Chapter, and showed psychic ability of extraordinary strength early in his training. He has served as Librarian for over two centuries, ascending to the role of Grand Master after feats of psychic combat that no other Dark Angels Librarian had previously survived. He is a full member of the Inner Circle — those who know the complete truth about the Fallen, the half-Legion that betrayed the Emperor during the Horus Heresy. This knowledge weighs on him in ways that are visible to those who know how to look. He wields Traitor's Bane, a force sword whose name reflects not only its function but the personal mission that drives all Inner Circle members. In psychic combat he is devastatingly effective, capable of breaking enemy psykers before they can fully manifest their powers. He is also a keeper of the Chapter's most sensitive records — the Epistolary Librarians answer to him in all psychic matters, and he is one of perhaps three living Dark Angels who knows the full extent of what Caliban's fall cost the Legion and what it cost those left to live with it.",
       "stats": {
-        "M": 6,
-        "WS": 3,
-        "BS": 3,
-        "S": 4,
+        "M": "6\"",
         "T": 4,
+        "SV": "3+",
         "W": 5,
-        "A": 4,
-        "Ld": 9,
-        "Sv": 3
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 708,
       "rangedWeaponId": null,
@@ -1838,15 +1757,12 @@
       "armorId": 11,
       "lore": "Kaldor Draigo is the Supreme Grand Master of the Grey Knights, the secret Chapter of psyker Space Marines whose existence is known only to a handful within the Imperium. He earned his current position through an act of extraordinary hubris and extraordinary courage: when the Greater Daemon M'kar the Reborn manifested and slew Draigo's predecessor, Draigo fought the daemon back to the Warp, forced it into submission, and carved the name of his fallen master into its heart — an act of such breathtaking defiance that the Chaos Gods themselves took notice. Their response was to trap Draigo within the Warp, hurling him from one daemon realm to the next for what has been, in real-space time, over a century. He has not simply survived this — he has fought constantly, battling through the domains of every Chaos God, leaving marks of the Grey Knights' Chapter badge carved into the architecture of the Warp itself as symbols of defiance. He emerges into real-space occasionally, at moments of great peril, then is pulled back into the Warp before he can be properly recovered. His Titansword is one of the most powerful melee weapons outside of Primarch-grade armaments, forged with a fragment of a daemon's soul enslaved within it. He is simultaneously the Chapter's supreme commander and a prisoner of their greatest enemy. He accepts both facts with the equanimity of a man who has had considerable time to process them.",
       "stats": {
-        "M": 5,
-        "WS": 2,
-        "BS": 2,
-        "S": 5,
+        "M": "5\"",
         "T": 5,
+        "SV": "2+",
         "W": 7,
-        "A": 5,
-        "Ld": 10,
-        "Sv": 2
+        "LD": "10+",
+        "OC": 1
       },
       "meleeWeaponId": 709,
       "rangedWeaponId": null,
@@ -1861,17 +1777,14 @@
       "rankId": 100,
       "typeId": 4,
       "armorId": 17,
-      "lore": "Trajann Valoris holds the highest rank within the Adeptus Custodes as their Captain-General, a position that effectively makes him the third most powerful individual in the Imperium after the Emperor and the Lord Commander. The Custodes are not Space Marines — they are something beyond Space Marines, each one individually created by the Emperor himself through a process of genetic and spiritual refinement that takes years to complete and produces warriors of superhuman ability that dwarf even the enhanced Primaris Space Marines. There are only ever ten thousand of them, and they never recruit by the Chapter's batch methods — each Custodes is unique. Valoris has led them out of the Imperial Palace and into the wider galaxy, a dramatic reversal of centuries of policy. For most of the Imperium's history, the Custodes remained at Terra, guarding the Emperor's body on the Golden Throne. Valoris judged that remaining passive while the galaxy burned was no longer defensible — a Custodes in the field is worth a hundred Space Marines, and the galaxy needed them. His Warblade blazes golden in combat, and his Auric Armour is the product of techniques no mortal artificer could replicate. He serves the Emperor, not the Imperium, and draws the distinction clearly when the two appear to conflict.",
+      "lore": "Trajann Valoris holds the highest rank within the Adeptus Custodes as their Captain-General, a position that effectively makes him the third most powerful individual in the Imperium after the Emperor and the Lord Commander. The Custodes are not Space Marines — they are something beyond Space Marines, each one individually created by the Emperor himself through a process of genetic and spiritual refinement that takes years to complete and produces warriors of superhuman ability that dwarf even the enhanced Primaris Space Marines. There are only ever ten thousand of them, and they never recruit by the Chapter's batch methods — each Custodes is unique. Valoris has led them out of the Imperial Palace and into the wider galaxy, a dramatic reversal of centuries of policy. For most of the Imperium's history, the Custodes remained at Terra, guarding the Emperor's body on the Golden Throne. Valoris judged that remaining passive while the galaxy burned was no longer defensible — a Custodes in the field is worth a hundred Space Marines, and the galaxy needed them. His Warblade blazes golden in combat, and his Auric armor is the product of techniques no mortal artificer could replicate. He serves the Emperor, not the Imperium, and draws the distinction clearly when the two appear to conflict.",
       "stats": {
-        "M": 7,
-        "WS": 2,
-        "BS": 2,
-        "S": 5,
+        "M": "7\"",
         "T": 5,
+        "SV": "2+",
         "W": 7,
-        "A": 6,
-        "Ld": 10,
-        "Sv": 2
+        "LD": "10+",
+        "OC": 1
       },
       "meleeWeaponId": 710,
       "rangedWeaponId": null,
@@ -1887,17 +1800,14 @@
       "rankId": 5,
       "typeId": 2,
       "armorId": 11,
-      "lore": "Njal Stormcaller is the most powerful Rune Priest in the Space Wolves, and perhaps the most powerful psyker serving any Space Marine Chapter in the Imperium. He does not, however, regard himself as a psyker in the conventional sense — the Space Wolves have always maintained a cultural distinction between their Rune Priests, who draw power from the natural forces of Fenris and the spiritual world of the Norse-descended Fenrisian culture, and 'sorcerers' who tap the raw Warp. It is a distinction of questionable metaphysical validity, but it matters enormously to the Wolves. Njal's abilities are extraordinary by any standard: he can call down genuine storms on a clear day, redirect lightning strikes with precision, alter weather patterns across a battlefield in minutes. His armour is a Terminator suit covered in runic wards and inscriptions, and he carries the Runestaff of the Stormcaller, his personal focus, carved from the bones of creatures that hunted Fenris's volcanic shores. He is an old wolf — ancient even by Space Marine standards — and has seen too many battles to be moved by anything except genuine necessity. He counsels the Great Wolf Logan Grimnar with a perspective that spans centuries, and his prophecies, drawn from the patterns of storm and wind, have an uncomfortable habit of being accurate even when everyone would prefer they weren't.",
+      "lore": "Njal Stormcaller is the most powerful Rune Priest in the Space Wolves, and perhaps the most powerful psyker serving any Space Marine Chapter in the Imperium. He does not, however, regard himself as a psyker in the conventional sense — the Space Wolves have always maintained a cultural distinction between their Rune Priests, who draw power from the natural forces of Fenris and the spiritual world of the Norse-descended Fenrisian culture, and 'sorcerers' who tap the raw Warp. It is a distinction of questionable metaphysical validity, but it matters enormously to the Wolves. Njal's abilities are extraordinary by any standard: he can call down genuine storms on a clear day, redirect lightning strikes with precision, alter weather patterns across a battlefield in minutes. His armor is a Terminator suit covered in runic wards and inscriptions, and he carries the Runestaff of the Stormcaller, his personal focus, carved from the bones of creatures that hunted Fenris's volcanic shores. He is an old wolf — ancient even by Space Marine standards — and has seen too many battles to be moved by anything except genuine necessity. He counsels the Great Wolf Logan Grimnar with a perspective that spans centuries, and his prophecies, drawn from the patterns of storm and wind, have an uncomfortable habit of being accurate even when everyone would prefer they weren't.",
       "stats": {
-        "M": 5,
-        "WS": 3,
-        "BS": 3,
-        "S": 4,
+        "M": "5\"",
         "T": 4,
+        "SV": "2+",
         "W": 5,
-        "A": 3,
-        "Ld": 9,
-        "Sv": 2
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 711,
@@ -1911,17 +1821,14 @@
       "rankId": 42,
       "typeId": 1,
       "armorId": 7,
-      "lore": "Asurmen is the First of the Phoenix Lords — the greatest individual warriors the Aeldari have ever produced, who refused to die when their civilisation fell and who walk the galaxy still, accumulating centuries of combat experience in their ancient armour. Asurmen was among the first Aeldari to survive the Fall, gathering a group of survivors and leading them away from the catastrophe of Slaanesh's birth. He was the one who devised the Path of the Warrior — the structured approach to martial excellence that would allow Aeldari to become devastating fighters without falling prey to the emotional extremes that had destroyed their civilisation. He founded the Dire Avengers, the most disciplined of all the Aspect Warriors, and trained the students who would go on to found all the other Aspects. He is the eldest of the Phoenix Lords, and has been killed and reborn so many times that he himself has lost count. Each time a Phoenix Lord falls, their armour eventually finds a new bearer, and the Phoenix Lord's accumulated consciousness and skill merges with that warrior's. Asurmen's twin swords, the Direswords, hold the soul of every warrior who has ever worn his armour, and in battle he moves with the accumulated skill of thousands of years of unbroken martial practice. He and his sister Jain Zar were the first Aspect Warriors, and between them they have trained more warriors than most armies contain.",
+      "lore": "Asurmen is the First of the Phoenix Lords — the greatest individual warriors the Aeldari have ever produced, who refused to die when their civilisation fell and who walk the galaxy still, accumulating centuries of combat experience in their ancient armor. Asurmen was among the first Aeldari to survive the Fall, gathering a group of survivors and leading them away from the catastrophe of Slaanesh's birth. He was the one who devised the Path of the Warrior — the structured approach to martial excellence that would allow Aeldari to become devastating fighters without falling prey to the emotional extremes that had destroyed their civilisation. He founded the Dire Avengers, the most disciplined of all the Aspect Warriors, and trained the students who would go on to found all the other Aspects. He is the eldest of the Phoenix Lords, and has been killed and reborn so many times that he himself has lost count. Each time a Phoenix Lord falls, their armor eventually finds a new bearer, and the Phoenix Lord's accumulated consciousness and skill merges with that warrior's. Asurmen's twin swords, the Direswords, hold the soul of every warrior who has ever worn his armor, and in battle he moves with the accumulated skill of thousands of years of unbroken martial practice. He and his sister Jain Zar were the first Aspect Warriors, and between them they have trained more warriors than most armies contain.",
       "stats": {
-        "M": 7,
-        "WS": 2,
-        "BS": 2,
-        "S": 3,
+        "M": "7\"",
         "T": 3,
+        "SV": "3+",
         "W": 6,
-        "A": 5,
-        "Ld": 10,
-        "Sv": 3
+        "LD": "10+",
+        "OC": 1
       },
       "meleeWeaponId": 712,
       "rangedWeaponId": null,
@@ -1935,17 +1842,14 @@
       "rankId": 42,
       "typeId": 1,
       "armorId": 7,
-      "lore": "Jain Zar, the Storm of Silence, is the Phoenix Lord of the Howling Banshees — the Aspect Warriors of swift, terror-inducing close combat who wear screaming masks and strike with such speed that opponents are often dead before they hear the killing blow. She was a student of Asurmen in the earliest days after the Fall, among the first generation of survivors learning the Path of the Warrior. She was so natural a fighter that she exceeded her teacher in pure combat speed and developed her own Aspect — the path of the Banshee — and departed to spread it. Her speed in combat defies rational explanation: she moves faster than the human or even enhanced Space Marine eye can track, striking multiple times before an opponent has registered the first blow. Her throwing stars, the Silent Death, are launched with such velocity that they pass through armour without slowing. Her war mask projects a sonic scream that disrupts the nervous systems of enemies at close range. She is not subtle about any of this — Jain Zar's combat style is pure overwhelming aggression, executed with such perfect precision that aggression itself becomes artistry. She was killed and reborn during the Gathering Storm — her most recent host chose to join the Ynnari, the followers of the death god Ynnead, a decision that reflects the deep uncertainty about the Aeldari's future that runs through all of their greatest warriors.",
+      "lore": "Jain Zar, the Storm of Silence, is the Phoenix Lord of the Howling Banshees — the Aspect Warriors of swift, terror-inducing close combat who wear screaming masks and strike with such speed that opponents are often dead before they hear the killing blow. She was a student of Asurmen in the earliest days after the Fall, among the first generation of survivors learning the Path of the Warrior. She was so natural a fighter that she exceeded her teacher in pure combat speed and developed her own Aspect — the path of the Banshee — and departed to spread it. Her speed in combat defies rational explanation: she moves faster than the human or even enhanced Space Marine eye can track, striking multiple times before an opponent has registered the first blow. Her throwing stars, the Silent Death, are launched with such velocity that they pass through armor without slowing. Her war mask projects a sonic scream that disrupts the nervous systems of enemies at close range. She is not subtle about any of this — Jain Zar's combat style is pure overwhelming aggression, executed with such perfect precision that aggression itself becomes artistry. She was killed and reborn during the Gathering Storm — her most recent host chose to join the Ynnari, the followers of the death god Ynnead, a decision that reflects the deep uncertainty about the Aeldari's future that runs through all of their greatest warriors.",
       "stats": {
-        "M": 8,
-        "WS": 2,
-        "BS": 3,
-        "S": 3,
+        "M": "8\"",
         "T": 3,
+        "SV": "3+",
         "W": 5,
-        "A": 5,
-        "Ld": 10,
-        "Sv": 3
+        "LD": "10+",
+        "OC": 1
       },
       "meleeWeaponId": null,
       "rangedWeaponId": 713,
@@ -1960,17 +1864,14 @@
       "rankId": 23,
       "typeId": 2,
       "armorId": 2,
-      "lore": "Nauseous Rotbone is a Biologus Putrifier of the Death Guard, a specialist role within Nurgle's chosen Legion devoted to the refinement and deployment of plague weapons of extraordinary virulence. The Death Guard have, in the ten thousand years since becoming Nurgle's chosen, developed a vast catalogue of diseases, each one a unique expression of the Plague God's creativity, each one individually named and catalogued by the Biologus Putrifiers who maintain and improve them. Rotbone is among the most accomplished of these plague-artisans, capable of distilling the essence of multiple diseases into a single weapon burst that can infect an entire squad with different plagues simultaneously. His armour is a corroded, bloated ruin of what was once Terminator plate, now so fused with biological material that the boundary between armour and wearer is unclear. He carries multiple injector pistols filled with concentrated disease cultures, and his Plague Sword is coated in bio-engineered toxins that can kill through the thinnest scratch. He views his work not as destruction but as creation — each new plague is a gift to Nurgle, a demonstration of devotion, a new expression of the Plague Father's endless generosity. He would be horrifying even by Death Guard standards if he were not so genuinely enthusiastic about his craft, which somehow makes it worse.",
+      "lore": "Nauseous Rotbone is a Biologus Putrifier of the Death Guard, a specialist role within Nurgle's chosen Legion devoted to the refinement and deployment of plague weapons of extraordinary virulence. The Death Guard have, in the ten thousand years since becoming Nurgle's chosen, developed a vast catalogue of diseases, each one a unique expression of the Plague God's creativity, each one individually named and catalogued by the Biologus Putrifiers who maintain and improve them. Rotbone is among the most accomplished of these plague-artisans, capable of distilling the essence of multiple diseases into a single weapon burst that can infect an entire squad with different plagues simultaneously. His armor is a corroded, bloated ruin of what was once Terminator plate, now so fused with biological material that the boundary between armor and wearer is unclear. He carries multiple injector pistols filled with concentrated disease cultures, and his Plague Sword is coated in bio-engineered toxins that can kill through the thinnest scratch. He views his work not as destruction but as creation — each new plague is a gift to Nurgle, a demonstration of devotion, a new expression of the Plague Father's endless generosity. He would be horrifying even by Death Guard standards if he were not so genuinely enthusiastic about his craft, which somehow makes it worse.",
       "stats": {
-        "M": 4,
-        "WS": 3,
-        "BS": 3,
-        "S": 4,
+        "M": "4\"",
         "T": 5,
+        "SV": "3+",
         "W": 4,
-        "A": 3,
-        "Ld": 9,
-        "Sv": 3
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 714,
       "rangedWeaponId": null,
@@ -1986,15 +1887,12 @@
       "armorId": 16,
       "lore": "Kyria Draxus occupies a rare position in the Imperium: a former Inquisitor who abandoned her Inquisitorial mandate to become a Watch Master of the Deathwatch — the Kill Team specialists of the Ordo Xenos. Her specialisation in Tyranid biology and Tyranid psychology, if the term can be applied to Hive Mind-directed organisms, led her to conclude that the Inquisition's approach to the xenos threat was fundamentally inadequate. The Deathwatch, with their freedom of movement, their access to the finest anti-xenos warriors from every Chapter, and their mandate to operate across every warzone, offered tools the Inquisition could not match. The transition was not simple — the Inquisition does not look kindly on those who leave — but Draxus made herself too valuable to the Deathwatch for the question of her official sanction to be easily resolved. Her shriekers whip is crafted from the preserved limbs of Tyranid Bio-Weapons, turning the aliens' own biology against their kindred. Her volkite pistol is a relic of the Horus Heresy era, recovered during a Deathwatch mission into a Chaos-held system. She studies her enemies with the same clinical obsession that defined her Inquisitorial career, and every Kill Team she leads reflects that study — coordinated, prepared, exploiting every specific weakness of whatever xenos species they face.",
       "stats": {
-        "M": 6,
-        "WS": 3,
-        "BS": 2,
-        "S": 3,
+        "M": "6\"",
         "T": 3,
+        "SV": "3+",
         "W": 4,
-        "A": 3,
-        "Ld": 9,
-        "Sv": 3
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 715,
       "rangedWeaponId": 716,
@@ -2011,15 +1909,12 @@
       "armorId": 27,
       "lore": "Commander O'Shovah — known across the galaxy as Farsight — is the T'au's greatest military hero and its most famous exile. He led the Farsight Expeditions, a series of crusades into unknown space beyond the Damocles Gulf, achieving extraordinary victories and pushing the T'au sphere of influence further than ever before. Then he stopped returning to T'au space. He established the Farsight Enclaves — eight worlds in the Damocles Gulf region, governed by T'au principles but wholly independent of the T'au Empire and its Ethereal rulers. The Ethereals declared him a traitor. Farsight has refused all demands to return. He wields the Dawn Blade, an ancient xenos weapon of unknown provenance that he found on the world of Arthas Moloch — a place of terrible Warp activity that exposed him to realities the T'au scientific worldview has no framework for. The Dawn Blade appears to sustain him, slowing his aging over centuries. He has lived far beyond any reasonable T'au lifespan. He has also seen, on Arthas Moloch and since, evidence of the Warp, of daemons, and of the Greater Powers — things the Ethereals have systematically hidden from the T'au population. Farsight knows the Ethereals are concealing something fundamental about the nature of reality. He has chosen to face it rather than hide from it, and leads his Enclaves according to that hard-won knowledge.",
       "stats": {
-        "M": 10,
-        "WS": 3,
-        "BS": 2,
-        "S": 5,
+        "M": "10\"",
         "T": 6,
+        "SV": "2+",
         "W": 8,
-        "A": 5,
-        "Ld": 9,
-        "Sv": 2
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 800,
       "rangedWeaponId": null,
@@ -2036,15 +1931,12 @@
       "armorId": 23,
       "lore": "Bjorn the Fell-Handed is the oldest Space Marine in the Imperium, and the oldest Space Wolf. He has been interred within his Venerable Dreadnought chassis for over ten thousand years, his organic body sustained by the sarcophagus's systems while his mind remains clear, his memories intact, his will unbroken. He was not always in the Dreadnought — he walked among his brothers as a living warrior during the Great Crusade, fighting alongside Leman Russ himself in battles that have since passed into legend. He was Russ's chosen champion in the final years before the Primarch's disappearance into the Warp, and he was the last living Space Wolf to see Leman Russ alive — a distinction that has weighed on him for ten millennia. He was interred after suffering wounds that would have killed any ordinary warrior, and he chose the sarcophagus over death because he could not leave his brothers without at least one living witness to who they had been and where they had come from. He is woken only in the direst need — the Space Wolves believe that Bjorn's presence on the battlefield brings the blessing of Russ himself, and the psychological effect on the warriors fighting beside him is real and profound. His Helfrost Cannon can freeze enemies solid where they stand. His ancient Wolf Claw, the Fell Hand from which he takes his name, was the weapon that fought beside Russ. When Bjorn speaks of the Primarch, he speaks from memory, not from legend, and the Space Wolves fall silent to listen.",
       "stats": {
-        "M": 6,
-        "WS": 2,
-        "BS": 3,
-        "S": 6,
+        "M": "6\"",
         "T": 7,
+        "SV": "2+",
         "W": 9,
-        "A": 4,
-        "Ld": 9,
-        "Sv": 2
+        "LD": "9+",
+        "OC": 1
       },
       "meleeWeaponId": 802,
       "rangedWeaponId": 801,
@@ -2060,7 +1952,7 @@
       "ranged": true,
       "description": "A high-temperature plasma energy weapon. Risk of overheating on supercharge mode.",
       "stats": {
-        "Range": 12,
+        "Range": "12\"",
         "S": 7,
         "AP": -3,
         "D": 1
@@ -2074,7 +1966,7 @@
       "ranged": false,
       "description": "The legendary blade of Dark Angels Grand Masters, blessed and forged from the essence of the Lion.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+2",
         "AP": -4,
         "D": 3
@@ -2088,7 +1980,7 @@
       "ranged": false,
       "description": "Calgar's legendary twin gauntlets, capable of crushing a battle tank.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "x2",
         "AP": -3,
         "D": 2
@@ -2102,7 +1994,7 @@
       "ranged": false,
       "description": "Khârn's legendary chainaxe — its adamantium-steel teeth never dull.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+2",
         "AP": -4,
         "D": 2
@@ -2116,7 +2008,7 @@
       "ranged": false,
       "description": "Dante's ancestral weapon, forged over a millennium ago by the Blood Angels' Apothecary-Smiths.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+2",
         "AP": -3,
         "D": 2
@@ -2130,7 +2022,7 @@
       "ranged": false,
       "description": "Logan Grimnar's great double-headed axe, combining runic iron and a chainblade into a phenomenal instrument of destruction.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+3",
         "AP": -3,
         "D": 2
@@ -2144,7 +2036,7 @@
       "ranged": false,
       "description": "He'stan's sacred spear, channelled through the volcanic flame of Nocturne. It melts metal on contact.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+2",
         "AP": -4,
         "D": 3
@@ -2158,7 +2050,7 @@
       "ranged": false,
       "description": "Helbrecht's sacred blade, inscribed with the runes of the Black Templars' crusades.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+1",
         "AP": -3,
         "D": 2
@@ -2172,7 +2064,7 @@
       "ranged": false,
       "description": "A daemonic blade bound to the soul of a daemon of ruin. It cuts through reality as much as flesh.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+2",
         "AP": -4,
         "D": 3
@@ -2186,7 +2078,7 @@
       "ranged": true,
       "description": "Abaddon's talon-gauntlet in memory of Horus, which fires bolts of Chaos in addition to its slashing claws.",
       "stats": {
-        "Range": 12,
+        "Range": "12\"",
         "S": 5,
         "AP": -2,
         "D": 2
@@ -2200,7 +2092,7 @@
       "ranged": true,
       "description": "Ahriman's mystical sceptre, focusing his Thousand Sons psychic powers.",
       "stats": {
-        "Range": 24,
+        "Range": "24\"",
         "S": 6,
         "AP": -2,
         "D": 2
@@ -2214,7 +2106,7 @@
       "ranged": false,
       "description": "Typhus's corrupted scythe, bearer of Nurgle's Destroyer Hive — which kills almost instantly.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+2",
         "AP": -3,
         "D": 3
@@ -2228,7 +2120,7 @@
       "ranged": true,
       "description": "Guilliman's gauntlet fitted with an integrated bolter, combining devastating power and precision.",
       "stats": {
-        "Range": 24,
+        "Range": "24\"",
         "S": 10,
         "AP": -4,
         "D": 4
@@ -2242,7 +2134,7 @@
       "ranged": false,
       "description": "Lucius's whip, inflicting simultaneous pain and pleasure. Each blow leaves psychic scars.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+1",
         "AP": -2,
         "D": 1
@@ -2256,7 +2148,7 @@
       "ranged": false,
       "description": "Mephiston's sword, forged in the depths of his psyker soul. It cuts through the Warp itself.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+2",
         "AP": -3,
         "D": 3
@@ -2270,7 +2162,7 @@
       "ranged": true,
       "description": "Imotekh's war-staff, channelling enormous gauss electrical discharges.",
       "stats": {
-        "Range": 18,
+        "Range": "18\"",
         "S": 8,
         "AP": -3,
         "D": 3
@@ -2284,7 +2176,7 @@
       "ranged": true,
       "description": "Eldrad's psychic focusing staff, condensing millennia of Aeldari wisdom.",
       "stats": {
-        "Range": 18,
+        "Range": "18\"",
         "S": 4,
         "AP": -2,
         "D": 2
@@ -2298,7 +2190,7 @@
       "ranged": true,
       "description": "Trazyn's tool allowing him to imprison individuals within Necron phase fields.",
       "stats": {
-        "Range": 12,
+        "Range": "12\"",
         "S": 5,
         "AP": -2,
         "D": 2
@@ -2310,9 +2202,9 @@
       "name": "Mork's Roar",
       "category": "Mega-Reinforced Shoota",
       "ranged": true,
-      "description": "Ghazghkull's ork-built cannon, spewing salvoes of metal that shred all armour.",
+      "description": "Ghazghkull's ork-built cannon, spewing salvoes of metal that shred all armor.",
       "stats": {
-        "Range": 24,
+        "Range": "24\"",
         "S": 5,
         "AP": -1,
         "D": 2
@@ -2324,9 +2216,9 @@
       "name": "Gork's Klaw",
       "category": "Mega Power Klaw",
       "ranged": false,
-      "description": "Ghazghkull's mega-gauntlet, bending and crushing the heaviest Imperial armour.",
+      "description": "Ghazghkull's mega-gauntlet, bending and crushing the heaviest Imperial armor.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "x2",
         "AP": -4,
         "D": 3
@@ -2340,7 +2232,7 @@
       "ranged": false,
       "description": "The Swarmlord's pair of chitinous blades, capable of cleaving a Primarch.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": 10,
         "AP": -2,
         "D": 3
@@ -2354,7 +2246,7 @@
       "ranged": true,
       "description": "Shadowsun's weapon system — legendary precision — two synchronised fusion beams.",
       "stats": {
-        "Range": 18,
+        "Range": "18\"",
         "S": 8,
         "AP": -4,
         "D": "D6"
@@ -2368,7 +2260,7 @@
       "ranged": true,
       "description": "Cawl's archeotech rifle distilling ten millennia of research into radium-based weaponry.",
       "stats": {
-        "Range": 30,
+        "Range": "30\"",
         "S": 5,
         "AP": -2,
         "D": 2
@@ -2382,7 +2274,7 @@
       "ranged": true,
       "description": "Yarrick's bolt pistol, blessed and etched with anti-heretic runes. Renowned for legendary accuracy.",
       "stats": {
-        "Range": 12,
+        "Range": "12\"",
         "S": 4,
         "AP": -1,
         "D": 1
@@ -2396,7 +2288,7 @@
       "ranged": false,
       "description": "Yarrick's mechanical combat hand, replacing the one torn off during the first siege of Armageddon.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+2",
         "AP": -3,
         "D": 2
@@ -2410,7 +2302,7 @@
       "ranged": false,
       "description": "The ritual blade of Tanith warriors, slightly curved and lethally fine.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+1",
         "AP": -2,
         "D": 1
@@ -2424,7 +2316,7 @@
       "ranged": true,
       "description": "A standard Guard bolter, modified for intensive use by ranking officers.",
       "stats": {
-        "Range": 24,
+        "Range": "24\"",
         "S": 4,
         "AP": -1,
         "D": 1
@@ -2438,7 +2330,7 @@
       "ranged": true,
       "description": "Greyfax's specialised boltgun firing blessed quarrels and psyk-out mini-bolts — anti-psyker.",
       "stats": {
-        "Range": 24,
+        "Range": "24\"",
         "S": 4,
         "AP": -1,
         "D": 2
@@ -2452,7 +2344,7 @@
       "ranged": false,
       "description": "A blessed blade of the Adepta Sororitas, forged in faith and consecrated by the Ecclesiarchy.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+1",
         "AP": -3,
         "D": 1
@@ -2466,7 +2358,7 @@
       "ranged": false,
       "description": "Ragnar's runic sword carved from the fangs of a Fenrisian ice wolf. It leaves frost marks.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+2",
         "AP": -3,
         "D": 2
@@ -2480,7 +2372,7 @@
       "ranged": false,
       "description": "Ezekiel's psionic sword, darkened by the secrets of the Dark Angels. It cuts through spells.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+1",
         "AP": -3,
         "D": 2
@@ -2494,7 +2386,7 @@
       "ranged": false,
       "description": "Draigo's colossal blade, forged with a fragment of a defeated Greater Daemon's soul.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+4",
         "AP": -4,
         "D": 4
@@ -2508,7 +2400,7 @@
       "ranged": false,
       "description": "Valoris's lance, forged at the direct request of the Emperor. It burns with golden light in combat.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+2",
         "AP": -4,
         "D": 3
@@ -2522,7 +2414,7 @@
       "ranged": true,
       "description": "Njal's runic sceptre, channelling the fury of Fenrisian storms.",
       "stats": {
-        "Range": 18,
+        "Range": "18\"",
         "S": 5,
         "AP": -2,
         "D": 2
@@ -2536,7 +2428,7 @@
       "ranged": false,
       "description": "Asurmen's twin blades — one severs flesh, the other imprisons souls.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+1",
         "AP": -3,
         "D": 2
@@ -2550,7 +2442,7 @@
       "ranged": true,
       "description": "Jain Zar's razor-sharp throwing stars, hurled at a speed beyond human perception.",
       "stats": {
-        "Range": 12,
+        "Range": "12\"",
         "S": 4,
         "AP": -2,
         "D": 1
@@ -2564,7 +2456,7 @@
       "ranged": false,
       "description": "A dagger steeped in Nurgle's viral cultures — even a scratch can cause a slow death.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+1",
         "AP": -1,
         "D": 1
@@ -2578,7 +2470,7 @@
       "ranged": false,
       "description": "Draxus's whip crafted from xenos limbs, recovered during a mission against the Tyranids.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+1",
         "AP": -2,
         "D": 2
@@ -2592,7 +2484,7 @@
       "ranged": true,
       "description": "A rare and ancient weapon firing thermally deflagrating charges — a relic of the Horus Heresy.",
       "stats": {
-        "Range": 15,
+        "Range": "15\"",
         "S": 5,
         "AP": -2,
         "D": 2
@@ -2606,7 +2498,7 @@
       "ranged": false,
       "description": "An ancient xenos blade of unknown origin wielded by Commander Farsight. It drains the life of those it strikes, apparently slowing the aging of its bearer — at a terrible and unknown cost.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+4",
         "AP": -4,
         "D": 3
@@ -2620,7 +2512,7 @@
       "ranged": true,
       "description": "The ancient Helfrost Cannon mounted on Bjorn's sarcophagus, capable of encasing enemies in a tomb of supernatural ice.",
       "stats": {
-        "Range": 36,
+        "Range": "36\"",
         "S": 8,
         "AP": -4,
         "D": "D6"
@@ -2634,7 +2526,7 @@
       "ranged": false,
       "description": "The ancient wolf claw of Bjorn the Fell-Handed, his original arm, now a relic weapon fitted to his Dreadnought chassis. With it he once fought beside Leman Russ himself.",
       "stats": {
-        "Range": 1,
+        "Range": "Melee",
         "S": "+2",
         "AP": -3,
         "D": 2
@@ -2645,9 +2537,9 @@
   "armors": [
     {
       "id": 1,
-      "name": "Power Armour Mk VII",
-      "category": "Power Armour",
-      "description": "The standard Space Marine armour — Mk VII Aquila. Provides exceptional protection with amplified strength.",
+      "name": "Power armor Mk VII",
+      "category": "Power armor",
+      "description": "The standard Space Marine armor — Mk VII Aquila. Provides exceptional protection with amplified strength.",
       "save": 3,
       "invulSave": null,
       "wounds": 0,
@@ -2655,9 +2547,9 @@
     },
     {
       "id": 2,
-      "name": "Corrupted Power Armour",
-      "category": "Chaos Armour",
-      "description": "Power armour mutated by the Warp, fused to its wearer's flesh. It slowly regenerates — but it groans.",
+      "name": "Corrupted Power armor",
+      "category": "Chaos armor",
+      "description": "Power armor mutated by the Warp, fused to its wearer's flesh. It slowly regenerates — but it groans.",
       "save": 3,
       "invulSave": null,
       "wounds": 0,
@@ -2665,29 +2557,29 @@
     },
     {
       "id": 3,
-      "name": "Power Armour Mk III (Iron Armour)",
-      "category": "Ancient Power Armour",
+      "name": "Power armor Mk III (Iron armor)",
+      "category": "Ancient Power armor",
       "description": "Designed for tunnel fighting and boarding actions. Maximum frontal protection at the cost of mobility.",
       "save": 3,
       "invulSave": null,
       "wounds": 0,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/7/73/MarkIIIIronArmour.jpg/375px-MarkIIIIronArmour.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/7/73/MarkIIIIronarmor.jpg/375px-MarkIIIIronarmor.jpg"
     },
     {
       "id": 4,
-      "name": "Power Armour Mk X Phobos",
-      "category": "Primaris Armour",
-      "description": "Lightweight Primaris armour for infiltration and reconnaissance operations. Integrated sound-dampening fabric.",
+      "name": "Power armor Mk X Phobos",
+      "category": "Primaris armor",
+      "description": "Lightweight Primaris armor for infiltration and reconnaissance operations. Integrated sound-dampening fabric.",
       "save": 3,
       "invulSave": null,
       "wounds": 0,
-      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/4/47/PhobosArmourSW.jpg/300px-PhobosArmourSW.jpg"
+      "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/4/47/PhobosarmorSW.jpg/300px-PhobosarmorSW.jpg"
     },
     {
       "id": 5,
-      "name": "Artificer Armour",
-      "category": "Artificer Armour",
-      "description": "A master-crafted artificer suit forged for commanders — superior to any standard power armour.",
+      "name": "Artificer armor",
+      "category": "Artificer armor",
+      "description": "A master-crafted artificer suit forged for commanders — superior to any standard power armor.",
       "save": 2,
       "invulSave": null,
       "wounds": 0,
@@ -2696,7 +2588,7 @@
     {
       "id": 6,
       "name": "Necrodermis Body",
-      "category": "Necron Armour",
+      "category": "Necron armor",
       "description": "The Necrons' living metal, capable of self-repair — wounds reseal within seconds.",
       "save": 2,
       "invulSave": null,
@@ -2705,8 +2597,8 @@
     },
     {
       "id": 7,
-      "name": "Wraithbone Armour",
-      "category": "Aeldari Armour",
+      "name": "Wraithbone armor",
+      "category": "Aeldari armor",
       "description": "Aeldari wraithbone shaped by psychic craft — more resistant to certain attacks but fragile under brute force.",
       "save": 6,
       "invulSave": 4,
@@ -2715,9 +2607,9 @@
     },
     {
       "id": 8,
-      "name": "Ork Mega Armour",
-      "category": "Mega Armour",
-      "description": "An assembly of massive armour plates and ork servo-muscles, near-impervious but extremely heavy.",
+      "name": "Ork Mega armor",
+      "category": "Mega armor",
+      "description": "An assembly of massive armor plates and ork servo-muscles, near-impervious but extremely heavy.",
       "save": 2,
       "invulSave": null,
       "wounds": 0,
@@ -2726,7 +2618,7 @@
     {
       "id": 9,
       "name": "Chitinous Carapace",
-      "category": "Tyranid Armour",
+      "category": "Tyranid armor",
       "description": "The Swarmlord's thick biological carapace, evolved to withstand the Imperium's heavy weapons.",
       "save": 2,
       "invulSave": null,
@@ -2735,9 +2627,9 @@
     },
     {
       "id": 10,
-      "name": "Armour of Heraclus",
-      "category": "Artificer Armour",
-      "description": "Calgar's unique armour, perfected over centuries by the Ultramarines' finest artificers.",
+      "name": "armor of Heraclus",
+      "category": "Artificer armor",
+      "description": "Calgar's unique armor, perfected over centuries by the Ultramarines' finest artificers.",
       "save": 2,
       "invulSave": null,
       "wounds": 0,
@@ -2745,8 +2637,8 @@
     },
     {
       "id": 11,
-      "name": "Terminator Armour (Cataphractii)",
-      "category": "Terminator Armour",
+      "name": "Terminator armor (Cataphractii)",
+      "category": "Terminator armor",
       "description": "The oldest and most resistant Terminator pattern, inherited from the Horus Heresy. Provides an invulnerable save but limits mobility.",
       "save": 2,
       "invulSave": 4,
@@ -2755,8 +2647,8 @@
     },
     {
       "id": 12,
-      "name": "Terminator Armour (Tartaros)",
-      "category": "Terminator Armour",
+      "name": "Terminator armor (Tartaros)",
+      "category": "Terminator armor",
       "description": "A more mobile Terminator variant, preserving superior agility compared to other Terminator patterns.",
       "save": 2,
       "invulSave": 5,
@@ -2765,8 +2657,8 @@
     },
     {
       "id": 13,
-      "name": "Terminator Armour (Indomitus)",
-      "category": "Terminator Armour",
+      "name": "Terminator armor (Indomitus)",
+      "category": "Terminator armor",
       "description": "The current-era standard Terminator design, balancing protection and mobility for 1st Company veterans.",
       "save": 2,
       "invulSave": 4,
@@ -2777,7 +2669,7 @@
       "id": 14,
       "name": "Cawl's Mechanical Frame",
       "category": "Mechanical Frame",
-      "description": "A hybrid of mechanical chassis and power armour, incorporating Cawl's own integrated systems.",
+      "description": "A hybrid of mechanical chassis and power armor, incorporating Cawl's own integrated systems.",
       "save": 2,
       "invulSave": null,
       "wounds": 2,
@@ -2785,9 +2677,9 @@
     },
     {
       "id": 15,
-      "name": "Carapace Armour (Officer)",
-      "category": "Carapace Armour",
-      "description": "Heavy armour worn by Astra Militarum and Inquisition officers. Far superior to standard flak armour.",
+      "name": "Carapace armor (Officer)",
+      "category": "Carapace armor",
+      "description": "Heavy armor worn by Astra Militarum and Inquisition officers. Far superior to standard flak armor.",
       "save": 4,
       "invulSave": null,
       "wounds": 0,
@@ -2795,9 +2687,9 @@
     },
     {
       "id": 16,
-      "name": "Inquisitorial Armour",
-      "category": "Specialised Armour",
-      "description": "Bespoke armour worn by Inquisition agents, combining protection, detection devices, and stealth.",
+      "name": "Inquisitorial armor",
+      "category": "Specialised armor",
+      "description": "Bespoke armor worn by Inquisition agents, combining protection, detection devices, and stealth.",
       "save": 3,
       "invulSave": null,
       "wounds": 0,
@@ -2805,9 +2697,9 @@
     },
     {
       "id": 17,
-      "name": "Auric Armour (Custodes)",
-      "category": "Custodes Armour",
-      "description": "The golden armour of the Adeptus Custodes, personally forged by the Emperor and refined over centuries. Each piece is unique.",
+      "name": "Auric armor (Custodes)",
+      "category": "Custodes armor",
+      "description": "The golden armor of the Adeptus Custodes, personally forged by the Emperor and refined over centuries. Each piece is unique.",
       "save": 2,
       "invulSave": 4,
       "wounds": 1,
@@ -2816,7 +2708,7 @@
     {
       "id": 18,
       "name": "Aegis Terminator pattern",
-      "category": "Psyker Terminator Armour",
+      "category": "Psyker Terminator armor",
       "description": "Armure Terminator des Grey Knights intégrant des focalisateurs psychiques, runes de protection et textes sacrés anti-démoniques.",
       "save": 2,
       "invulSave": 4,
@@ -2825,9 +2717,9 @@
     },
     {
       "id": 19,
-      "name": "Armour of Fate (Guilliman)",
-      "category": "Primarch Armour",
-      "description": "Guilliman's armour, forged in pure Adamantium reinforced by the immunity runes of Eldrad Ulthran.",
+      "name": "armor of Fate (Guilliman)",
+      "category": "Primarch armor",
+      "description": "Guilliman's armor, forged in pure Adamantium reinforced by the immunity runes of Eldrad Ulthran.",
       "save": 2,
       "invulSave": 3,
       "wounds": 2,
@@ -2885,9 +2777,9 @@
     },
     {
       "id": 25,
-      "name": "Power Armour Mk X Tacticus (Primaris)",
-      "category": "Primaris Armour",
-      "description": "The standard Primaris armour, a fusion of Cawl's finest technologies based on the Mk VII. Slightly more resilient with better computational integration.",
+      "name": "Power armor Mk X Tacticus (Primaris)",
+      "category": "Primaris armor",
+      "description": "The standard Primaris armor, a fusion of Cawl's finest technologies based on the Mk VII. Slightly more resilient with better computational integration.",
       "save": 3,
       "invulSave": null,
       "wounds": 0,
@@ -2895,9 +2787,9 @@
     },
     {
       "id": 26,
-      "name": "Power Armour Mk X Gravis (Primaris)",
-      "category": "Heavy Primaris Armour",
-      "description": "A reinforced Primaris armour, intermediate between standard power armour and Terminator armour. Worn by Aggressors and Gravis Marines.",
+      "name": "Power armor Mk X Gravis (Primaris)",
+      "category": "Heavy Primaris armor",
+      "description": "A reinforced Primaris armor, intermediate between standard power armor and Terminator armor. Worn by Aggressors and Gravis Marines.",
       "save": 2,
       "invulSave": null,
       "wounds": 0,
@@ -2925,8 +2817,8 @@
     },
     {
       "id": 29,
-      "name": "Saturnine Terminator Armour",
-      "category": "Terminator Armour",
+      "name": "Saturnine Terminator armor",
+      "category": "Terminator armor",
       "description": "The rarest and most ancient of all Terminator patterns, worn by the Companions of the Primarchs during the Horus Heresy. More compact than later designs, it sacrifices some protection for enhanced agility. Used by the Legio Custodes and a handful of chosen warriors.",
       "save": 2,
       "invulSave": 3,

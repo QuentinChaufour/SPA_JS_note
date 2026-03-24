@@ -1,4 +1,4 @@
-import Armour from "./armour";
+import Armor from "./armor";
 import Weapon from "./weapon";
 
 export default class Character {
@@ -14,7 +14,7 @@ export default class Character {
      * @param {Object} stats the stats of the character (WS, BS, S, T, W, A, Ld, Sv)
      * @param {Weapon} range_weapon the range weapons of the character
      * @param {Weapon} melee_weapon the close combat weapons of the character
-     * @param {Armour} armour the armour of the character 
+     * @param {Armor} armor the armor of the character
      * @param {int} points the points cost of the character
      * @param {string} lore the lore of the character
      * @param {string} image_url the url of the character's image
@@ -29,7 +29,7 @@ export default class Character {
         stats,
         range_weapon,
         melee_weapon,
-        armour,
+        armor,
         points,
         lore,
         image_url
@@ -43,7 +43,7 @@ export default class Character {
         this._stats = stats;
         this._range_weapon = range_weapon;
         this._melee_weapon = melee_weapon;
-        this._armour = armour;
+        this._armor = armor;
         this._points = points;
         this._lore = lore;
         this._image_url = image_url;
@@ -130,17 +130,17 @@ export default class Character {
     }
 
     /**
-     * @returns {Armour} the armour of the character
+     * @returns {Armor} the armor of the character
      */
-    get armour() {
-        return this._armour;
+    get armor() {
+        return this._armor;
     }
 
     /**
-     * @param {Armour} armour the armour of the character
+     * @param {Armor} armor the armor of the character
      */
-    set armour(armour) {
-        this._armour = armour;
+    set armor(armor) {
+        this._armor = armor;
     }
 
     /**
@@ -178,7 +178,7 @@ export default class Character {
 
     /**
      * Creates a Character instance from a JSON object.
-     * @param {Object} json  the JSON object representing the character, with the following properties: id, name, faction, subfaction, role, rank, stats, range_weapon, close_combat_weapon, armour, points, lore, image_url
+     * @param {Object} json  the JSON object representing the character, with the following properties: id, name, faction, subfaction, role, rank, stats, range_weapon, close_combat_weapon, armor, points, lore, image_url
      * @returns {Character} the Character instance created from the JSON object
      */
     static fromJson(json) {

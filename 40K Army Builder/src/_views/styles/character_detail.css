@@ -1,0 +1,135 @@
+/* Main container for the entire detail page */
+.detail-page-container {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    /* Ensure top row only takes height of its content */
+    grid-template-rows: auto 1fr; 
+    grid-template-areas:
+        "identity details"
+        "lore lore";
+    gap: 30px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #c8c8c8;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Assign grid areas */
+.character-identity-column { grid-area: identity; }
+.character-details-column { grid-area: details; }
+.character-lore-container { grid-area: lore; }
+
+
+/* Left Column: Character Identity */
+.character-identity-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #252525;
+    padding: 20px;
+    border: 2px solid #5a4a3b;
+    border-radius: 5px;
+}
+
+.character-identity-column img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border: 3px solid #5a4a3b;
+    object-fit: cover;
+}
+
+.character-identity-column h2 {
+    font-size: 2.2em;
+    color: #f4e9d8;
+    margin: 0;
+    text-align: center;
+    border-bottom: 2px solid #5a4a3b;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+/* Lore Section */
+.character-lore-container {
+    background-color: #252525;
+    border: 2px solid #5a4a3b;
+    border-radius: 5px;
+    padding: 20px;
+    width: 65%;
+}
+
+.character-lore {
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    color: #c8c8c8;
+    border: 1px solid #4a4a4a;
+    padding: 15px;
+    font-size: 1.1em;
+    line-height: 1.7;
+    resize: none; /* Make lore box non-resizable */
+    box-sizing: border-box;
+}
+
+/* Right Column: Meta Info, Stats, and Gear */
+.character-details-column {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* New container for stats and meta-info */
+.top-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.character-meta-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+    padding: 15px;
+    background-color: #3a3a3a;
+    border: 2px solid #5a4a3b;
+    border-radius: 4px;
+    font-size: 1.1em;
+    color: #f4e9d8;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.meta-item img {
+    width: 32px;
+    height: 32px;
+}
+
+/* Alignment for stats and gear */
+.character-stats-container {
+    flex-grow: 1; /* Allow stats container to grow and fill space */
+}
+
+.character-gear-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.character-stats-container > *,
+.character-gear-container > * {
+    width: 100%;
+    /* Remove max-width to allow it to fill the container */
+    box-sizing: border-box;
+}

@@ -1,9 +1,9 @@
-import Character from "../_models/character";
-import fetchData from "./fetcher";
-import FactionProvider from "./faction_provider";
-import RoleProvider from "./role_provider";
-import WeaponArmourProvider from './weapon_armour_provider'
-import { API_URL_ENDPOINT } from "../config";
+import Character from "../_models/character.js";
+import fetchData from "./fetcher.js";
+import FactionProvider from "./faction_provider.js";
+import RoleProvider from "./role_provider.js";
+import WeaponArmorProvider from './weapon_armor_provider.js';
+import { API_URL_ENDPOINT } from "../config.js";
 
 export default class CharacterProvider {
 
@@ -42,8 +42,9 @@ export default class CharacterProvider {
             character.chapter = await FactionProvider.getChapter(data.sub_factionId);
             character.role = await RoleProvider.getRole(data.rankId);
 
-            character.range_weapon = await WeaponArmourProvider.getWeapon(data.rangedWeaponId);
-            character.melee_weapon = await WeaponArmourProvider.getWeapon(data.meleeWeaponId);
+            character.range_weapon = await WeaponArmorProvider.getWeapon(data.rangedWeaponId);
+            character.melee_weapon = await WeaponArmorProvider.getWeapon(data.meleeWeaponId);
+            character.armor = await WeaponArmorProvider.getarmor(data.armorId);
 
             return character;
         }
