@@ -1,6 +1,13 @@
 
 export default class Weapon {
 
+    #id;
+    #name;
+    #isRange;
+    #description;
+    #stats;
+    #image_url;
+
     /**
      * 
      * @param {int} id the id of the weapon 
@@ -18,12 +25,12 @@ export default class Weapon {
         stats,
         image_url
     ){
-        this.id = id;
-        this.name = name;
-        this.range = range;
-        this.description = description;
-        this.stats = stats;
-        this.image_url = image_url;
+        this.#id = id;
+        this.#name = name;
+        this.#isRange = range;
+        this.#description = description;
+        this.#stats = stats;
+        this.#image_url = image_url;
     }
 
     /**
@@ -31,7 +38,11 @@ export default class Weapon {
      * @return {int} The id of the weapon.
      */
     get id() {
-        return this._id;
+        return this.#id;
+    }
+
+    set id(id){
+        this.#id = id;
     }
 
     /**
@@ -39,15 +50,23 @@ export default class Weapon {
      * @return {string} The name of the weapon.
      */
     get name() {
-        return this._name;
+        return this.#name;
+    }
+
+    set name(name){
+        this.#name = name;
     }
 
     /**
-     * Gets the range of the weapon.
+     * Get if the weapon is a ranged weapon.
      * @returns {boolean} True if the weapon is a range weapon, false if it is a close combat weapon.
      */
-    get range() {
-        return this._range;
+    get isRange() {
+        return this.#isRange;
+    }
+
+    set isRange(is_range){
+        this.#isRange = is_range;
     }
 
     /**
@@ -55,7 +74,10 @@ export default class Weapon {
      * @returns {string} The description of the weapon.
      */
     get description() {
-        return this._description;
+        return this.#description;
+    }
+    set description(description){
+        this.#description = description;
     }
 
     /**
@@ -63,7 +85,11 @@ export default class Weapon {
      * @returns {Object} The stats of the weapon, with the following properties: range, S, AP, D
      */
     get stats() {
-        return this._stats;
+        return this.#stats;
+    }
+
+    set stats(stats){
+        this.#stats = stats;
     }
 
     /**
@@ -71,7 +97,11 @@ export default class Weapon {
      * @returns {string} The URL of the weapon's image.
      */
     get image_url() {
-        return this._image_url;
+        return this.#image_url;
+    }
+
+    set image_url(url){
+        this.#image_url = url;
     }
 
     /**
@@ -83,10 +113,10 @@ export default class Weapon {
         return new Weapon(
             json.id,
             json.name,
-            json.range,
+            json.ranged,
             json.description,
             json.stats,
-            json.image_url
+            json.imageUrl
         );
     }
 }

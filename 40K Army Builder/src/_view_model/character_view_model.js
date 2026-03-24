@@ -16,7 +16,7 @@ export default class CharacterViewModel {
     }
 
     async #init(){
-        this.characters = await CharacterProvider.getAllCharacters();
+        this.characters = await CharacterProvider.getCharacters();
     }
 
     static async getInstance(){

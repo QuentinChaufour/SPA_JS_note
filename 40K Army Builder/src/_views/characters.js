@@ -1,7 +1,7 @@
 import './styles/character_list.css';
 
 import CharacterViewModel from "../_view_model/character_view_model";
-import CharacterShort from "../_components/characters/character_short";
+import CharacterShort from "../_components/characters/card/character_short";
 import router from "../router";
 
 export default class Characters{
@@ -30,6 +30,7 @@ export default class Characters{
 
     async post_render() {
         const model = await CharacterViewModel.getInstance();
+        const characters = model.getPaginatedCharacters();
 
         document.querySelector('#prev_page').addEventListener('click', async () => {
             model.previousPage();
@@ -40,7 +41,14 @@ export default class Characters{
         document.querySelector('#next_page').addEventListener('click', async () => {
             model.nextPage();
             // Re-route to the same page to force a re-render
-            router();
+            router(); 
         });
+
+        // add listeners to all character cards for their detail redirection on click
+        for(let character of characters){
+            document.querySelector(`#character-${character.id}`).addEventListener('click', () => {
+                window.location.hash = `/characters/${character.id}`;
+            });
+        }
     }
 }

@@ -13,7 +13,7 @@ export default class Character {
      * @param {string} rank the rank of the character in the army
      * @param {Object} stats the stats of the character (WS, BS, S, T, W, A, Ld, Sv)
      * @param {Weapon} range_weapon the range weapons of the character
-     * @param {Weapon} close_combat_weapon the close combat weapons of the character
+     * @param {Weapon} melee_weapon the close combat weapons of the character
      * @param {Armour} armour the armour of the character 
      * @param {int} points the points cost of the character
      * @param {string} lore the lore of the character
@@ -28,7 +28,7 @@ export default class Character {
         rank,
         stats,
         range_weapon,
-        close_combat_weapon,
+        melee_weapon,
         armour,
         points,
         lore,
@@ -42,7 +42,7 @@ export default class Character {
         this._rank = rank;
         this._stats = stats;
         this._range_weapon = range_weapon;
-        this._close_combat_weapon = close_combat_weapon;
+        this._melee_weapon = melee_weapon;
         this._armour = armour;
         this._points = points;
         this._lore = lore;
@@ -111,7 +111,7 @@ export default class Character {
     get weapons() {
         return {
             range: this._range_weapon,
-            closeCombat: this._close_combat_weapon
+            melee: this._melee_weapon
         };
     }
 
@@ -125,8 +125,8 @@ export default class Character {
     /**
      * @param {Weapon} weapon the close combat weapon of the character
      */
-    set close_combat_weapon(weapon) {
-        this._close_combat_weapon = weapon;
+    set melee_weapon(weapon) {
+        this._melee_weapon = weapon;
     }
 
     /**
@@ -190,9 +190,6 @@ export default class Character {
             json.role,
             json.rank,
             json.stats,
-            //new Weapon.fromJson(json.range_weapon),
-            //new Weapon.fromJson(json.close_combat_weapon),
-            //new Armour.fromJson(json.armour),
             null,
             null,
             null,
