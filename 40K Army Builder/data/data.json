@@ -1,7 +1,7 @@
 {
   "factions": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Adeptus Astartes",
       "shortName": "Space Marines",
       "allegiance": "Imperium",
@@ -10,7 +10,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/7/79/Simple_Badge_Space_Marines.png/100px-Simple_Badge_Space_Marines.png"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Chaos Space Marines",
       "shortName": "Chaos",
       "allegiance": "Chaos",
@@ -19,7 +19,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/7/73/Simple_Badge_Chaos_Space_Marines.png/100px-Simple_Badge_Chaos_Space_Marines.png"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Necrons",
       "shortName": "Necrons",
       "allegiance": "Xénos",
@@ -28,7 +28,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/f/fd/Simple_Badge_Necrons.png/100px-Simple_Badge_Necrons.png"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Aeldari",
       "shortName": "Eldar",
       "allegiance": "Xénos",
@@ -37,7 +37,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/6/66/Simple_Badge_Eldar.png/100px-Simple_Badge_Eldar.png"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Orks",
       "shortName": "Orks",
       "allegiance": "Xénos",
@@ -46,7 +46,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/d/d8/Simple_Badge_Orks.png/100px-Simple_Badge_Orks.png"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Tyranids",
       "shortName": "Tyranids",
       "allegiance": "Xénos",
@@ -55,7 +55,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/0/0a/Simple_Badge_Tyranids.png/100px-Simple_Badge_Tyranids.png"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "T'au Empire",
       "shortName": "T'au",
       "allegiance": "Xénos",
@@ -64,7 +64,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/1/17/Simple_Badge_Tau.png/100px-Simple_Badge_Tau.png"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Astra Militarum",
       "shortName": "Astra Militarum",
       "allegiance": "Imperium",
@@ -73,7 +73,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/f/f3/Simple_Badge_Astra_Militarum.png/100px-Simple_Badge_Astra_Militarum.png"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Adeptus Mechanicus",
       "shortName": "Mechanicus",
       "allegiance": "Imperium",
@@ -82,7 +82,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/4/47/Simple_Badge_Adeptus_Mechanicus.png/100px-Simple_Badge_Adeptus_Mechanicus.png"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Legio Titanica",
       "shortName": "Titans",
       "allegiance": "Imperium",
@@ -93,7 +93,7 @@
   ],
   "sub_factions": [
     {
-      "id": 1,
+      "id": "1",
       "factionId": 1,
       "name": "Dark Angels",
       "type": "chapter",
@@ -101,7 +101,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/9/95/Darkangelsymbol.png/90px-Darkangelsymbol.png"
     },
     {
-      "id": 2,
+      "id": "2",
       "factionId": 1,
       "name": "Ultramarines",
       "type": "chapter",
@@ -109,7 +109,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/6/67/Ultramarinessymbol.png/90px-Ultramarinessymbol.png"
     },
     {
-      "id": 3,
+      "id": "3",
       "factionId": 1,
       "name": "Blood Angels",
       "type": "chapter",
@@ -117,7 +117,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e5/Bloodangelsymbol.png/90px-Bloodangelsymbol.png"
     },
     {
-      "id": 4,
+      "id": "4",
       "factionId": 1,
       "name": "Space Wolves",
       "type": "chapter",
@@ -125,7 +125,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/4/4f/Spacewolvesymbol.png/90px-Spacewolvesymbol.png"
     },
     {
-      "id": 5,
+      "id": "5",
       "factionId": 1,
       "name": "Black Templars",
       "type": "chapter",
@@ -133,7 +133,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/5/58/BlackTemplarssymbol.png/90px-BlackTemplarssymbol.png"
     },
     {
-      "id": 6,
+      "id": "6",
       "factionId": 1,
       "name": "Salamanders",
       "type": "chapter",
@@ -141,7 +141,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/7/76/Salamanderssymbol.png/90px-Salamanderssymbol.png"
     },
     {
-      "id": 7,
+      "id": "7",
       "factionId": 1,
       "name": "Iron Hands",
       "type": "chapter",
@@ -149,7 +149,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/0/00/IronHandssymbol.png/90px-IronHandssymbol.png"
     },
     {
-      "id": 8,
+      "id": "8",
       "factionId": 1,
       "name": "Raven Guard",
       "type": "chapter",
@@ -157,7 +157,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/8/82/RavenGuardsymbol.png/90px-RavenGuardsymbol.png"
     },
     {
-      "id": 9,
+      "id": "9",
       "factionId": 1,
       "name": "White Scars",
       "type": "chapter",
@@ -165,7 +165,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/6/66/WhiteScarssymbol.png/90px-WhiteScarssymbol.png"
     },
     {
-      "id": 10,
+      "id": "10",
       "factionId": 1,
       "name": "Imperial Fists",
       "type": "chapter",
@@ -173,7 +173,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/8/85/IFsymbol.png/90px-IFsymbol.png"
     },
     {
-      "id": 11,
+      "id": "11",
       "factionId": 1,
       "name": "Mantis Warriors",
       "type": "successorChapter",
@@ -181,7 +181,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/a/af/Mantis_Warriors_Livery.JPG/65px-Mantis_Warriors_Livery.JPG"
     },
     {
-      "id": 12,
+      "id": "12",
       "factionId": 1,
       "name": "Carcharodons",
       "type": "successorChapter",
@@ -189,7 +189,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/8/8b/SSharksSymbol.jpg/65px-SSharksSymbol.jpg"
     },
     {
-      "id": 13,
+      "id": "13",
       "factionId": 1,
       "name": "Lamenters",
       "type": "successorChapter",
@@ -197,7 +197,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/6/65/LamentersChapterIconV2.png/65px-LamentersChapterIconV2.png"
     },
     {
-      "id": 15,
+      "id": "15",
       "factionId": 2,
       "name": "World Eaters",
       "type": "warband",
@@ -205,7 +205,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/f/fc/WorldEaters.png/81px-WorldEaters.png"
     },
     {
-      "id": 16,
+      "id": "16",
       "factionId": 2,
       "name": "Emperor's Children",
       "type": "warband",
@@ -213,7 +213,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/2/22/Emperorschildren.png/81px-Emperorschildren.png"
     },
     {
-      "id": 17,
+      "id": "17",
       "factionId": 2,
       "name": "Death Guard",
       "type": "warband",
@@ -221,7 +221,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/9/97/Deathguardsymbol.png/92px-Deathguardsymbol.png"
     },
     {
-      "id": 18,
+      "id": "18",
       "factionId": 2,
       "name": "Thousand Sons",
       "type": "warband",
@@ -229,7 +229,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/8/86/TSicon.png/95px-TSicon.png"
     },
     {
-      "id": 19,
+      "id": "19",
       "factionId": 2,
       "name": "Black Legion",
       "type": "warband",
@@ -237,7 +237,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/2/23/Blacklegion.png/89px-Blacklegion.png"
     },
     {
-      "id": 32,
+      "id": "32",
       "factionId": 2,
       "name": "Iron Warriors",
       "type": "warband",
@@ -245,7 +245,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/1/1c/Ironwarriors.png/90px-Ironwarriors.png"
     },
     {
-      "id": 33,
+      "id": "33",
       "factionId": 2,
       "name": "Night Lords",
       "type": "warband",
@@ -253,7 +253,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/9/90/Nightlords.png/81px-Nightlords.png"
     },
     {
-      "id": 34,
+      "id": "34",
       "factionId": 2,
       "name": "Word Bearers",
       "type": "warband",
@@ -261,7 +261,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/6/64/Wordbearers.png/81px-Wordbearers.png"
     },
     {
-      "id": 35,
+      "id": "35",
       "factionId": 2,
       "name": "Alpha Legion",
       "type": "warband",
@@ -269,35 +269,35 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e1/Alphalegion.png/90px-Alphalegion.png"
     },
     {
-      "id": 20,
+      "id": "20",
       "factionId": 8,
       "name": "Cadians",
       "type": "regiment",
       "homeworld": "Cadia"
     },
     {
-      "id": 21,
+      "id": "21",
       "factionId": 8,
       "name": "Death Korps of Krieg",
       "type": "regiment",
       "homeworld": "Krieg"
     },
     {
-      "id": 22,
+      "id": "22",
       "factionId": 8,
       "name": "Catachans",
       "type": "regiment",
       "homeworld": "Catachan"
     },
     {
-      "id": 23,
+      "id": "23",
       "factionId": 8,
       "name": "Vostroyans",
       "type": "regiment",
       "homeworld": "Vostroyan"
     },
     {
-      "id": 24,
+      "id": "24",
       "factionId": 9,
       "name": "Skitarii of Mars",
       "type": "forge",
@@ -305,7 +305,7 @@
       "iconUrl": "https://wh40k-fr.lexicanum.com/mediawiki/images/0/0b/EmblemeSkitarri.jpg"
     },
     {
-      "id": 25,
+      "id": "25",
       "factionId": 9,
       "name": "Skitarii of Ryza",
       "type": "forge",
@@ -313,7 +313,7 @@
       "iconUrl": "https://wh40k-fr.lexicanum.com/mediawiki/images/0/0b/EmblemeSkitarri.jpg"
     },
     {
-      "id": 26,
+      "id": "26",
       "factionId": 13,
       "name": "Legio Mortis",
       "type": "titanLegion",
@@ -321,7 +321,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/3/34/MortisSymbolHH.jpg"
     },
     {
-      "id": 27,
+      "id": "27",
       "factionId": 13,
       "name": "Legio Gryphonicus",
       "type": "titanLegion",
@@ -329,7 +329,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/6/64/Legio-Gryphonicus-Symbol.jpg/375px-Legio-Gryphonicus-Symbol.jpg"
     },
     {
-      "id": 28,
+      "id": "28",
       "factionId": 13,
       "name": "Legio Metalica",
       "type": "titanLegion",
@@ -337,7 +337,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/5/57/MetalicaSymbol.jpg"
     },
     {
-      "id": 29,
+      "id": "29",
       "factionId": 1,
       "name": "Adeptus Custodes",
       "type": "imperialOrganisation",
@@ -346,7 +346,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e3/CustodesSymbolClear.png/90px-CustodesSymbolClear.png"
     },
     {
-      "id": 30,
+      "id": "30",
       "factionId": 1,
       "name": "Grey Knights",
       "type": "chapter",
@@ -355,7 +355,7 @@
       "iconUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/0/06/Deathwatchsymbol2.png/90px-Deathwatchsymbol2.png"
     },
     {
-      "id": 31,
+      "id": "31",
       "factionId": 1,
       "name": "Deathwatch",
       "type": "chapter",
@@ -366,7 +366,7 @@
   ],
   "legions": [
     {
-      "id": 1,
+      "id": "1",
       "number": "I",
       "name": "Dark Angels",
       "status": "Loyalist",
@@ -377,7 +377,7 @@
       "lore": "The First Legion, half of which turned traitor during the Horus Heresy. The truth is kept secret; the Fallen are hunted eternally by the Ravenwing and the Inner Circle. Lion El'Jonson sleeps within the depths of the Rock, awaiting the hour of greatest need."
     },
     {
-      "id": 3,
+      "id": "3",
       "number": "III",
       "name": "Emperor's Children",
       "status": "Traitor",
@@ -388,7 +388,7 @@
       "lore": "A Legion devoted to martial perfection, corrupted by Slaanesh during the Siege of Terra. Fulgrim himself slew Primarch Ferrus Manus before being possessed. Their transgressions against Terra's people remain among the darkest acts of the war."
     },
     {
-      "id": 4,
+      "id": "4",
       "number": "IV",
       "name": "Iron Warriors",
       "status": "Traitor",
@@ -399,7 +399,7 @@
       "lore": "Masters of siege warfare, consumed by jealousy towards the Imperial Fists and resentment towards the Emperor. Perturabo massacred his own homeworld before joining Horus out of spite."
     },
     {
-      "id": 5,
+      "id": "5",
       "number": "V",
       "name": "White Scars",
       "status": "Loyalist",
@@ -410,7 +410,7 @@
       "lore": "A Legion of nomadic steppe riders, masters of swift hit-and-run warfare. Jaghatai Khan nearly sided with Horus, then vanished into the Webway. Successors include the Mantis Warriors."
     },
     {
-      "id": 6,
+      "id": "6",
       "number": "VI",
       "name": "Space Wolves",
       "status": "Loyalist",
@@ -421,7 +421,7 @@
       "lore": "A Legion of Fenrisian wolf-warriors who refuse to be divided into successor Chapters. Leman Russ disappeared into the Warp in pursuit of Horus. The current Great Wolf is Logan Grimnar."
     },
     {
-      "id": 7,
+      "id": "7",
       "number": "VII",
       "name": "Imperial Fists",
       "status": "Loyalist",
@@ -432,7 +432,7 @@
       "lore": "Defenders of Terra during the Horus Heresy. Rogal Dorn sacrificed himself in an ambush. Their successors include the Black Templars and the Crimson Fists."
     },
     {
-      "id": 8,
+      "id": "8",
       "number": "VIII",
       "name": "Night Lords",
       "status": "Traitor",
@@ -443,7 +443,7 @@
       "lore": "A Legion of terror recruited from the criminal undercity of Nostramo. Conrad Kurze — the Night Haunter — accepted his assassination as penance. The Legion has since fragmented into bands of mercenary pirates."
     },
     {
-      "id": 9,
+      "id": "9",
       "number": "IX",
       "name": "Blood Angels",
       "status": "Loyalist",
@@ -454,7 +454,7 @@
       "lore": "The Legion of angels, cursed by the Black Rage and the Red Thirst following the death of Primarch Sanguinius. Every Blood Angel carries a vision of their father's death. Successors include the Lamenters and the Blood Drinkers."
     },
     {
-      "id": 10,
+      "id": "10",
       "number": "X",
       "name": "Iron Hands",
       "status": "Loyalist",
@@ -465,7 +465,7 @@
       "lore": "A Legion of cybernetic augmentation fanatics. Ferrus Manus was slain by Fulgrim at Isstvan V. In response, the Legion turned to the total rejection of flesh. The Clan Council rules in the absence of a Primarch."
     },
     {
-      "id": 12,
+      "id": "12",
       "number": "XII",
       "name": "World Eaters",
       "status": "Traitor",
@@ -476,7 +476,7 @@
       "lore": "A Legion of berserkers whose Primarch Angron had the Butcher's Nails implanted, condemning the entire Legion to blood frenzy. The sole servants of Khorne among the Traitor Legions."
     },
     {
-      "id": 13,
+      "id": "13",
       "number": "XIII",
       "name": "Ultramarines",
       "status": "Loyalist",
@@ -487,7 +487,7 @@
       "lore": "The largest loyalist Legion and authors of the Codex Astartes. Roboute Guilliman, resurrected, leads the Indomitus Crusade. Their realm of Ultramar spans 500 worlds. They have countless successor Chapters."
     },
     {
-      "id": 14,
+      "id": "14",
       "number": "XIV",
       "name": "Death Guard",
       "status": "Traitor",
@@ -498,7 +498,7 @@
       "lore": "Once a stoic and resilient Legion, transformed into vectors of plague during the Heresy. Mortarion offered his Legion to Nurgle rather than watch his men die of a Warp plague. Typhus serves as their Herald."
     },
     {
-      "id": 15,
+      "id": "15",
       "number": "XV",
       "name": "Thousand Sons",
       "status": "Traitor",
@@ -509,7 +509,7 @@
       "lore": "A Legion of psykers whose Primarch Magnus the Red tried to prevent the Heresy — and failed. The Space Wolves ravaged Prospero. During the Siege, Magnus shattered Terra's psychic defences. Ahriman's Rubric transformed the entire Legion into dust automatons."
     },
     {
-      "id": 16,
+      "id": "16",
       "number": "XVI",
       "name": "Black Legion (ex-Luna Wolves / Sons of Horus)",
       "status": "Traitor",
@@ -520,7 +520,7 @@
       "lore": "Horus's own Legion, renamed the Black Legion by Abaddon after his master's death. Abaddon has led 13 Black Crusades to destroy the Imperium; the 13th saw the fall of Cadia."
     },
     {
-      "id": 17,
+      "id": "17",
       "number": "XVII",
       "name": "Word Bearers",
       "status": "Traitor",
@@ -531,7 +531,7 @@
       "lore": "The Legion that ignited the Horus Heresy as fanatical Chaos devotees. Lorgar authored the Book of Lorgar — the sacred text of Chaos. Erebus and Kor Phaeron were the first to fall."
     },
     {
-      "id": 18,
+      "id": "18",
       "number": "XVIII",
       "name": "Salamanders",
       "status": "Loyalist",
@@ -542,7 +542,7 @@
       "lore": "A Legion renowned for its compassion towards civilians — rare among Space Marines. Vulkan, their Primarch, is a Perpetual and travelled through time. They seek the nine Artefacts of Vulkan."
     },
     {
-      "id": 19,
+      "id": "19",
       "number": "XIX",
       "name": "Raven Guard",
       "status": "Loyalist",
@@ -553,7 +553,7 @@
       "lore": "Masters of shadow warfare and infiltration. Corax attempted to rebuild his Legion by accelerating gene-crafting after Isstvan V — with catastrophic results. He exiled himself into the darkness."
     },
     {
-      "id": 20,
+      "id": "20",
       "number": "XX",
       "name": "Alpha Legion",
       "status": "Traitor",
@@ -566,126 +566,126 @@
   ],
   "primarchs": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Lion El'Jonson",
       "legionId": 1,
       "status": "Dormant — within the depths of the Rock",
       "lore": "The most tactically gifted of the Primarchs. He kept deep secrets. He sleeps within the Rock since the destruction of Caliban, awaiting the hour of greatest need."
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Fulgrim",
       "legionId": 3,
       "status": "Daemon Prince of Slaanesh",
       "lore": "He sought absolute perfection and was corrupted by a daemonic sword. He slew Primarch Ferrus Manus with his own hand before being possessed. He became a serpentine Daemon Prince of Slaanesh."
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Perturabo",
       "legionId": 4,
       "status": "Daemon Prince of Chaos Undivided",
       "lore": "A genius of fortification and siege craft, consumed by jealousy. He massacred Olympia — his own homeworld — to punish a rebellion."
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Jaghatai Khan",
       "legionId": 5,
       "status": "Lost in the Webway",
       "lore": "The swiftest of the Primarchs, great master of manoeuvre warfare. He pursued Dark Eldar into the Webway. His fate — dead or still hunting — remains unknown."
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Leman Russ",
       "legionId": 6,
       "status": "Disappeared into the Warp — gone in search of the Wyrd",
       "lore": "The Emperor's Wolf, executioner of his brothers by the Emperor's will. He disappeared into the Warp after telling his wolves he would return at the end of days."
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Rogal Dorn",
       "legionId": 7,
       "status": "Killed in action — slain in an ambush",
       "lore": "Defender of Terra, architect of the Imperial Palace. He refused to flee an ambush; only his hand was recovered, enshrined in the Fist of Dorn."
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Conrad Kurze",
       "legionId": 8,
       "status": "Dead — assassinated (willingly accepted)",
       "lore": "The Night Haunter, who saw nightmares of the future. A sadist who used terror as a weapon. He accepted his assassination as an act of penance."
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Sanguinius",
       "legionId": 9,
       "status": "Dead — slain by Horus at the Siege of Terra",
       "lore": "The most beautiful and beloved of the Primarchs, bearer of angel wings. His death at Horus's hands created the Black Rage in his sons' geneseed. Considered the greatest sacrifice of the war."
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Ferrus Manus",
       "legionId": 10,
       "status": "Dead — beheaded by Fulgrim at Isstvan V",
       "lore": "Forged with living metal arms, supreme smith and brutal warrior. His death at Isstvan V was the moment Fulgrim definitively chose Slaanesh."
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Angron",
       "legionId": 12,
       "status": "Daemon Prince of Khorne",
       "lore": "A gladiator slave who became a Primarch, bearer of the Butcher's Nails which caused constant pain. He dragged his entire Legion into madness. One of the most powerful Daemon Primarchs."
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Roboute Guilliman",
       "legionId": 13,
       "status": "Alive — Lord Regent of the Imperium",
       "lore": "Author of the Codex Astartes, brilliant administrator of the Imperium. Slain by Fulgrim and later resurrected by Yvraine. He now leads the Indomitus Crusade to push back the Chaos threat."
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Mortarion",
       "legionId": 14,
       "status": "Daemon Prince of Nurgle",
       "lore": "A childhood spent in poison, surviving by sheer will. He resisted corruption longest before offering his soul to Nurgle to save his men from a Warp plague."
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Magnus the Red",
       "legionId": 15,
       "status": "Daemon Prince of Tzeentch",
       "lore": "The most powerful psyker among the Primarchs, one-eyed genius. He attempted to warn the Emperor of the Heresy through sorcery, accidentally shattering Terra's psychic defences."
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Horus Lupercal",
       "legionId": 16,
       "status": "Dead — slain by the Emperor at the Siege of Terra",
       "lore": "The most accomplished of the Primarchs, the Chosen One. Corrupted by Chaos during the Wound of Davin. He led the great rebellion and was slain by the Emperor, who sacrificed his own survival to defeat him."
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Lorgar",
       "legionId": 17,
       "status": "Daemon Prince of Chaos Undivided — in meditation",
       "lore": "Preacher and theologian who wrote the Book of Lorgar worshipping the Emperor as a god — which the Emperor refused. This humiliation drove him to Chaos. He has been meditating since the end of the Heresy."
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Vulkan",
       "legionId": 18,
       "status": "Alive — Perpetual, location unknown",
       "lore": "The only known Perpetual Primarch, incapable of dying permanently. A smith and compassionate protector, he travelled through time and space. He leaves artefacts to guide his sons."
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Corvus Corax",
       "legionId": 19,
       "status": "Exiled into the Warp — said 'Nevermore'",
       "lore": "A son of slaves turned liberator, master of shadows. After the horrors of his failed attempt to rebuild his Legion — creating monsters — he exiled himself while whispering 'Nevermore'."
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Alpharius / Omegon",
       "legionId": 20,
       "status": "Alpharius slain by Guilliman / Omegon's fate unknown",
@@ -694,469 +694,469 @@
   ],
   "ranks": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Primarch",
       "factionId": 1,
       "tier": 0,
       "description": "A demigod created by the Emperor, supreme commander of a Legion."
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Chapter Master",
       "factionId": 1,
       "tier": 1,
       "description": "Supreme commander of a Chapter, answerable only to the Emperor."
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Captain",
       "factionId": 1,
       "tier": 2,
       "description": "Commander of a Space Marine Company (100 warriors)."
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Chambelain",
       "factionId": 1,
       "tier": 2,
       "description": "Second to the Chapter Master, an honorary or functional commander."
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Chief Librarian",
       "factionId": 1,
       "tier": 2,
       "description": "The Chapter's most powerful psyker, guardian of its lore and the Astronomican."
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Librarian",
       "factionId": 1,
       "tier": 3,
       "description": "A Space Marine psyker — a warrior and keeper of knowledge."
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Master of Sanctity",
       "factionId": 1,
       "tier": 2,
       "description": "The supreme spiritual guardian of a Chapter, priest of the Aquila."
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Chaplain",
       "factionId": 1,
       "tier": 3,
       "description": "A warrior-priest responsible for the morale and faith of Space Marines."
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Master of the Forge",
       "factionId": 1,
       "tier": 2,
       "description": "The Chapter's chief engineer and liaison to the Adeptus Mechanicus."
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Techmarine",
       "factionId": 1,
       "tier": 3,
       "description": "A Priest of the Machine trained on Mars, who repairs and blesses wargear."
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Chief Apothecary",
       "factionId": 1,
       "tier": 2,
       "description": "Supreme medical officer and guardian of the Chapter's genetic lineage."
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Apothecary",
       "factionId": 1,
       "tier": 3,
       "description": "A battlefield medic who harvests Geneseed from the fallen."
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Sergeant",
       "factionId": 1,
       "tier": 4,
       "description": "Commander of a 10-man Space Marine squad."
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Veteran Space Marine",
       "factionId": 1,
       "tier": 5,
       "description": "A seasoned warrior of the 1st Company, bearer of Terminator armor."
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Space Marine",
       "factionId": 1,
       "tier": 6,
       "description": "A standard battle-brother of a Chapter."
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Initiate",
       "factionId": 1,
       "tier": 7,
       "description": "A recruit undergoing the implantation of the additional organs."
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Scout",
       "factionId": 1,
       "tier": 7,
       "description": "A lightly armed neophyte, still in training."
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Warmaster of Chaos",
       "factionId": 2,
       "tier": 1,
       "description": "Supreme lord of a Chaos warhost."
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Chaos Lord",
       "factionId": 2,
       "tier": 2,
       "description": "A powerful champion blessed by the Chaos Gods."
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Chaos Champion",
       "factionId": 2,
       "tier": 3,
       "description": "A warrior favoured by one or more Chaos Gods."
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Chaos Sorcerer",
       "factionId": 2,
       "tier": 3,
       "description": "A psyker devoted to Chaos, manipulator of Warp energies."
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Khorne Berzerker",
       "factionId": 2,
       "tier": 4,
       "description": "A World Eaters warrior possessed by Khorne's frenzy."
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "Plague Marine",
       "factionId": 2,
       "tier": 4,
       "description": "A Death Guard warrior, bearer of Nurgle's plagues."
     },
     {
-      "id": 26,
+      "id": "26",
       "name": "Rubric Marine",
       "factionId": 2,
       "tier": 4,
       "description": "A Thousand Son transformed into a hollow suit of armor animated by sorcery."
     },
     {
-      "id": 30,
+      "id": "30",
       "name": "Phaeron",
       "factionId": 3,
       "tier": 1,
       "description": "Ruler of a Necron Dynastia."
     },
     {
-      "id": 31,
+      "id": "31",
       "name": "Necron Lord",
       "factionId": 3,
       "tier": 2,
       "description": "A high-ranking Necron noble."
     },
     {
-      "id": 32,
+      "id": "32",
       "name": "Cryptek",
       "factionId": 3,
       "tier": 3,
       "description": "A Necron scientist-sorcerer mastering phase-shifting technologies."
     },
     {
-      "id": 33,
+      "id": "33",
       "name": "Guerrier Nécron",
       "factionId": 3,
       "tier": 6,
       "description": "The basic unit of a Necron army."
     },
     {
-      "id": 40,
+      "id": "40",
       "name": "Autarch",
       "factionId": 4,
       "tier": 2,
       "description": "An Aeldari military commander expert in all the Warrior Paths."
     },
     {
-      "id": 41,
+      "id": "41",
       "name": "Farseer",
       "factionId": 4,
       "tier": 2,
       "description": "An Aeldari seer, spiritual guide of the Craftworld."
     },
     {
-      "id": 42,
+      "id": "42",
       "name": "Exarque",
       "factionId": 4,
       "tier": 3,
       "description": "Master of a Warrior Path, unable to leave their chosen way."
     },
     {
-      "id": 50,
+      "id": "50",
       "name": "Warboss",
       "factionId": 5,
       "tier": 1,
       "description": "An Ork boss who dominates all others through sheer brute force."
     },
     {
-      "id": 51,
+      "id": "51",
       "name": "Nob",
       "factionId": 5,
       "tier": 3,
       "description": "A veteran Ork squad leader."
     },
     {
-      "id": 52,
+      "id": "52",
       "name": "Mekanic",
       "factionId": 5,
       "tier": 3,
       "description": "An instinctive Ork technician who repairs and upgrades machinery."
     },
     {
-      "id": 60,
+      "id": "60",
       "name": "Hive Tyrant",
       "factionId": 6,
       "tier": 1,
       "description": "The ultimate manifestation of the Hive Mind, a fleet commander."
     },
     {
-      "id": 61,
+      "id": "61",
       "name": "Tervigon",
       "factionId": 6,
       "tier": 2,
       "description": "A Tyranid brood mother who spawns Termagants during battle."
     },
     {
-      "id": 70,
+      "id": "70",
       "name": "Supreme Commander",
       "factionId": 7,
       "tier": 1,
       "description": "Commander-in-chief of the T'au Armed Forces."
     },
     {
-      "id": 71,
+      "id": "71",
       "name": "Shas'O (Commandant)",
       "factionId": 7,
       "tier": 2,
       "description": "A senior T'au commander and Crisis battlesuit pilot."
     },
     {
-      "id": 72,
+      "id": "72",
       "name": "Shas'El",
       "factionId": 7,
       "tier": 3,
       "description": "A mid-ranking T'au commander."
     },
     {
-      "id": 80,
+      "id": "80",
       "name": "Lord Commissar",
       "factionId": 8,
       "tier": 1,
       "description": "The supreme political officer of the Adeptus Ministorum within the Guard."
     },
     {
-      "id": 81,
+      "id": "81",
       "name": "Commissar",
       "factionId": 8,
       "tier": 2,
       "description": "A political officer who maintains discipline through the threat of summary execution."
     },
     {
-      "id": 82,
+      "id": "82",
       "name": "General",
       "factionId": 8,
       "tier": 2,
       "description": "An army commander of the Imperial Guard."
     },
     {
-      "id": 83,
+      "id": "83",
       "name": "Colonel",
       "factionId": 8,
       "tier": 3,
       "description": "A regimental commander."
     },
     {
-      "id": 84,
+      "id": "84",
       "name": "Command Officer",
       "factionId": 8,
       "tier": 4,
       "description": "A tactical command officer."
     },
     {
-      "id": 85,
+      "id": "85",
       "name": "Guard Sergeant",
       "factionId": 8,
       "tier": 5,
       "description": "A non-commissioned officer commanding a squad of 10 guardsmen."
     },
     {
-      "id": 86,
+      "id": "86",
       "name": "Imperial Guardsman",
       "factionId": 8,
       "tier": 6,
       "description": "A standard soldier of the Astra Militarum."
     },
     {
-      "id": 87,
+      "id": "87",
       "name": "Stormtrooper / Tempestus Scion",
       "factionId": 8,
       "tier": 4,
       "description": "The Guard's elite special forces units."
     },
     {
-      "id": 90,
+      "id": "90",
       "name": "Archmagos Dominus",
       "factionId": 9,
       "tier": 1,
       "description": "The highest technological rank of the Adeptus Mechanicus."
     },
     {
-      "id": 91,
+      "id": "91",
       "name": "Magos",
       "factionId": 9,
       "tier": 2,
       "description": "A high-ranking priest of the Adeptus Mechanicus."
     },
     {
-      "id": 92,
+      "id": "92",
       "name": "Tech-Priest",
       "factionId": 9,
       "tier": 3,
       "description": "A techno-priest of the Omnissiah."
     },
     {
-      "id": 93,
+      "id": "93",
       "name": "Skitarii Alpha",
       "factionId": 9,
       "tier": 4,
       "description": "Squad commander of Skitarii cyborg-soldiers."
     },
     {
-      "id": 94,
+      "id": "94",
       "name": "Skitarius",
       "factionId": 9,
       "tier": 6,
       "description": "A cyborg soldier of the Adeptus Mechanicus."
     },
     {
-      "id": 100,
+      "id": "100",
       "name": "Captain-General",
       "factionId": 1,
       "tier": 1,
       "description": "Supreme commander of the Adeptus Custodes."
     },
     {
-      "id": 101,
+      "id": "101",
       "name": "Tribune",
       "factionId": 1,
       "tier": 2,
       "description": "Commander of a Custodes cohort."
     },
     {
-      "id": 102,
+      "id": "102",
       "name": "Custodes Vétéran",
       "factionId": 1,
       "tier": 3,
       "description": "A seasoned guardian of the Imperial Palace."
     },
     {
-      "id": 103,
+      "id": "103",
       "name": "Custodes",
       "factionId": 1,
       "tier": 4,
       "description": "A guardian of the Emperor, surpassing any Space Marine."
     },
     {
-      "id": 110,
+      "id": "110",
       "name": "Supreme Grand Master of the Grey Knights",
       "factionId": 1,
       "tier": 1,
       "description": "Supreme commander of the Grey Knights, based on Titan."
     },
     {
-      "id": 111,
+      "id": "111",
       "name": "Grand Master",
       "factionId": 1,
       "tier": 2,
       "description": "Commander of a Grey Knights Brotherhood."
     },
     {
-      "id": 112,
+      "id": "112",
       "name": "Paladins",
       "factionId": 1,
       "tier": 3,
       "description": "Elite veterans of the Grey Knights, bearers of Terminator armor."
     },
     {
-      "id": 113,
+      "id": "113",
       "name": "Grey Knight",
       "factionId": 1,
       "tier": 4,
       "description": "A psyker Space Marine daemon hunter."
     },
     {
-      "id": 120,
+      "id": "120",
       "name": "Watch Commander",
       "factionId": 1,
       "tier": 1,
       "description": "Commander of a Deathwatch station."
     },
     {
-      "id": 121,
+      "id": "121",
       "name": "Watch Captain",
       "factionId": 1,
       "tier": 2,
       "description": "Commander of a Deathwatch Kill Team."
     },
     {
-      "id": 122,
+      "id": "122",
       "name": "Watch Master",
       "factionId": 1,
       "tier": 2,
       "description": "A senior Deathwatch veteran."
     },
     {
-      "id": 123,
+      "id": "123",
       "name": "Deathwatch Space Marine",
       "factionId": 1,
       "tier": 4,
       "description": "A warrior seconded from a Chapter to serve in the Long Watch."
     },
     {
-      "id": 130,
+      "id": "130",
       "name": "Princeps Senioris",
       "factionId": 13,
       "tier": 1,
       "description": "Titan legion commander and highest-ranking Titan pilot."
     },
     {
-      "id": 131,
+      "id": "131",
       "name": "Princeps",
       "factionId": 13,
       "tier": 2,
       "description": "A Titan pilot, mentally fused with their machine."
     },
     {
-      "id": 132,
+      "id": "132",
       "name": "Moderati",
       "factionId": 13,
       "tier": 3,
@@ -1165,13 +1165,13 @@
   ],
   "characters": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Azrael",
       "factionId": 1,
       "sub_factionId": 1,
       "rankId": 2,
       "typeId": 4,
-      "armorId": 5,
+      "armorId": "1",
       "lore": "Azrael is the Supreme Grand Master of the Dark Angels — the most senior Space Marine commander in the Imperium outside of the resurrected Primarchs. He has held his position for over a century, longer than almost any of his predecessors, guiding the Chapter through the darkness of the Cicatrix Maledictum with cold, calculating precision. As the bearer of the Lion Helm, a sacred relic passed from Grand Master to Grand Master, Azrael carries with him the entirety of the Dark Angels' most terrible secret: that during the Horus Heresy, half the Legion turned traitor and followed Luther in a rebellion on Caliban. These Fallen were scattered across time and space when Caliban was destroyed, and their recovery and redemption — or destruction — remains the Chapter's true, hidden purpose above all else. Azrael alone knows the full truth, and the weight of that knowledge has carved his face into a mask of perpetual tension. He is accompanied at all times by the Watcher in the Dark who bears his Lion Helm, a diminutive hooded creature whose nature is never spoken of. In battle, Azrael is a master tactician and a formidable warrior, his Artificer armor granting him protection rivalling Terminator plate. His Sword of Secrets can cleave through daemon and traitor alike, and his plasma pistol has ended the careers of more heretics than most warriors could count. He views Roboute Guilliman's reforms with deep suspicion, reluctant to allow anyone — even a Primarch — to look too closely at the inner workings of the First Legion.",
       "stats": {
         "M": "6\"",
@@ -1181,13 +1181,13 @@
         "LD": "9+",
         "OC": 1
       },
-      "meleeWeaponId": 101,
-      "rangedWeaponId": 2,
+      "meleeWeaponId": "101",
+      "rangedWeaponId": "2",
       "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101379_Azrael1.jpg?fm=webp&w=892&h=920",
       "points": 115
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Marneus Calgar",
       "factionId": 1,
       "sub_factionId": 2,
@@ -1209,7 +1209,7 @@
       "points": 160
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Dante",
       "factionId": 1,
       "sub_factionId": 3,
@@ -1231,7 +1231,7 @@
       "points": 130
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Logan Grimnar",
       "factionId": 1,
       "sub_factionId": 4,
@@ -1253,7 +1253,7 @@
       "points": 130
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Vulkan He'stan",
       "factionId": 1,
       "sub_factionId": 6,
@@ -1275,7 +1275,7 @@
       "points": 100
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Helbrecht",
       "factionId": 1,
       "sub_factionId": 5,
@@ -1297,7 +1297,7 @@
       "points": 120
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Abaddon the Despoiler",
       "factionId": 2,
       "sub_factionId": 19,
@@ -1319,13 +1319,13 @@
       "points": 280
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Khârn the Betrayer",
       "factionId": 2,
       "sub_factionId": 15,
       "rankId": 22,
       "typeId": 1,
-      "armorId": 2,
+      "armorId": "2",
       "lore": "Khârn the Betrayer was not always a monster. During the Great Crusade, he was one of the most respected warriors among the World Eaters — Angron's equerry, his keeper, the one man capable of reasoning with the blood-maddened Primarch. He tried desperately to prevent the Legion's descent into Khorne worship, watching in horror as the Butcher's Nails — the cranial implants that amplified aggression and blocked the pain receptors — consumed his brothers one by one. When Angron forcibly implanted the Nails into his own Legion against Khârn's protests, Khârn submitted. And the Nails did to him what they had done to everyone else — stripped away everything but the hunger for blood and combat. His defining act of damnation came at the Skalathrax Massacre, where during a Night Lords campaign on an ice world, both sides pulled back from the cold. Khârn, unwilling to stop fighting, used a flamer to torch the World Eaters' own camps, killing hundreds of his own brothers to force them back into battle. The Legion splintered that night and never reformed. Khârn fights for Khorne now, not for any human purpose — he is a weapon given flesh, and Khorne is well pleased. He always returns from death. Always.",
       "stats": {
         "M": "6\"",
@@ -1341,7 +1341,7 @@
       "points": 100
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Ahriman",
       "factionId": 2,
       "sub_factionId": 18,
@@ -1363,7 +1363,7 @@
       "points": 140
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Typhus",
       "factionId": 2,
       "sub_factionId": 17,
@@ -1385,7 +1385,7 @@
       "points": 175
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Ghazghkull Thraka",
       "factionId": 5,
       "rankId": 50,
@@ -1406,7 +1406,7 @@
       "points": 300
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Imotekh the Stormlord",
       "factionId": 3,
       "rankId": 30,
@@ -1427,7 +1427,7 @@
       "points": 130
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Eldrad Ulthran",
       "factionId": 4,
       "rankId": 41,
@@ -1448,7 +1448,7 @@
       "points": 130
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "The Swarmlord",
       "factionId": 6,
       "rankId": 60,
@@ -1469,7 +1469,7 @@
       "points": 230
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Commander Shadowsun",
       "factionId": 7,
       "rankId": 70,
@@ -1490,7 +1490,7 @@
       "points": 115
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Roboute Guilliman",
       "factionId": 1,
       "sub_factionId": 2,
@@ -1512,7 +1512,7 @@
       "points": 380
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Belisarius Cawl",
       "factionId": 9,
       "rankId": 90,
@@ -1533,7 +1533,7 @@
       "points": 200
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Lucius the Eternal",
       "factionId": 2,
       "sub_factionId": 16,
@@ -1555,7 +1555,7 @@
       "points": 90
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Mephiston",
       "factionId": 1,
       "sub_factionId": 3,
@@ -1577,7 +1577,7 @@
       "points": 135
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Trazyn the Infinite",
       "factionId": 3,
       "rankId": 30,
@@ -1598,7 +1598,7 @@
       "points": 100
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Sebastian Yarrick",
       "factionId": 8,
       "sub_factionId": 20,
@@ -1620,7 +1620,7 @@
       "points": 60
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Ibram Gaunt",
       "factionId": 8,
       "rankId": 83,
@@ -1641,7 +1641,7 @@
       "points": 55
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Ursarkar E. Creed",
       "factionId": 8,
       "sub_factionId": 20,
@@ -1663,7 +1663,7 @@
       "points": 50
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Inquisitor Greyfax",
       "factionId": 1,
       "rankId": 2,
@@ -1684,7 +1684,7 @@
       "points": 65
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "Canoness Veridyan",
       "factionId": 1,
       "rankId": 2,
@@ -1705,7 +1705,7 @@
       "points": 65
     },
     {
-      "id": 26,
+      "id": "26",
       "name": "Ragnar Blackmane",
       "factionId": 1,
       "sub_factionId": 4,
@@ -1727,7 +1727,7 @@
       "points": 110
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "Ezekiel",
       "factionId": 1,
       "sub_factionId": 1,
@@ -1749,7 +1749,7 @@
       "points": 80
     },
     {
-      "id": 28,
+      "id": "28",
       "name": "Kaldor Draigo",
       "factionId": 1,
       "rankId": 110,
@@ -1771,7 +1771,7 @@
       "points": 200
     },
     {
-      "id": 29,
+      "id": "29",
       "name": "Trajann Valoris",
       "factionId": 1,
       "rankId": 100,
@@ -1793,7 +1793,7 @@
       "points": 200
     },
     {
-      "id": 30,
+      "id": "30",
       "name": "Njal Stormcaller",
       "factionId": 1,
       "sub_factionId": 4,
@@ -1815,7 +1815,7 @@
       "points": 100
     },
     {
-      "id": 31,
+      "id": "31",
       "name": "Asurmen",
       "factionId": 4,
       "rankId": 42,
@@ -1836,7 +1836,7 @@
       "points": 160
     },
     {
-      "id": 32,
+      "id": "32",
       "name": "Jain Zar",
       "factionId": 4,
       "rankId": 42,
@@ -1857,7 +1857,7 @@
       "points": 140
     },
     {
-      "id": 33,
+      "id": "33",
       "name": "Nauseous Rotbone",
       "factionId": 2,
       "sub_factionId": 17,
@@ -1879,7 +1879,7 @@
       "points": 55
     },
     {
-      "id": 34,
+      "id": "34",
       "name": "Kyria Draxus",
       "factionId": 1,
       "rankId": 122,
@@ -1901,7 +1901,7 @@
       "points": 70
     },
     {
-      "id": 35,
+      "id": "35",
       "name": "Commander Farsight",
       "factionId": 7,
       "rankId": 71,
@@ -1922,7 +1922,7 @@
       "points": 150
     },
     {
-      "id": 36,
+      "id": "36",
       "name": "Bjorn the Fell-Handed",
       "factionId": 1,
       "sub_factionId": 4,
@@ -1946,7 +1946,7 @@
   ],
   "weapons": [
     {
-      "id": 2,
+      "id": "2",
       "name": "Plasma Pistol",
       "category": "Pistol",
       "ranged": true,
@@ -1960,7 +1960,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/5/53/Plasmapistolvalthek.jpg/225px-Plasmapistolvalthek.jpg"
     },
     {
-      "id": 101,
+      "id": "101",
       "name": "Sword of Secrets",
       "category": "Force Sword",
       "ranged": false,
@@ -1974,7 +1974,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/8/88/SwordOfSecrets.jpg/330px-SwordOfSecrets.jpg"
     },
     {
-      "id": 102,
+      "id": "102",
       "name": "Gauntlets of Ultramar",
       "category": "Power Gauntlet",
       "ranged": false,
@@ -1988,7 +1988,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/4/41/UltramarGauntlet.jpg/450px-UltramarGauntlet.jpg"
     },
     {
-      "id": 103,
+      "id": "103",
       "name": "Gorechild",
       "category": "Chainaxe",
       "ranged": false,
@@ -2002,7 +2002,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/1/10/Gorechild.jpg/330px-Gorechild.jpg"
     },
     {
-      "id": 104,
+      "id": "104",
       "name": "Axe Mortalis",
       "category": "Force Axe",
       "ranged": false,
@@ -2016,7 +2016,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/b/b6/AxeMortalis.jpg/300px-AxeMortalis.jpg"
     },
     {
-      "id": 105,
+      "id": "105",
       "name": "Morkai Axe",
       "category": "Double-headed Force Axe",
       "ranged": false,
@@ -2030,7 +2030,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/c/c6/AxeOfMorkai.jpg/330px-AxeOfMorkai.jpg"
     },
     {
-      "id": 106,
+      "id": "106",
       "name": "Spear of Vulkan",
       "category": "Force Spear",
       "ranged": false,
@@ -2044,7 +2044,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/3/31/SpearOfVulkan.jpg/300px-SpearOfVulkan.jpg"
     },
     {
-      "id": 107,
+      "id": "107",
       "name": "High Marshal's Sword",
       "category": "Combat Sword",
       "ranged": false,
@@ -2058,7 +2058,7 @@
       "imageUrl": null
     },
     {
-      "id": 108,
+      "id": "108",
       "name": "Drach'nyen",
       "category": "Daemon Sword",
       "ranged": false,
@@ -2072,7 +2072,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/6/60/Daemon_Sword_Drach%27nyen.png/750px-Daemon_Sword_Drach%27nyen.png"
     },
     {
-      "id": 109,
+      "id": "109",
       "name": "Talon of Horus",
       "category": "Chaos Talon",
       "ranged": true,
@@ -2086,7 +2086,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/5/5a/TalonOfHorus.jpg/330px-TalonOfHorus.jpg"
     },
     {
-      "id": 110,
+      "id": "110",
       "name": "Ahriman's Force Staff",
       "category": "Sorcerer's Staff",
       "ranged": true,
@@ -2100,7 +2100,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/a/a8/BlackStaff.jpg/300px-BlackStaff.jpg"
     },
     {
-      "id": 111,
+      "id": "111",
       "name": "Manreaper",
       "category": "Chaos Scythe",
       "ranged": false,
@@ -2114,7 +2114,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/7/7b/Manreaper.jpg/270px-Manreaper.jpg"
     },
     {
-      "id": 112,
+      "id": "112",
       "name": "Hand of Dominion",
       "category": "Power Gauntlet",
       "ranged": true,
@@ -2128,7 +2128,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/b/b1/HandOfDominion.jpg"
     },
     {
-      "id": 113,
+      "id": "113",
       "name": "Lash of Torment",
       "category": "Daemon Whip",
       "ranged": false,
@@ -2142,7 +2142,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/d/df/LashOfTorment.jpg/330px-LashOfTorment.jpg"
     },
     {
-      "id": 114,
+      "id": "114",
       "name": "Vitarus",
       "category": "Force Sword",
       "ranged": false,
@@ -2156,7 +2156,7 @@
       "imageUrl": null
     },
     {
-      "id": 201,
+      "id": "201",
       "name": "Staff of the Destroyer",
       "category": "Necron Staff",
       "ranged": true,
@@ -2170,7 +2170,7 @@
       "imageUrl": null
     },
     {
-      "id": 202,
+      "id": "202",
       "name": "Staff of Ulthamar",
       "category": "Sorcerer's Staff",
       "ranged": true,
@@ -2184,7 +2184,7 @@
       "imageUrl": null
     },
     {
-      "id": 203,
+      "id": "203",
       "name": "Empathic Obliterator",
       "category": "Necron Staff",
       "ranged": true,
@@ -2198,7 +2198,7 @@
       "imageUrl": null
     },
     {
-      "id": 301,
+      "id": "301",
       "name": "Mork's Roar",
       "category": "Mega-Reinforced Shoota",
       "ranged": true,
@@ -2212,7 +2212,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e3/MorksRoar.jpg/300px-MorksRoar.jpg"
     },
     {
-      "id": 302,
+      "id": "302",
       "name": "Gork's Klaw",
       "category": "Mega Power Klaw",
       "ranged": false,
@@ -2226,7 +2226,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/2/27/GorksKlaw.jpg/300px-GorksKlaw.jpg"
     },
     {
-      "id": 401,
+      "id": "401",
       "name": "Monstrous Boneswords",
       "category": "Tyranid Blade",
       "ranged": false,
@@ -2240,7 +2240,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e2/BoneswordBit.jpg/240px-BoneswordBit.jpg"
     },
     {
-      "id": 501,
+      "id": "501",
       "name": "Twin Fusion Blasters",
       "category": "Fusion Weapon",
       "ranged": true,
@@ -2254,7 +2254,7 @@
       "imageUrl": null
     },
     {
-      "id": 601,
+      "id": "601",
       "name": "Cawl's Radium Arquebus",
       "category": "Radium Weapon",
       "ranged": true,
@@ -2268,7 +2268,7 @@
       "imageUrl": null
     },
     {
-      "id": 700,
+      "id": "700",
       "name": "Commissar's Bolt Pistol (Yarrick)",
       "category": "Bolt Pistol",
       "ranged": true,
@@ -2282,7 +2282,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/3/3d/Nmrb2-46-laspistol.jpg"
     },
     {
-      "id": 701,
+      "id": "701",
       "name": "Yarrick's Power Klaw",
       "category": "Combat Klaw",
       "ranged": false,
@@ -2296,7 +2296,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/a/aa/Power_Klaw_2.jpg/450px-Power_Klaw_2.jpg"
     },
     {
-      "id": 702,
+      "id": "702",
       "name": "Épée Tanith",
       "category": "Combat Sword",
       "ranged": false,
@@ -2310,7 +2310,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/2/23/TanithKnife.jpg"
     },
     {
-      "id": 703,
+      "id": "703",
       "name": "Combat Bolter",
       "category": "Bolter",
       "ranged": true,
@@ -2324,7 +2324,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/e/ee/Bolter_-_Astartes_MK_Vb.jpg"
     },
     {
-      "id": 705,
+      "id": "705",
       "name": "Condemnor Boltgun",
       "category": "Specialised Boltgun",
       "ranged": true,
@@ -2338,7 +2338,7 @@
       "imageUrl": null
     },
     {
-      "id": 706,
+      "id": "706",
       "name": "Holy Sword (Sororitas)",
       "category": "Combat Sword",
       "ranged": false,
@@ -2352,7 +2352,7 @@
       "imageUrl": null
     },
     {
-      "id": 707,
+      "id": "707",
       "name": "Frostfang (Ragnar)",
       "category": "Force Sword",
       "ranged": false,
@@ -2366,7 +2366,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/d/d7/FrostBlade.jpg/450px-FrostBlade.jpg"
     },
     {
-      "id": 708,
+      "id": "708",
       "name": "Traitor's Bane",
       "category": "Force Sword",
       "ranged": false,
@@ -2380,7 +2380,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/0/0f/TraitorsBane.jpg/330px-TraitorsBane.jpg"
     },
     {
-      "id": 709,
+      "id": "709",
       "name": "Titansword (Draigo)",
       "category": "Great Force Sword",
       "ranged": false,
@@ -2394,7 +2394,7 @@
       "imageUrl": null
     },
     {
-      "id": 710,
+      "id": "710",
       "name": "Trajan's Warblade",
       "category": "Combat Spear",
       "ranged": false,
@@ -2408,7 +2408,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/7/73/WatcherAxe.jpg/330px-WatcherAxe.jpg"
     },
     {
-      "id": 711,
+      "id": "711",
       "name": "Staff of the Stormcaller",
       "category": "Runestaff",
       "ranged": true,
@@ -2422,7 +2422,7 @@
       "imageUrl": null
     },
     {
-      "id": 712,
+      "id": "712",
       "name": "Diresword (Asurmen)",
       "category": "Aeldari Blade",
       "ranged": false,
@@ -2436,7 +2436,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/2/2e/Diresword.jpg"
     },
     {
-      "id": 713,
+      "id": "713",
       "name": "Silent Death (Jain Zar)",
       "category": "Throwing Stars",
       "ranged": true,
@@ -2450,7 +2450,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/b/bb/SilentDeath.jpg/180px-SilentDeath.jpg"
     },
     {
-      "id": 714,
+      "id": "714",
       "name": "Plague Sword",
       "category": "Plague Blade",
       "ranged": false,
@@ -2464,7 +2464,7 @@
       "imageUrl": null
     },
     {
-      "id": 715,
+      "id": "715",
       "name": "Shriekers (Draxus)",
       "category": "Xenos Whip",
       "ranged": false,
@@ -2478,7 +2478,7 @@
       "imageUrl": null
     },
     {
-      "id": 716,
+      "id": "716",
       "name": "Volkite Pistol (Draxus)",
       "category": "Volkite Pistol",
       "ranged": true,
@@ -2492,7 +2492,7 @@
       "imageUrl": null
     },
     {
-      "id": 800,
+      "id": "800",
       "name": "Dawn Blade",
       "category": "Aeldari Blade",
       "ranged": false,
@@ -2506,7 +2506,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/c/c7/DawnBlade.jpg/300px-DawnBlade.jpg"
     },
     {
-      "id": 801,
+      "id": "801",
       "name": "Helfrost Cannon",
       "category": "Heavy Weapon",
       "ranged": true,
@@ -2520,7 +2520,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/c/c5/HelfrostCannon.jpg/200px-HelfrostCannon.jpg"
     },
     {
-      "id": 802,
+      "id": "802",
       "name": "Bjorn's Wolf Claw",
       "category": "Wolf Claw",
       "ranged": false,
@@ -2536,7 +2536,7 @@
   ],
   "armors": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Power armor Mk VII",
       "category": "Power armor",
       "description": "The standard Space Marine armor — Mk VII Aquila. Provides exceptional protection with amplified strength.",
@@ -2546,7 +2546,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/c/c7/Phant2.jpg/375px-Phant2.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Corrupted Power armor",
       "category": "Chaos armor",
       "description": "Power armor mutated by the Warp, fused to its wearer's flesh. It slowly regenerates — but it groans.",
@@ -2556,7 +2556,7 @@
       "imageUrl": null
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Power armor Mk III (Iron armor)",
       "category": "Ancient Power armor",
       "description": "Designed for tunnel fighting and boarding actions. Maximum frontal protection at the cost of mobility.",
@@ -2566,7 +2566,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/7/73/MarkIIIIronarmor.jpg/375px-MarkIIIIronarmor.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Power armor Mk X Phobos",
       "category": "Primaris armor",
       "description": "Lightweight Primaris armor for infiltration and reconnaissance operations. Integrated sound-dampening fabric.",
@@ -2576,7 +2576,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/4/47/PhobosarmorSW.jpg/300px-PhobosarmorSW.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Artificer armor",
       "category": "Artificer armor",
       "description": "A master-crafted artificer suit forged for commanders — superior to any standard power armor.",
@@ -2586,7 +2586,7 @@
       "imageUrl": null
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Necrodermis Body",
       "category": "Necron armor",
       "description": "The Necrons' living metal, capable of self-repair — wounds reseal within seconds.",
@@ -2596,7 +2596,7 @@
       "imageUrl": null
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Wraithbone armor",
       "category": "Aeldari armor",
       "description": "Aeldari wraithbone shaped by psychic craft — more resistant to certain attacks but fragile under brute force.",
@@ -2606,7 +2606,7 @@
       "imageUrl": null
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Ork Mega armor",
       "category": "Mega armor",
       "description": "An assembly of massive armor plates and ork servo-muscles, near-impervious but extremely heavy.",
@@ -2616,7 +2616,7 @@
       "imageUrl": null
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Chitinous Carapace",
       "category": "Tyranid armor",
       "description": "The Swarmlord's thick biological carapace, evolved to withstand the Imperium's heavy weapons.",
@@ -2626,7 +2626,7 @@
       "imageUrl": null
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "armor of Heraclus",
       "category": "Artificer armor",
       "description": "Calgar's unique armor, perfected over centuries by the Ultramarines' finest artificers.",
@@ -2636,7 +2636,7 @@
       "imageUrl": null
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Terminator armor (Cataphractii)",
       "category": "Terminator armor",
       "description": "The oldest and most resistant Terminator pattern, inherited from the Horus Heresy. Provides an invulnerable save but limits mobility.",
@@ -2646,7 +2646,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/e/ee/TerminatorCataphractii.jpg/375px-TerminatorCataphractii.jpg"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Terminator armor (Tartaros)",
       "category": "Terminator armor",
       "description": "A more mobile Terminator variant, preserving superior agility compared to other Terminator patterns.",
@@ -2656,7 +2656,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/e/ec/TerminatorsTartarosPattern.jpg/450px-TerminatorsTartarosPattern.jpg"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Terminator armor (Indomitus)",
       "category": "Terminator armor",
       "description": "The current-era standard Terminator design, balancing protection and mobility for 1st Company veterans.",
@@ -2666,7 +2666,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/2/2a/TerminatorsIndomitusPattern.jpg/450px-TerminatorsIndomitusPattern.jpg"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Cawl's Mechanical Frame",
       "category": "Mechanical Frame",
       "description": "A hybrid of mechanical chassis and power armor, incorporating Cawl's own integrated systems.",
@@ -2676,7 +2676,7 @@
       "imageUrl": null
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Carapace armor (Officer)",
       "category": "Carapace armor",
       "description": "Heavy armor worn by Astra Militarum and Inquisition officers. Far superior to standard flak armor.",
@@ -2686,7 +2686,7 @@
       "imageUrl": null
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Inquisitorial armor",
       "category": "Specialised armor",
       "description": "Bespoke armor worn by Inquisition agents, combining protection, detection devices, and stealth.",
@@ -2696,7 +2696,7 @@
       "imageUrl": null
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Auric armor (Custodes)",
       "category": "Custodes armor",
       "description": "The golden armor of the Adeptus Custodes, personally forged by the Emperor and refined over centuries. Each piece is unique.",
@@ -2706,7 +2706,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/1/14/CustodesArt9th.jpg/375px-CustodesArt9th.jpg"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Aegis Terminator pattern",
       "category": "Psyker Terminator armor",
       "description": "Armure Terminator des Grey Knights intégrant des focalisateurs psychiques, runes de protection et textes sacrés anti-démoniques.",
@@ -2716,7 +2716,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/2/2a/TerminatorsIndomitusPattern.jpg/450px-TerminatorsIndomitusPattern.jpg"
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "armor of Fate (Guilliman)",
       "category": "Primarch armor",
       "description": "Guilliman's armor, forged in pure Adamantium reinforced by the immunity runes of Eldrad Ulthran.",
@@ -2726,7 +2726,7 @@
       "imageUrl": null
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Dreadnought Mk IV Mortis",
       "category": "Dreadnought",
       "description": "A Horus Heresy-era war sarcophagus. A grievously wounded Space Marine is kept alive within this chassis to serve for millennia.",
@@ -2736,7 +2736,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/5/54/MortisDreadMini.jpg/450px-MortisDreadMini.jpg"
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Contemptor Dreadnought",
       "category": "Dreadnought",
       "description": "A Heresy-era Dreadnought, more agile than later patterns thanks to its gyroscopic motors. Still in service in 1st Companies.",
@@ -2746,7 +2746,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/3/3f/ContemptorImperialFists.jpg/495px-ContemptorImperialFists.jpg"
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Redemptor Dreadnought",
       "category": "Primaris Dreadnought",
       "description": "A new Primaris Dreadnought pattern, significantly more powerful and mobile. Armed with a monumental assault fist and heavy weapon options.",
@@ -2756,7 +2756,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/9/9d/PrimarisDread.jpg/300px-PrimarisDread.jpg"
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Venerable Dreadnought",
       "category": "Dreadnought",
       "description": "An exceptionally ancient Venerable Dreadnought whose interred warrior counts millennia of battles. His wisdom is consulted like an oracle.",
@@ -2766,7 +2766,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/8/85/The_Fell_Handed.jpg/300px-The_Fell_Handed.jpg"
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Furioso Dreadnought (Blood Angels)",
       "category": "Blood Angels Dreadnought",
       "description": "A Blood Angels variant of extreme brutality — the interred warrior often succumbs to the Black Rage, making him uncontrollable. Twin fist-blades and a flamer.",
@@ -2776,7 +2776,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/3/35/Zariah_Dreadnought.jpg/450px-Zariah_Dreadnought.jpg"
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "Power armor Mk X Tacticus (Primaris)",
       "category": "Primaris armor",
       "description": "The standard Primaris armor, a fusion of Cawl's finest technologies based on the Mk VII. Slightly more resilient with better computational integration.",
@@ -2786,7 +2786,7 @@
       "wikiPageTitle": "Armure_de_Puissance_Mk_X_Tacticus_(Primaris)"
     },
     {
-      "id": 26,
+      "id": "26",
       "name": "Power armor Mk X Gravis (Primaris)",
       "category": "Heavy Primaris armor",
       "description": "A reinforced Primaris armor, intermediate between standard power armor and Terminator armor. Worn by Aggressors and Gravis Marines.",
@@ -2796,7 +2796,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/1/13/Mk.XArmor.jpg/375px-Mk.XArmor.jpg"
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "T'au Riptide Battlesuit",
       "category": "Heavy T'au Battlesuit",
       "description": "A giant T'au exo-suit closer to a Dreadnought than a battlesuit. Nova reactors for mobility. Enhanced close combat capability.",
@@ -2806,7 +2806,7 @@
       "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113094_TAUBoardingPatrol01.jpg?fm=webp&w=892&h=920"
     },
     {
-      "id": 28,
+      "id": "28",
       "name": "T'au Crisis Battlesuit",
       "category": "Standard T'au Battlesuit",
       "description": "The standard T'au commander battlesuit. Three modular weapon system hardpoints. Jet boosters for 3D mobility.",
@@ -2816,7 +2816,7 @@
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/0/0c/XV8_Battlesuit.jpg/330px-XV8_Battlesuit.jpg"
     },
     {
-      "id": 29,
+      "id": "29",
       "name": "Saturnine Terminator armor",
       "category": "Terminator armor",
       "description": "The rarest and most ancient of all Terminator patterns, worn by the Companions of the Primarchs during the Horus Heresy. More compact than later designs, it sacrifices some protection for enhanced agility. Used by the Legio Custodes and a handful of chosen warriors.",
@@ -2825,5 +2825,6 @@
       "wounds": 1,
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e3/SaturnineTermieArt.jpg/768px-SaturnineTermieArt.jpg"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

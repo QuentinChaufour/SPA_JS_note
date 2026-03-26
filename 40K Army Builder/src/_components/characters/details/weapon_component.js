@@ -5,20 +5,20 @@ import Weapon from "../../../_models/weapon";
 /**
  * 
  * @param {Weapon} weapon the weapon to display
- * @param {boolean} isRange whether the weapon is a ranged weapon or not
+ * @param {boolean} isRanged whether the weapon is a ranged weapon or not
  * @returns {string} the html to display the weapon
  */
-export default function(weapon, isRange = false){
+export default function(weapon, isRanged = false){
 
     return !weapon ?
     `
-    <div class="item-container" id="${isRange ? "range-weapon" : "melee-weapon"}">
+    <div class="item-container ${isRanged ? "range-weapon" : "melee-weapon"}">
         <p>No weapon</p>
     </div>
     ` 
     :
     `
-    <div class="item-container" id="${isRange ? "range-weapon" : "melee-weapon"}">
+    <div class="item-container ${isRanged ? "range-weapon" : "melee-weapon"}" id="weapon-${weapon.id}">
         <div class="item-info">
             <h3>${weapon.name}</h3>
             <table>

@@ -3,7 +3,7 @@ export default class Weapon {
 
     #id;
     #name;
-    #isRange;
+    #isRanged;
     #description;
     #stats;
     #image_url;
@@ -27,7 +27,7 @@ export default class Weapon {
     ){
         this.#id = id;
         this.#name = name;
-        this.#isRange = range;
+        this.#isRanged = range;
         this.#description = description;
         this.#stats = stats;
         this.#image_url = image_url;
@@ -61,12 +61,12 @@ export default class Weapon {
      * Get if the weapon is a ranged weapon.
      * @returns {boolean} True if the weapon is a range weapon, false if it is a close combat weapon.
      */
-    get isRange() {
-        return this.#isRange;
+    get isRanged() {
+        return this.#isRanged;
     }
 
-    set isRange(is_range){
-        this.#isRange = is_range;
+    set isRanged(is_range){
+        this.#isRanged = is_range;
     }
 
     /**

@@ -51,4 +51,46 @@ export default class CharacterProvider {
         return {}
     }
 
+    static async updateCharacterWeapon(character, weapon){
+
+        const url = `${API_URL_ENDPOINT}/characters/${character.id}`;
+        const tag = weapon.isRanged ? "rangedWeaponId" : "meleeWeaponId";
+
+        let weaponId = weapon.id;
+        if(weapon.id == character.weapons.melee?.id || weapon.id == character.weapons.range?.id){
+            weaponId = null;
+        }
+
+        const body = {
+            [tag]: weaponId
+        }
+        await fetch(url, {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(body)
+        });
+    }
+
+    static async updateCharacterArmor(character, armor){
+        const url = `${API_URL_ENDPOINT}/characters/${character.id}`;
+
+        let armorId = armor.id;
+        if(armor.id == character.armor?.id){
+            armorId = null;
+        }
+
+        const body = {
+            "armorId": armorId
+        }
+        await fetch(url, {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(body)
+        });
+    }
+
 }

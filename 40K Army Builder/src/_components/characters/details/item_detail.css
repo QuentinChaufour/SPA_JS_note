@@ -12,6 +12,11 @@
     max-width: 500px;
 }
 
+.item-container:hover{
+    border: 2px solid gold;
+    transition: ease-in 350ms;
+}
+
 .item-info {
     display: flex;
     flex-direction: column;

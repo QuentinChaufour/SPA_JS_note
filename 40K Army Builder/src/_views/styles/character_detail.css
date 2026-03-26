@@ -1,12 +1,10 @@
 /* Main container for the entire detail page */
 .detail-page-container {
     display: grid;
-    grid-template-columns: 450px 1fr;
-    /* Ensure top row only takes height of its content */
+    grid-template-columns: 450px 1fr 350px;
     grid-template-rows: auto 1fr; 
     grid-template-areas:
-        "identity details"
-        "lore lore";
+        "identity details lore";
     gap: 30px;
     padding: 20px;
     background-color: #1a1a1a;
@@ -59,7 +57,7 @@
     border: 2px solid #5a4a3b;
     border-radius: 5px;
     padding: 20px;
-    width: 65%;
+    width: 90%;
 }
 
 .character-lore {
@@ -132,4 +130,37 @@
     width: 100%;
     /* Remove max-width to allow it to fill the container */
     box-sizing: border-box;
+}
+
+.save-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 14px 6px 10px;
+    border-radius: 3px;
+    border: 1px solid;
+    font-size: 0.78em;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transition: color 0.2s, border-color 0.2s, background-color 0.2s;
+}
+
+.save-badge__sword {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+/* ── Swap these two color sets to your taste ── */
+.save-badge.saved {
+    color: #c9a84c;            /* gold */
+    border-color: #c9a84c;
+    background-color: rgba(201, 168, 76, 0.1);
+}
+
+.save-badge.unsaved {
+    color: #6b6b6b;            /* muted grey */
+    border-color: #4a4a4a;
+    background-color: transparent;
 }

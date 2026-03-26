@@ -13,6 +13,7 @@ h1, h2 {
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     gap: 1rem;
 }
 
@@ -41,4 +42,169 @@ h1, h2 {
 .pagination span {
     color: #444;
     font-size: 1.25rem;
+}
+
+:root {
+  --blood-red: #8b0000;
+  --rust: #b5451b;
+  --gold: #c9a84c;
+  --gold-bright: #e8c96d;
+  --parchment: #d4b483;
+  --bone: #e8d5b0;
+  --dark-steel: #1a1a1e;
+  --steel: #2a2a30;
+  --iron: #3a3a42;
+  --smoke: #6b6b7a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark-steel);
+  color: var(--bone);
+  font-family: 'Orbitron', serif;
+}
+
+header {
+  position: relative;
+  background: linear-gradient(180deg, #0a0a0c 0%, var(--dark-steel) 100%);
+  border-bottom: 1px solid var(--gold);
+  box-shadow:
+    0 1px 0 #000,
+    0 4px 24px rgba(0, 0, 0, 0.8),
+    inset 0 -1px 0 rgba(201, 168, 76, 0.15);
+  overflow: hidden;
+}
+
+/* Riveted corner ornaments */
+header::before,
+header::after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background:
+    radial-gradient(circle 5px at 10px 10px, var(--gold) 60%, transparent 61%),
+    radial-gradient(circle 5px at 50px 10px, var(--gold) 60%, transparent 61%),
+    radial-gradient(circle 5px at 10px 50px, var(--gold) 60%, transparent 61%),
+    radial-gradient(circle 5px at 50px 50px, var(--gold) 60%, transparent 61%);
+  opacity: 0.6;
+  top: 0;
+}
+
+header::before { left: 0; }
+header::after  { right: 0; transform: scaleX(-1); }
+
+header > * {
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  font-family: 'Orbitron Decorative', serif;
+  font-size: clamp(1.1rem, 3vw, 1.8rem);
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1.2rem 4rem 0.5rem;
+  color: var(--gold-bright);
+  text-shadow:
+    0 0 10px rgba(201, 168, 76, 0.6),
+    0 0 30px rgba(139, 0, 0, 0.4),
+    2px 2px 0 #000,
+    -1px -1px 0 rgba(0, 0, 0, 0.8);
+}
+
+/* Decorative divider under h1 */
+h1::after {
+  content: '— ✠ —';
+  display: block;
+  font-size: 0.65rem;
+  letter-spacing: 0.4em;
+  color: var(--rust);
+  text-shadow: 0 0 8px rgba(181, 69, 27, 0.7);
+  margin-top: 0.2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 0;
+  padding: 0 4rem;
+  border-top: 1px solid rgba(201, 168, 76, 0.2);
+}
+
+nav a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.7rem 1.6rem;
+  font-family: 'Orbitron', serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--parchment);
+  text-decoration: none;
+  border-right: 1px solid rgba(201, 168, 76, 0.12);
+  transition: color 0.2s ease, background 0.2s ease;
+  white-space: nowrap;
+}
+
+nav a:first-child {
+  border-left: 1px solid rgba(201, 168, 76, 0.12);
+}
+
+/* Hover: blood smear glow */
+nav a::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg,
+    rgba(139, 0, 0, 0) 0%,
+    rgba(139, 0, 0, 0.25) 50%,
+    rgba(139, 0, 0, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+/* Bottom highlight bar */
+nav a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  right: 20%;
+  height: 2px;
+  background: var(--blood-red);
+  box-shadow: 0 0 6px var(--blood-red);
+  transform: scaleX(0);
+  transition: transform 0.25s ease;
+}
+
+nav a:hover {
+  color: var(--gold-bright);
+  text-shadow: 0 0 12px rgba(201, 168, 76, 0.5);
+}
+
+nav a:hover::before { opacity: 1; }
+nav a:hover::after  { transform: scaleX(1); }
+
+/* Active state */
+nav a.active {
+  color: var(--gold-bright);
+  background: rgba(139, 0, 0, 0.15);
+}
+
+nav a.active::after {
+  transform: scaleX(1);
+  background: var(--gold);
+  box-shadow: 0 0 8px rgba(201, 168, 76, 0.6);
 }
