@@ -24,18 +24,14 @@ const router = async () => {
 
     let url = location.hash.slice(1).toLowerCase() || '/';
     let r = url.split("/")
-    // TODO use loop to build the parsedURL instead of hardcoding it
 
-    let request = {
-        resource    : null,
-        id          : null,
-        verb        : null
+    let parsedURL = [];
+
+    for(let k of r){
+        k.match(/^[0-9]+$/) ? parsedURL.push(':id') : parsedURL.push(k);
     }
-    request.resource    = r[1]
-    request.id          = r[2]
-    request.verb        = r[3]
 
-    let parsedURL = (request.resource ? '/' + request.resource : '/') + (request.id && request.id.match(/^[0-9]+$/) ? '/:id' : request.id ? '/' + request.id : '') + (request.verb ? '/' + request.verb : '')
+    parsedURL = parsedURL.join("/");
 
     console.log("Parsed URL:", parsedURL);
     let page = routes[parsedURL] ? new routes[parsedURL]() : NotFound404;

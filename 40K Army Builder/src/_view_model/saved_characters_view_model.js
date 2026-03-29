@@ -30,6 +30,8 @@ export default class SavedCharactersViewModel {
             const characterIds = savedCharactersId.split(",");
             this.savedCharacters = await Promise.all(characterIds.map(id => CharacterProvider.getCharacter(id)));
         }
+
+        router();
     }
 
     /**
@@ -52,6 +54,9 @@ export default class SavedCharactersViewModel {
         router();
     }
 
+    /**
+     * Updates the local storage with the current list of saved characters
+     */
     _updateLocalStorage(){
         const characterIds = this.savedCharacters.map(character => character.id);
         localStorage.setItem("saved_characters", characterIds.join(","));
@@ -59,5 +64,13 @@ export default class SavedCharactersViewModel {
 
     containsCharacter(character){
         return this.savedCharacters.filter(characterElem => characterElem.id == character.id).length > 0;
+    }
+
+    /**
+     * Get the list of saved characters
+     * @returns {Array[Character]} the saved characters
+     */
+    getSavedCharacters(){
+        return this.savedCharacters;
     }
 }
