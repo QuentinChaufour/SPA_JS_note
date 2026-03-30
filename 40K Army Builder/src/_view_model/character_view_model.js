@@ -15,10 +15,17 @@ export default class CharacterViewModel {
         this.pageSize = 9;
     }
 
+    /**
+     * Initializes characters
+     */
     async #init(){
         this.characters = await CharacterProvider.getCharacters();
     }
 
+    /**
+     * Gets the instance of the character view model
+     * @returns {CharacterViewModel} the instance of the viewmodel
+     */
     static async getInstance(){
         if(!CharacterViewModel.#instance){
             CharacterViewModel.#instance = new CharacterViewModel();
@@ -74,6 +81,15 @@ export default class CharacterViewModel {
         return Math.ceil(this.characters.length / this.pageSize);
     }
 
+    /**
+     * Refreshes the list of characters & update page if necessary
+     */
+    async refreshCharacters(){
+        await this.#init();
 
-
+        // If the current page exceeds the max page after refreshing, set it to the last page
+        if(this.currentPage > this.maxPage()){
+            this.currentPage = this.maxPage();
+        }
+    }
 }

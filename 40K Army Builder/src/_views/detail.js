@@ -1,4 +1,6 @@
 import './styles/character_detail.css';
+import deleteImg from '../assets/crane.png';
+
 import StatsComponent from '../_components/characters/details/stats_component.js'
 import weapon_component from '../_components/characters/details/weapon_component.js';
 import armor_component from '../_components/characters/details/armor_component.js';
@@ -37,6 +39,10 @@ export default class Detail {
                     </svg>
                     <span class="save-badge__label">${saved ? 'Saved' : 'Unsaved'}</span>
                 </div>
+                <div id="delete-character">
+                    <img src=${deleteImg} alt="delete character">
+                    <span>Delete Character</span>
+                </div>
             </div>
 
             <div class="character-details-column">
@@ -54,13 +60,13 @@ export default class Detail {
                         ${
                             this.character.chapter ? 
                             `<div class="meta-item">
-                                <span>${this.character.chapter.name}</span>
-                                <img src="${this.character.chapter.iconUrl}" alt="${this.character.chapter.name} icon">
+                                <span>${this.character.chapter?.name || "Unknown"}</span>
+                                <img src="${this.character.chapter?.iconUrl}" alt="${this.character.chapter?.name} icon">
                             </div>`
                             : ""
                         } 
                         <div class="meta-item">
-                            <span>${this.character.role.name}</span>
+                            <span>${this.character.role?.name || "Unknown"}</span>
                         </div>
                         <div class="meta-item">
                             <span>Points: ${this.character.points}</span>
@@ -109,6 +115,12 @@ export default class Detail {
             savedCharactersViewModel.addCharacter(this.character);
         });
 
+        document.querySelector("#delete-character")?.addEventListener("click", async () => {
+            if(confirm("Are you sure you want to delete this character? This action cannot be undone.")){
+                await CharacterProvider.deleteCharacter(this.character.id);
+                location.hash = "/characters";
+            }
+        });
     }
 
 
@@ -130,5 +142,5 @@ export default class Detail {
                 sidePanelRoot.innerHTML = '';
             }
         });
-    };
+    }
 }

@@ -1,0 +1,30 @@
+/* --- SAVED CHARACTERS VIEW - GRIM DARK STYLE --- */
+
+.saved-characters-container {
+    /* A darker, sunken panel to hold the dataslates */
+    width: 85%;
+    max-width: 1500px;
+    margin: 0 auto; /* Centers the container horizontally */
+    background-color: #0c0d0f; /* Pitch dark */
+    padding: 15px;
+    border: 1px solid #222;
+    border-radius: 3px;
+    min-height: 250px;
+    /* Deep inner shadow to make it look embedded */
+    box-shadow: inset 0 5px 15px rgba(0, 0, 0, 0.8);
+    
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Spacing between the one-line items */
+}
+
+/* Thematic empty state */
+.empty-roster-msg {
+    color: #F9F6EE; /* Bone white */
+    opacity: 0.4;
+    text-align: center;
+    font-family: monospace; /* Terminal vibe */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 4rem;
+}

@@ -6,6 +6,7 @@ import Character from '../../../_models/character';
 import Weapon from '../../../_models/weapon';
 import CharacterProvider from '../../../_providers/character_provider';
 import router from '../../../router.js';
+import CharacterCreationViewModel from '../../../_view_model/character_creation_view_model.js';
 
 export function ItemListSidePanel(type, items) {
 
@@ -63,8 +64,9 @@ export function ItemListSidePanelListener(type, items) {
  * Adds event listeners to the items in the side panel for selection.
  * @param {Array} items 
  * @param {Character} character 
+ * @param {boolean} isForm - indicates if the side panel is opened from the form view or the detail view
  */
-export function ItemSelectionPanelListener(items, character) {
+export function ItemSelectionPanelListener(items, character, isForm = false) {
 
     for(let item of items){
         const weapon = item instanceof Weapon;
@@ -72,13 +74,18 @@ export function ItemSelectionPanelListener(items, character) {
         if(element){
             element.addEventListener("click", async () => {
                 if(!weapon){
+                    isForm ?
+                    CharacterCreationViewModel.getInstance().armor = item :
                     await CharacterProvider.updateCharacterArmor(character, item);
                 }
                 else if(!item.isRanged){
-
+                    isForm ?
+                    CharacterCreationViewModel.getInstance().weapons.melee = item :
                     await CharacterProvider.updateCharacterWeapon(character, item);
                 }
                 else if(item.isRanged){
+                    isForm ?
+                    CharacterCreationViewModel.getInstance().weapons.range = item :
                     await CharacterProvider.updateCharacterWeapon(character, item);
                 }
                 router();

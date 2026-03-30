@@ -15,5 +15,16 @@ export default class RoleProvider {
         return data;
     }
 
+    static async getRolesByFaction(factionId){
+        if(!factionId){
+            return [];
+        }
+
+        const url = `${API_URL_ENDPOINT}/ranks?factionId=${factionId}`;
+        const data = await fetchData(url);
+
+        return data;
+    }
+
 
 }

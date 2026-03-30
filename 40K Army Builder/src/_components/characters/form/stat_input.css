@@ -1,0 +1,31 @@
+.item-info td input[type="number"] {
+    width: 100%;
+    background: transparent;
+    color: #c8c8c8; /* Même couleur que le texte classique */
+    border: none;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1em; /* Même taille que le texte normal */
+    outline: none;
+    padding: 0;
+    box-sizing: border-box;
+    transition: color 0.2s;
+}
+
+/* Effet visuel élégant lors de l'édition d'une statistique */
+.item-info td input[type="number"]:focus {
+    color: #c9a84c; /* Devient doré au focus */
+    font-weight: bold;
+}
+
+/* Supprimer les flèches haut/bas des inputs de type number pour un look "texte" pur */
+.item-info td input[type="number"]::-webkit-outer-spin-button,
+.item-info td input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Pour Firefox : supprime aussi les flèches */
+.item-info td input[type="number"] {
+    -moz-appearance: textfield;
+}

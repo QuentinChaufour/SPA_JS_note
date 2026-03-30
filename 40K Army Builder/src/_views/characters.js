@@ -14,6 +14,7 @@ export default class Characters{
         return `
     <div>
         <h1>Characters</h1>
+        <button id="create-character">Create New Character</button>
         <ul class="character-list">
             ${characters.map(character => CharacterShort(character)).join('')}
         </ul>
@@ -50,5 +51,9 @@ export default class Characters{
                 window.location.hash = `/characters/${character.id}`;
             });
         }
+
+        document.querySelector('#create-character').addEventListener('click', () => {
+            window.location.hash = '/characters/new';
+        });
     }
 }

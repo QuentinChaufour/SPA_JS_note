@@ -4,6 +4,7 @@ import FactionProvider from "./faction_provider.js";
 import RoleProvider from "./role_provider.js";
 import WeaponArmorProvider from './weapon_armor_provider.js';
 import { API_URL_ENDPOINT } from "../config.js";
+import CharacterViewModel from "../_view_model/character_view_model.js";
 
 export default class CharacterProvider {
 
@@ -22,8 +23,8 @@ export default class CharacterProvider {
                     character.chapter = await FactionProvider.getChapter(element.sub_factionId);
                     character.role = await RoleProvider.getRole(element.rankId);
                     return character;
-            })
-        );
+                })
+            );
         } else {
             return [];
         }
@@ -49,6 +50,18 @@ export default class CharacterProvider {
             return character;
         }
         return {}
+    }
+
+    static async createCharacter(characterData){
+        const url = `${API_URL_ENDPOINT}/characters`;
+    
+        await fetch(url, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(characterData)
+        });
     }
 
     static async updateCharacterWeapon(character, weapon){
@@ -91,6 +104,17 @@ export default class CharacterProvider {
             },
             body: JSON.stringify(body)
         });
+    }
+
+    static async deleteCharacter(id){
+        const url = `${API_URL_ENDPOINT}/characters/${id}`;
+
+        await fetch(url, {
+            method: "DELETE"
+        });
+
+        const characterViewModel = await CharacterViewModel.getInstance();
+        await characterViewModel.refreshCharacters();
     }
 
 }

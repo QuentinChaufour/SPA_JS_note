@@ -1,0 +1,49 @@
+/* --- GRIM-DARK ONE LINE CHARACTER STYLE --- */
+.character-one-line {
+    display: flex;
+    align-items: center;
+    gap: 25px; /* Increased gap for a more spacious, larger feel */
+    padding: 15px 25px; /* Increased padding */
+    
+    /* Width and centering */
+    width: 85%; /* Prevents taking up the full width */
+    max-width: 1000px; /* Optional: caps the maximum width on very large screens */
+    margin: 0 auto 15px auto; /* Centers it horizontally (auto) and adds bottom margin */
+
+    /* Subtle horizontal gradient to give a textured, metallic/dark slate feel */
+    background: linear-gradient(to right, #1f2123, #2a2a2e);
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Slightly deeper shadow for the larger size */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.character-one-line:hover {
+    /* Slight indent effect on hover to show interaction */
+    transform: translateX(8px);
+    box-shadow: -6px 6px 15px rgba(0, 0, 0, 0.8);
+    /* Aged gold border highlights the selection */
+    border-color: #a89a78; 
+}
+
+.character-one-line img {
+    width: 110px; /* Made the portrait slightly larger to match the overall size increase */
+    height: 110px;
+    object-fit: cover;
+    border-radius: 3px;
+    border: 2px solid #444; /* Slightly thicker rugged border */
+    background-color: #1a1a1a;
+    /* Inner shadow for an embedded, sunken look */
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.9);
+}
+
+.character-one-line span {
+    /* Aged gold text matching your grim dark headings */
+    color: #a89a78;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Wider spacing */
+    font-size: 1.3rem; /* Significantly larger font */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Added text-shadow to make it pop more */
+}

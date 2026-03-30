@@ -57,19 +57,22 @@
     border: 2px solid #5a4a3b;
     border-radius: 5px;
     padding: 20px;
-    width: 90%;
+    width: 100%;
+    box-sizing: border-box; /* ensure padding doesn't break width */
 }
 
 .character-lore {
     width: 100%;
+    /* Keep it 100% to fill container */
     height: 100%;
+    min-height: 150px;
     background-color: #1f1f1f;
     color: #c8c8c8;
     border: 1px solid #4a4a4a;
     padding: 15px;
     font-size: 1.1em;
     line-height: 1.7;
-    resize: none; /* Make lore box non-resizable */
+    resize: none;
     box-sizing: border-box;
 }
 
@@ -78,6 +81,8 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
+    width: 100%; /* Ensure column takes full width */
+    overflow: hidden; /* Prevent nested grid blowouts */
 }
 
 /* New container for stats and meta-info */
@@ -163,4 +168,43 @@
     color: #6b6b6b;            /* muted grey */
     border-color: #4a4a4a;
     background-color: transparent;
+}
+
+#delete-character {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto; /* Pushes it to the bottom of the identity column if there's space */
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #7a2828;
+    border-radius: 4px;
+    color: #e56b6b;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 80%;
+    justify-content: center;
+}
+
+#delete-character:hover {
+    background-color: rgba(122, 40, 40, 0.2);
+    color: #ff8888;
+    border-color: #ff4444;
+    box-shadow: 0 0 10px rgba(255, 68, 68, 0.2);
+}
+
+#delete-character img {
+    width: 20px;
+    height: 20px;
+    /* Reset borders from the identity column img rule */
+    border: none; 
+    filter: invert(56%) sepia(35%) saturate(3015%) hue-rotate(330deg) brightness(97%) contrast(92%); /* Tints the image reddish to match */
+    transition: transform 0.2s ease;
+}
+
+#delete-character:hover img {
+    transform: scale(1.1);
 }

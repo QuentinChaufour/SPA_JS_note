@@ -1171,7 +1171,7 @@
       "sub_factionId": 1,
       "rankId": 2,
       "typeId": 4,
-      "armorId": "1",
+      "armorId": 1,
       "lore": "Azrael is the Supreme Grand Master of the Dark Angels — the most senior Space Marine commander in the Imperium outside of the resurrected Primarchs. He has held his position for over a century, longer than almost any of his predecessors, guiding the Chapter through the darkness of the Cicatrix Maledictum with cold, calculating precision. As the bearer of the Lion Helm, a sacred relic passed from Grand Master to Grand Master, Azrael carries with him the entirety of the Dark Angels' most terrible secret: that during the Horus Heresy, half the Legion turned traitor and followed Luther in a rebellion on Caliban. These Fallen were scattered across time and space when Caliban was destroyed, and their recovery and redemption — or destruction — remains the Chapter's true, hidden purpose above all else. Azrael alone knows the full truth, and the weight of that knowledge has carved his face into a mask of perpetual tension. He is accompanied at all times by the Watcher in the Dark who bears his Lion Helm, a diminutive hooded creature whose nature is never spoken of. In battle, Azrael is a master tactician and a formidable warrior, his Artificer armor granting him protection rivalling Terminator plate. His Sword of Secrets can cleave through daemon and traitor alike, and his plasma pistol has ended the careers of more heretics than most warriors could count. He views Roboute Guilliman's reforms with deep suspicion, reluctant to allow anyone — even a Primarch — to look too closely at the inner workings of the First Legion.",
       "stats": {
         "M": "6\"",
@@ -1181,8 +1181,8 @@
         "LD": "9+",
         "OC": 1
       },
-      "meleeWeaponId": "101",
-      "rangedWeaponId": "2",
+      "meleeWeaponId": 101,
+      "rangedWeaponId": 2,
       "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101379_Azrael1.jpg?fm=webp&w=892&h=920",
       "points": 115
     },
@@ -1325,7 +1325,7 @@
       "sub_factionId": 15,
       "rankId": 22,
       "typeId": 1,
-      "armorId": "2",
+      "armorId": 2,
       "lore": "Khârn the Betrayer was not always a monster. During the Great Crusade, he was one of the most respected warriors among the World Eaters — Angron's equerry, his keeper, the one man capable of reasoning with the blood-maddened Primarch. He tried desperately to prevent the Legion's descent into Khorne worship, watching in horror as the Butcher's Nails — the cranial implants that amplified aggression and blocked the pain receptors — consumed his brothers one by one. When Angron forcibly implanted the Nails into his own Legion against Khârn's protests, Khârn submitted. And the Nails did to him what they had done to everyone else — stripped away everything but the hunger for blood and combat. His defining act of damnation came at the Skalathrax Massacre, where during a Night Lords campaign on an ice world, both sides pulled back from the cold. Khârn, unwilling to stop fighting, used a flamer to torch the World Eaters' own camps, killing hundreds of his own brothers to force them back into battle. The Legion splintered that night and never reformed. Khârn fights for Khorne now, not for any human purpose — he is a weapon given flesh, and Khorne is well pleased. He always returns from death. Always.",
       "stats": {
         "M": "6\"",
