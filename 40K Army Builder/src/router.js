@@ -8,6 +8,7 @@ import ArmyBuilder from "./_views/army_builder.js";
 import Saved from "./_views/saved_characters.js";
 import NotFound404 from "./_views/404_notfound.js";
 import init_app from "./main.js";
+import lazyloadImages from './_utils/lazyloading.js';
 
 const routes = {
     "/" : Home,
@@ -44,6 +45,8 @@ const router = async () => {
     if (page.post_render) {
         await page.post_render();
     }
+
+    lazyloadImages();
 }
 
 window.addEventListener('hashchange', router);

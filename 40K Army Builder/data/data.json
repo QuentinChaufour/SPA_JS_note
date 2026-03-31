@@ -1181,7 +1181,7 @@
         "LD": "9+",
         "OC": 1
       },
-      "meleeWeaponId": 101,
+      "meleeWeaponId": "101",
       "rangedWeaponId": 2,
       "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101379_Azrael1.jpg?fm=webp&w=892&h=920",
       "points": 115
@@ -1942,6 +1942,21 @@
       "rangedWeaponId": 801,
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/a/ae/Bjorn7th.jpg/340px-Bjorn7th.jpg",
       "points": 165
+    },
+    {
+      "id": 37,
+      "name": "ém",
+      "imageUrl": "",
+      "stats": {},
+      "factionId": "1",
+      "sub_factionId": null,
+      "lore": "",
+      "meleeWeaponId": null,
+      "rangeWeaponId": null,
+      "armorId": null,
+      "points": 10,
+      "typeId": null,
+      "rankId": null
     }
   ],
   "weapons": [

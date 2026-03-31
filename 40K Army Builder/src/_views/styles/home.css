@@ -1,0 +1,10 @@
+
+#introduction-container{
+    margin-left: 20rem;
+    margin-right: 20rem;
+
+    h2{
+        text-align: center;
+        padding: 2rem;
+    }
+}

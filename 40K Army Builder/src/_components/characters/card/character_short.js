@@ -10,18 +10,18 @@ import Character from '../../../_models/character';
 export default function CharacterShort(character){
     return `
         <li class="character-card" id="character-${character.id}">
-            <img src="${character.image_url}" alt="${character.name}">
+            <img src="placeholder" data-src="${character.image_url}" alt="${character.name}">
             <h2>${character.name}</h2>
             
             <div class="faction-info">
                 <p>Faction:  <span>${character.faction?.name || "Unknown"}</span></p>
-                <img src="${character.faction.iconUrl}" alt="${character.faction.name} icon">
+                <img src="placeholder" data-src="${character.faction.iconUrl}" alt="${character.faction.name} icon">
             </div>
             ${
                 character.chapter ? 
                 `<div class="chapter-info">
                     <p>Chapter:  <span>${character.chapter.name}</span></p>
-                    <img src="${character.chapter.iconUrl}" alt="${character.chapter.name} icon">
+                    <img src="placeholder" data-src="${character.chapter.iconUrl}" alt="${character.chapter.name} icon">
                 </div>`
                 : ""
             }

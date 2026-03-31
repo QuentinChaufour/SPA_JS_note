@@ -13,6 +13,7 @@ export default class CharacterViewModel {
         this.characters = [];
         this.currentPage = 1;
         this.pageSize = 9;
+        this.currentSearch = "";
     }
 
     /**
@@ -44,7 +45,13 @@ export default class CharacterViewModel {
     getPaginatedCharacters(){
         const startIndex = (this.currentPage - 1) * this.pageSize;
         const endIndex = startIndex + this.pageSize;
-        return this.characters.slice(startIndex, endIndex);
+
+        const filteredCharacters = this.#filterCharacters();
+        
+        if(this.currentPage > this.maxPage()){
+            this.currentPage = this.maxPage();
+        }
+        return filteredCharacters.slice(startIndex, endIndex);
     }
 
     /**
@@ -91,5 +98,11 @@ export default class CharacterViewModel {
         if(this.currentPage > this.maxPage()){
             this.currentPage = this.maxPage();
         }
+    }
+
+    #filterCharacters(){
+        return this.characters.filter(
+            (character) => character.name.toLowerCase().includes(this.currentSearch.toLowerCase())
+        );
     }
 }

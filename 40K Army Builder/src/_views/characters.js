@@ -14,6 +14,7 @@ export default class Characters{
         return `
     <div>
         <h1>Characters</h1>
+        <input id="search-bar" type="text" value="${model.currentSearch}" placeholder="Ex : Dante">
         <button id="create-character">Create New Character</button>
         <ul class="character-list">
             ${characters.map(character => CharacterShort(character)).join('')}
@@ -33,13 +34,13 @@ export default class Characters{
         const model = await CharacterViewModel.getInstance();
         const characters = model.getPaginatedCharacters();
 
-        document.querySelector('#prev_page').addEventListener('click', async () => {
+        document.querySelector('#prev_page').addEventListener('click', () => {
             model.previousPage();
             // Re-route to the same page to force a re-render
             router(); 
         });
 
-        document.querySelector('#next_page').addEventListener('click', async () => {
+        document.querySelector('#next_page').addEventListener('click', () => {
             model.nextPage();
             // Re-route to the same page to force a re-render
             router(); 
@@ -55,5 +56,16 @@ export default class Characters{
         document.querySelector('#create-character').addEventListener('click', () => {
             window.location.hash = '/characters/new';
         });
+
+        // set the focus on the input & place the cursor at the end
+        const searchBar = document.querySelector("#search-bar"); 
+        searchBar.focus();
+        searchBar.selectionStart = model.currentSearch.length;
+        searchBar.addEventListener("input", (event) => {
+            model.currentSearch = event.target.value;
+
+            // reload the page for the list to be updated
+            router();
+        })
     }
 }

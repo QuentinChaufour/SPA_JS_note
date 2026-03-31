@@ -32,7 +32,7 @@ export default class Form {
         <div class="detail-page-container form-page-container">
 
             <div class="character-identity-column">
-                <img id="character-image-preview" src="${viewModel.image_url}" alt="No image provided">
+                <img src="placeholder" id="character-image-preview" data-src="${viewModel.image_url}" alt="No image provided">
                 <input type="text" id="character-image" placeholder="Enter image URL" value="${viewModel.image_url}">
                 <input type="text" id="character-name" placeholder="Enter character name" value="${viewModel.name}">
             
