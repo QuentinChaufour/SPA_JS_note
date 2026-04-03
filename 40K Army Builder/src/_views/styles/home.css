@@ -1,10 +1,112 @@
+.home-container {
+    padding: 2rem;
+    color: #f4e9d8;
+}
 
-#introduction-container{
-    margin-left: 20rem;
-    margin-right: 20rem;
+.home-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    background: linear-gradient(180deg, #0a0a0c 0%, var(--dark-steel) 100%);
+    border-bottom: 1px solid var(--gold);
+    box-shadow:
+        0 1px 0 #000,
+        0 4px 24px rgba(0, 0, 0, 0.8),
+        inset 0 -1px 0 rgba(201, 168, 76, 0.15);
+}
 
-    h2{
-        text-align: center;
-        padding: 2rem;
+.home-header h1 {
+    font-size: 3rem;
+    color: #c9a84c; /* Gold accent */
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-style: italic;
+    color: #a0927d;
+    font-size: 1.2rem;
+}
+
+#introduction-container {
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: rgba(26, 26, 26, 0.9);
+    border: 1px solid #5a4a3b;
+    border-radius: 8px;
+    padding: 3rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.lore-section {
+    margin-bottom: 3rem;
+}
+
+.lore-section h2 {
+    color: #c9a84c;
+    border-bottom: 1px dashed #5a4a3b;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.lore-section p {
+    line-height: 1.7;
+    font-size: 1.1rem;
+    text-align: justify;
+    color: #d1c4b2;
+}
+
+.wiki-link {
+    display: block;
+    width: fit-content;
+    margin: 2rem auto 0 auto;
+    padding: 12px 24px;
+    background-color: #252525;
+    color: #c9a84c;
+    border: 1px solid #5a4a3b;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    transition: all 0.3s ease;
+}
+
+.wiki-link:hover {
+    background-color: rgba(201, 168, 76, 0.15);
+    border-color: #c9a84c;
+    color: #f4e9d8;
+    box-shadow: 0 0 12px rgba(201, 168, 76, 0.3);
+}
+
+#legions-container {
+    max-width: 1200px;
+    margin: 4rem auto 2rem;
+    padding: 0 2rem;
+    display: grid;
+    /* Starts with 1 column, grows to 2 columns if at least 400px is available per card, but caps at 2 columns */
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
+    gap: 2rem;
+}
+
+/* Force max 2 columns even if screen is very wide */
+@media (min-width: 900px) {
+    #legions-container {
+        grid-template-columns: repeat(2, 1fr);
     }
+}
+
+#legions-container > h2 {
+    grid-column: 1 / -1; /* Make the title span all columns */
+    text-align: center;
+    color: #c9a84c; /* Gold accent */
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    border-bottom: 2px solid #5a4a3b;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }

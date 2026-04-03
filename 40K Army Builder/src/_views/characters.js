@@ -16,6 +16,7 @@ export default class Characters{
         <h1>Characters</h1>
         <input id="search-bar" type="text" value="${model.currentSearch}" placeholder="Ex : Dante">
         <button id="create-character">Create New Character</button>
+        ${ characters.length == 0 ? `<p id="no-results-message" >No characters found.</p>` : '' }
         <ul class="character-list">
             ${characters.map(character => CharacterShort(character)).join('')}
         </ul>

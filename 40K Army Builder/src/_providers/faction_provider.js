@@ -58,6 +58,25 @@ export default class FactionProvider {
         return data;
     }
 
+    /**
+     * fetch all legions
+     * @returns {Array[Object]} all legions available
+     */
+    static async getLegions(){
+        const url = `${API_URL_ENDPOINT}/legions`;
+        const data = await fetchData(url);
+        
+        return data;
+    }
 
-
+    /**
+     * 
+     * @param {Number} legionId 
+     * @returns {Object} the primarch data of the legion with the given id
+     */
+    static async getPrimarch(legionId){
+        const url = `${API_URL_ENDPOINT}/primarchs?legionId=${legionId}`;
+        const data = await fetchData(url);
+        return data && data.length > 0 ? data[0] : null;
+    }
 }

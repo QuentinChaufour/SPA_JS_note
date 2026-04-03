@@ -374,7 +374,8 @@
       "primarchId": 1,
       "homeworld": "Caliban (destroyed)",
       "battleCry": "For the Lion! For Caliban!",
-      "lore": "The First Legion, half of which turned traitor during the Horus Heresy. The truth is kept secret; the Fallen are hunted eternally by the Ravenwing and the Inner Circle. Lion El'Jonson sleeps within the depths of the Rock, awaiting the hour of greatest need."
+      "lore": "The First Legion, half of which turned traitor during the Horus Heresy. The truth is kept secret; the Fallen are hunted eternally by the Ravenwing and the Inner Circle. Lion El'Jonson sleeps within the depths of the Rock, awaiting the hour of greatest need.",
+      "color": "#1a4a1a"
     },
     {
       "id": "3",
@@ -385,7 +386,8 @@
       "primarchId": 3,
       "homeworld": "Chemos",
       "battleCry": "Perfection or Death!",
-      "lore": "A Legion devoted to martial perfection, corrupted by Slaanesh during the Siege of Terra. Fulgrim himself slew Primarch Ferrus Manus before being possessed. Their transgressions against Terra's people remain among the darkest acts of the war."
+      "lore": "A Legion devoted to martial perfection, corrupted by Slaanesh during the Siege of Terra. Fulgrim himself slew Primarch Ferrus Manus before being possessed. Their transgressions against Terra's people remain among the darkest acts of the war.",
+      "color": "#9b59b6"
     },
     {
       "id": "4",
@@ -396,7 +398,8 @@
       "primarchId": 4,
       "homeworld": "Olympia (destroyed by Perturabo himself)",
       "battleCry": "Iron Within, Iron Without !",
-      "lore": "Masters of siege warfare, consumed by jealousy towards the Imperial Fists and resentment towards the Emperor. Perturabo massacred his own homeworld before joining Horus out of spite."
+      "lore": "Masters of siege warfare, consumed by jealousy towards the Imperial Fists and resentment towards the Emperor. Perturabo massacred his own homeworld before joining Horus out of spite.",
+      "color": "#4a4a4a"
     },
     {
       "id": "5",
@@ -407,7 +410,8 @@
       "primarchId": 5,
       "homeworld": "Chogoris (Mundus Planus)",
       "battleCry": "For the Great Khan and the Imperium!",
-      "lore": "A Legion of nomadic steppe riders, masters of swift hit-and-run warfare. Jaghatai Khan nearly sided with Horus, then vanished into the Webway. Successors include the Mantis Warriors."
+      "lore": "A Legion of nomadic steppe riders, masters of swift hit-and-run warfare. Jaghatai Khan nearly sided with Horus, then vanished into the Webway. Successors include the Mantis Warriors.",
+      "color": "#f5f5f5"
     },
     {
       "id": "6",
@@ -418,7 +422,8 @@
       "primarchId": 6,
       "homeworld": "Fenris",
       "battleCry": "For Russ! For the Allfather!",
-      "lore": "A Legion of Fenrisian wolf-warriors who refuse to be divided into successor Chapters. Leman Russ disappeared into the Warp in pursuit of Horus. The current Great Wolf is Logan Grimnar."
+      "lore": "A Legion of Fenrisian wolf-warriors who refuse to be divided into successor Chapters. Leman Russ disappeared into the Warp in pursuit of Horus. The current Great Wolf is Logan Grimnar.",
+      "color": "#708090"
     },
     {
       "id": "7",
@@ -429,7 +434,8 @@
       "primarchId": 7,
       "homeworld": "No fixed homeworld — fortress-monastery Phalanx (orbital station)",
       "battleCry": "Primarch-Progenitor, to your glory and the glory of him on earth!",
-      "lore": "Defenders of Terra during the Horus Heresy. Rogal Dorn sacrificed himself in an ambush. Their successors include the Black Templars and the Crimson Fists."
+      "lore": "Defenders of Terra during the Horus Heresy. Rogal Dorn sacrificed himself in an ambush. Their successors include the Black Templars and the Crimson Fists.",
+      "color": "#f5c518"
     },
     {
       "id": "8",
@@ -440,7 +446,8 @@
       "primarchId": 8,
       "homeworld": "Nostramo (détruite)",
       "battleCry": "To the warp with you!",
-      "lore": "A Legion of terror recruited from the criminal undercity of Nostramo. Conrad Kurze — the Night Haunter — accepted his assassination as penance. The Legion has since fragmented into bands of mercenary pirates."
+      "lore": "A Legion of terror recruited from the criminal undercity of Nostramo. Conrad Kurze — the Night Haunter — accepted his assassination as penance. The Legion has since fragmented into bands of mercenary pirates.",
+      "color": "#1a1aff"
     },
     {
       "id": "9",
@@ -451,7 +458,8 @@
       "primarchId": 9,
       "homeworld": "Baal",
       "battleCry": "By the blood of Sanguinius!",
-      "lore": "The Legion of angels, cursed by the Black Rage and the Red Thirst following the death of Primarch Sanguinius. Every Blood Angel carries a vision of their father's death. Successors include the Lamenters and the Blood Drinkers."
+      "lore": "The Legion of angels, cursed by the Black Rage and the Red Thirst following the death of Primarch Sanguinius. Every Blood Angel carries a vision of their father's death. Successors include the Lamenters and the Blood Drinkers.",
+      "color": "#b22222"
     },
     {
       "id": "10",
@@ -462,7 +470,8 @@
       "primarchId": 10,
       "homeworld": "Medusa",
       "battleCry": "The Flesh is Weak!",
-      "lore": "A Legion of cybernetic augmentation fanatics. Ferrus Manus was slain by Fulgrim at Isstvan V. In response, the Legion turned to the total rejection of flesh. The Clan Council rules in the absence of a Primarch."
+      "lore": "A Legion of cybernetic augmentation fanatics. Ferrus Manus was slain by Fulgrim at Isstvan V. In response, the Legion turned to the total rejection of flesh. The Clan Council rules in the absence of a Primarch.",
+      "color": "#2f2f2f"
     },
     {
       "id": "12",
@@ -473,7 +482,8 @@
       "primarchId": 12,
       "homeworld": "Nuceria",
       "battleCry": "Blood for the Blood God ! Skulls for the Skull Throne !",
-      "lore": "A Legion of berserkers whose Primarch Angron had the Butcher's Nails implanted, condemning the entire Legion to blood frenzy. The sole servants of Khorne among the Traitor Legions."
+      "lore": "A Legion of berserkers whose Primarch Angron had the Butcher's Nails implanted, condemning the entire Legion to blood frenzy. The sole servants of Khorne among the Traitor Legions.",
+      "color": "#8b0000"
     },
     {
       "id": "13",
@@ -484,7 +494,8 @@
       "primarchId": 13,
       "homeworld": "Macragge",
       "battleCry": "For Ultramar and the Emperor !",
-      "lore": "The largest loyalist Legion and authors of the Codex Astartes. Roboute Guilliman, resurrected, leads the Indomitus Crusade. Their realm of Ultramar spans 500 worlds. They have countless successor Chapters."
+      "lore": "The largest loyalist Legion and authors of the Codex Astartes. Roboute Guilliman, resurrected, leads the Indomitus Crusade. Their realm of Ultramar spans 500 worlds. They have countless successor Chapters.",
+      "color": "#003087"
     },
     {
       "id": "14",
@@ -495,7 +506,8 @@
       "primarchId": 14,
       "homeworld": "Barbarus",
       "battleCry": "Let rot and pestilence reign!",
-      "lore": "Once a stoic and resilient Legion, transformed into vectors of plague during the Heresy. Mortarion offered his Legion to Nurgle rather than watch his men die of a Warp plague. Typhus serves as their Herald."
+      "lore": "Once a stoic and resilient Legion, transformed into vectors of plague during the Heresy. Mortarion offered his Legion to Nurgle rather than watch his men die of a Warp plague. Typhus serves as their Herald.",
+      "color": "#556b2f"
     },
     {
       "id": "15",
@@ -506,7 +518,8 @@
       "primarchId": 15,
       "homeworld": "Prospero (dévastée par les Space Wolves)",
       "battleCry": "Knowledge is power!",
-      "lore": "A Legion of psykers whose Primarch Magnus the Red tried to prevent the Heresy — and failed. The Space Wolves ravaged Prospero. During the Siege, Magnus shattered Terra's psychic defences. Ahriman's Rubric transformed the entire Legion into dust automatons."
+      "lore": "A Legion of psykers whose Primarch Magnus the Red tried to prevent the Heresy — and failed. The Space Wolves ravaged Prospero. During the Siege, Magnus shattered Terra's psychic defences. Ahriman's Rubric transformed the entire Legion into dust automatons.",
+      "color": "#c0392b"
     },
     {
       "id": "16",
@@ -517,7 +530,8 @@
       "primarchId": 16,
       "homeworld": "Cthonia (détruite)",
       "battleCry": "Let the Chaos Gods guide our hand!",
-      "lore": "Horus's own Legion, renamed the Black Legion by Abaddon after his master's death. Abaddon has led 13 Black Crusades to destroy the Imperium; the 13th saw the fall of Cadia."
+      "lore": "Horus's own Legion, renamed the Black Legion by Abaddon after his master's death. Abaddon has led 13 Black Crusades to destroy the Imperium; the 13th saw the fall of Cadia.",
+      "color": "#1a1a1a"
     },
     {
       "id": "17",
@@ -528,7 +542,8 @@
       "primarchId": 17,
       "homeworld": "Colchis",
       "battleCry": "For the Undivided Chaos Gods!",
-      "lore": "The Legion that ignited the Horus Heresy as fanatical Chaos devotees. Lorgar authored the Book of Lorgar — the sacred text of Chaos. Erebus and Kor Phaeron were the first to fall."
+      "lore": "The Legion that ignited the Horus Heresy as fanatical Chaos devotees. Lorgar authored the Book of Lorgar — the sacred text of Chaos. Erebus and Kor Phaeron were the first to fall.",
+      "color": "#8b1a1a"
     },
     {
       "id": "18",
@@ -539,7 +554,8 @@
       "primarchId": 18,
       "homeworld": "Nocturne",
       "battleCry": "Forge your destiny in fire!",
-      "lore": "A Legion renowned for its compassion towards civilians — rare among Space Marines. Vulkan, their Primarch, is a Perpetual and travelled through time. They seek the nine Artefacts of Vulkan."
+      "lore": "A Legion renowned for its compassion towards civilians — rare among Space Marines. Vulkan, their Primarch, is a Perpetual and travelled through time. They seek the nine Artefacts of Vulkan.",
+      "color": "#1a1a1a"
     },
     {
       "id": "19",
@@ -550,7 +566,8 @@
       "primarchId": 19,
       "homeworld": "Deliverance (anciennement Lycaeus)",
       "battleCry": "Deliverance!",
-      "lore": "Masters of shadow warfare and infiltration. Corax attempted to rebuild his Legion by accelerating gene-crafting after Isstvan V — with catastrophic results. He exiled himself into the darkness."
+      "lore": "Masters of shadow warfare and infiltration. Corax attempted to rebuild his Legion by accelerating gene-crafting after Isstvan V — with catastrophic results. He exiled himself into the darkness.",
+      "color": "#1a1a1a"
     },
     {
       "id": "20",
@@ -561,7 +578,8 @@
       "primarchId": 20,
       "homeworld": "Inconnu",
       "battleCry": "I am Alpharius.",
-      "lore": "The most mysterious of all Legions — its twin Primarchs Alpharius and Omegon may be loyalists or traitors. Their true goal remains unknown. Every member may claim to be Alpharius."
+      "lore": "The most mysterious of all Legions — its twin Primarchs Alpharius and Omegon may be loyalists or traitors. Their true goal remains unknown. Every member may claim to be Alpharius.",
+      "color": "#1e4d2b"
     }
   ],
   "primarchs": [
@@ -1942,21 +1960,6 @@
       "rangedWeaponId": 801,
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/a/ae/Bjorn7th.jpg/340px-Bjorn7th.jpg",
       "points": 165
-    },
-    {
-      "id": 37,
-      "name": "ém",
-      "imageUrl": "",
-      "stats": {},
-      "factionId": "1",
-      "sub_factionId": null,
-      "lore": "",
-      "meleeWeaponId": null,
-      "rangeWeaponId": null,
-      "armorId": null,
-      "points": 10,
-      "typeId": null,
-      "rankId": null
     }
   ],
   "weapons": [
@@ -2840,6 +2843,5 @@
       "wounds": 1,
       "imageUrl": "https://wh40k.lexicanum.com/mediawiki/images/thumb/e/e3/SaturnineTermieArt.jpg/768px-SaturnineTermieArt.jpg"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
