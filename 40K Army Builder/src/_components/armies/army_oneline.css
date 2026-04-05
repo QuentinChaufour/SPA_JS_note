@@ -1,0 +1,47 @@
+/* --- GRIM-DARK ONE LINE ARMY STYLE --- */
+.army-oneline {
+    display: flex;
+    justify-content: space-between; /* Spreads out the name and the points */
+    align-items: center;
+    gap: 25px; 
+    padding: 15px 25px; 
+    
+    width: 85%; 
+    max-width: 1000px; 
+    margin: 0 auto 15px auto; 
+
+    /* Subtle horizontal gradient to give a textured, metallic/dark slate feel */
+    background: linear-gradient(to right, #1f2123, #2a2a2e);
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); 
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.army-oneline:hover {
+    /* Slight indent effect on hover to match character cards */
+    transform: translateX(8px);
+    box-shadow: -6px 6px 15px rgba(0, 0, 0, 0.8);
+    border-color: #a89a78; 
+}
+
+.army-oneline h3 {
+    margin: 0;
+    color: #a89a78; /* Aged gold text */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    font-size: 1.3rem; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); 
+    border: none; /* overrides global h3 if necessary */
+}
+
+/* Details like unit count and points */
+.army-oneline p {
+    margin: 0;
+    color: #f4e9d8; /* Bone white to contrast the gold */
+    font-size: 1.1rem;
+    font-weight: 500;
+    opacity: 0.8;
+}

@@ -7,6 +7,7 @@ import Form from "./_views/form.js";
 import ArmyBuilder from "./_views/army_builder.js";
 import Saved from "./_views/saved_characters.js";
 import NotFound404 from "./_views/404_notfound.js";
+import ArmyPreview from "./_views/army_preview.js";
 import init_app from "./main.js";
 import lazyloadImages from './_utils/lazyloading.js';
 
@@ -15,7 +16,8 @@ const routes = {
     "/characters" : Characters,
     "/characters/:id" : Detail,
     "/characters/new" : Form,
-    "/saved/army-builder" : ArmyBuilder,
+    "/armies/:id" : ArmyPreview,
+    "/army-builder" : ArmyBuilder,
     "/saved" : Saved
 };
 
@@ -35,7 +37,7 @@ const router = async () => {
     parsedURL = parsedURL.join("/");
 
     console.log("Parsed URL:", parsedURL);
-    let page = routes[parsedURL] ? new routes[parsedURL]() : NotFound404;
+    let page = routes[parsedURL] ? new routes[parsedURL]() : new NotFound404();
     
     // render the page
     content.innerHTML = await page.render();

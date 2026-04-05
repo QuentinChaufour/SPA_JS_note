@@ -28,18 +28,20 @@ export default class SavedArmiesViewModel {
      */
     async _init(){
         const savedArmies = localStorage.getItem("saved_armies");
-
         if(!savedArmies){
             return;
         }
 
         const armies = JSON.parse(savedArmies);
-        this.savedArmies = armies.map(async army => {
-            let units = army.units.map(unitId => CharacterProvider.getInstance().getCharacter(unitId));
+        const loadedArmies = armies.map(async army => {
+            let units = army.units.map(unitId => CharacterProvider.getCharacter(unitId));
 
             return new Army(army.id, army.name, await Promise.all(units), army.points)
         });
 
+        this.savedArmies = await Promise.all(loadedArmies);
+        SavedArmiesViewModel.armyIdCounter = this.savedArmies.reduce((maxId, army) => Math.max(maxId, army.id), 0) + 1;
+        router();
     }
 
     /**
@@ -55,18 +57,18 @@ export default class SavedArmiesViewModel {
             throw new Error("An army with this name already exists. Please choose a different name.");
         }
 
-        const newArmy = new Army(SavedArmiesViewModel.armyIdCounter, name, units, points);
-        SavedArmiesViewModel.armyIdCounter++;
+        const newArmy = new Army(SavedArmiesViewModel.armyIdCounter++, name, units, points);
         this.savedArmies.push(newArmy);
         this._saveToLocalStorage();
-
         router();
+
+        return newArmy.id;
     }
 
     /**
      * Update an existing army based on its ID and save the changes to localStorage
-     * @param {Number} id 
-     * @param {String} name 
+     * @param {Number} id the ID of the army to be updated
+     * @param {String} name the name of the army to be updated
      * @param {Array[Character]} units 
      * @param {Number} points 
      */
@@ -86,7 +88,7 @@ export default class SavedArmiesViewModel {
 
     /**
      * Remove an army based on its ID and update localStorage
-     * @param {Number} id 
+     * @param {Number} id the ID of the army to be removed
      */
     removeArmy(id){
         this.savedArmies = this.savedArmies.filter(army => army.id !== id);
@@ -95,17 +97,36 @@ export default class SavedArmiesViewModel {
         router();
     }
 
+    /**
+     * Save current armies to localStorage
+     */
     _saveToLocalStorage(){
-        const armiesToSave = this.savedArmies.map(army => JSON.stringify({
-            name: army.name,
-            units: army.units.map(unit => unit.id),
-            points: army.points
-        }));
+        const armiesToSave = this.savedArmies.map(army => {
+            return{
+                "id": army.id,
+                "name": army.name,
+                "units": army.units.map(unit => unit.id),
+                "points": army.points
+            };
+        });
 
-        localStorage.setItem("saved_armies", armiesToSave.join(","));
+        localStorage.setItem("saved_armies", JSON.stringify(armiesToSave));
     }
 
+    /**
+     * Get all saved armies
+     * @returns {Array[Army]} all saved armies
+     */
     getSavedArmies(){
         return this.savedArmies;
+    }
+
+    /**
+     * Find and return an army by its ID
+     * @param {Number} id the ID of the army to retrieve
+     * @returns {Army} the army with the specified ID, or undefined if not found
+     */
+    getArmy(id){
+        return this.savedArmies.find(army => army.id == id);
     }
 }

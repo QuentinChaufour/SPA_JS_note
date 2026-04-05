@@ -13,7 +13,7 @@ export default function init_app(element) {
     <nav>
       <a href="#/">Home</a>
       <a href="#/characters">Characters</a>
-      <a href="#/saved/army-builder">Army Builder</a>
+      <a href="#/army-builder">Army Builder</a>
       <a href="#/saved">Saved Characters & Armies</a>
     </nav>
   `;

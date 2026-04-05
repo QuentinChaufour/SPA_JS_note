@@ -16,11 +16,16 @@ export default class Army {
     }
 
     addUnit(character) {
+
+        if(this.armyPoints() + character.points > this.points){
+            throw new Error("Overspending points, cannot add unit.");
+        }
+
         this.units.push(character);
     }
 
     removeUnit(character) {
-        this.savedCharacters = this.savedCharacters.filter(characterElem => characterElem.id != character.id); 
+        this.units = this.units.filter(unit => unit.id != character.id); 
     }
 
     /**

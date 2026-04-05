@@ -1,3 +1,4 @@
+import './army_oneline.css';
 import Army from "../../_models/army.js";
 
 /**
@@ -7,7 +8,7 @@ import Army from "../../_models/army.js";
  */
 export default function ArmyOneline(army) {
     return `
-    <div class="army-oneline">
+    <div class="army-oneline" id="army-${army.id}">
         <h3>${army.name}</h3>
         <p>${army.units.length} units, ${army.armyPoints()} points</p>
     </div>
